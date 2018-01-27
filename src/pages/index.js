@@ -131,7 +131,6 @@ export default class IndexPage extends React.Component {
 
   render() {
     const { node: content } = this.props.data.content.edges[0];
-    console.log('data', this.props.data);
     return (
       <div>
         <Helmet>
