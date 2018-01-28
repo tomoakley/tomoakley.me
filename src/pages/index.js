@@ -184,7 +184,7 @@ export const contentQuery = graphql`
         }
       }
     }
-    articles: allContentfulArticle {
+    articles: allContentfulArticle(sort: { fields: [ createdAt ], order: DESC }, limit: 3) {
       edges {
         node {
           title
@@ -195,7 +195,7 @@ export const contentQuery = graphql`
         }
       }
     }
-    projects: allContentfulProject {
+    projects: allContentfulProject(sort: { fields: [ started ], order: DESC }, limit: 3) {
       edges {
         node {
           title
