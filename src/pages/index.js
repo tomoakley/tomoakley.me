@@ -3,6 +3,7 @@ import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import moment from 'moment'
+import marked from 'marked'
 
 const TopSection = styled.div`
   display: flex;
@@ -105,7 +106,7 @@ export default class IndexPage extends React.Component {
               </ArticleDate>
             <ArticleTitle>{article.node.title}</ArticleTitle>
           </ArticleHeader>
-          <p>{article.node.content.content}</p>
+          <p dangerouslySetInnerHTML={{ __html: marked(article.node.content.content)}} />
         </div>
       );
     });
@@ -122,7 +123,7 @@ export default class IndexPage extends React.Component {
           <h2>{project.node.title}</h2>
           <Block>{project.node.employed}</Block>
           <Block>{date(project.node.started)} - {date(project.node.finished)}</Block>
-          <p>{project.node.content.content}</p>
+          <p dangerouslySetInnerHTML={{ __html: marked(project.node.content.content)}} />
         </div>
       )
     });
@@ -140,7 +141,7 @@ export default class IndexPage extends React.Component {
         <div>
           <TopSection>
             <ProfilePic src={content.image.file.url} alt={content.image.title} />
-            <IntroText>{content.content.content}</IntroText>
+            <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
           </TopSection>
           <SubsectionContainer>
             <Subsection>
