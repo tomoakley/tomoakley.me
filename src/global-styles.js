@@ -35,4 +35,9 @@ injectGlobal`
     min-height: 100%;
     min-width: 100%;
   }
+  
+  a:link,
+  a:visited {
+    color: #EBF3F6;
+  }
 `;
