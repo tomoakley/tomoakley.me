@@ -4,6 +4,8 @@ import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import moment from 'moment'
 import marked from 'marked'
+import { ArticleHeader, ArticleTitle, ArticleDate } from '../components/Article';
+import Block from '../components/Block';
 
 const TopSection = styled.div`
   display: flex;
@@ -62,29 +64,7 @@ const SectionHeaderTagline = styled.span`
   padding-left: 15px;
 `;
 
-const ArticleHeader = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-content: baseline;
-  justify-content: baseline;
-  margin-top: 10px;
-`;
 
-const ArticleDate = styled.div`
-  font-family: ${(props) => props.theme.fonts.sansSerifBold};
-  background: ${(props) => props.theme.primary};
-  padding: 5px 10px;
-  text-align: center;
-  line-height: 1.25;
-`;
-
-const Block = styled.span`
-  display: block;
-`;
-
-const ArticleTitle = styled.h2`
-  margin: 0 0 0 15px;
-`;
 
 export default class IndexPage extends React.Component {
 
