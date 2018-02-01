@@ -4,14 +4,12 @@ import moment from 'moment';
 import { ArticleHeader, ArticleTitle, ArticleDate } from '../components/Article';
 import Block from '../components/Block';
 
-export default (data) => {
+export default ({ pathContext }) => {
   const {
-    pathContext: {
-      content,
-      title,
-      createdAt
-    }
-  } = data;
+    content,
+    title,
+    createdAt
+  } = pathContext;
   return <div>
   <ArticleHeader>
     <ArticleDate>

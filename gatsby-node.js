@@ -7,9 +7,10 @@
 const path = require('path');
 const moment = require('moment');
 
-exports.onCreateNode = ({ node, getNode, boundActionCreators }) => {
+exports.onCreateNode = ({ node, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
-  if (node.internal.type === 'ContentfulArticle') {
+  if (node.internal.type === 'ContentfulArticle' ||
+      node.internal.type === 'ContentfulProject') {
     createNodeField({ node, name: 'slug', value: node.slug });
   }
 };
@@ -32,9 +33,29 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         }
       }
+      allContentfulProject {
+        edges {
+          node {
+            fields {
+              slug
+            }
+            employed
+            started
+            finished
+            content {
+              content
+            }
+            title
+          }
+        }
+      }
     }`
     ).then(result => {
-      result.data.allContentfulArticle.edges.forEach(({ node }) => {
+      const {
+        allContentfulArticle,
+        allContentfulProject
+      } = result.data;
+      allContentfulArticle.edges.forEach(({ node }) => {
         const date = {
           month: moment(node.createdAt).format('MM'),
           year: moment(node.createdAt).format('YYYY'),
@@ -47,6 +68,20 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
             title: node.title,
             content: node.content.content,
             createdAt: node.createdAt
+          }
+        });
+      });
+      allContentfulProject.edges.forEach(({ node }) => {
+        createPage({
+          path: `project/${node.fields.slug}`,
+          component: path.resolve('./src/templates/project.js'),
+          context: {
+            slug: node.fields.slug,
+            title: node.title,
+            content: node.content.content,
+            employed: node.employed,
+            started: node.started,
+            finished: node.finished
           }
         });
       });
