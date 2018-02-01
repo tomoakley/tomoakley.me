@@ -18,6 +18,6 @@ export default ({ pathContext }) => {
       </ArticleDate>
       <ArticleTitle>{title}</ArticleTitle>
     </ArticleHeader>
-    <p dangerouslySetInnerHTML={{ __html: marked(content)}} />
+    <p dangerouslySetInnerHTML={{ __html: marked(content) }} />
   </div>;
 }

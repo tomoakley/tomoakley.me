@@ -15,6 +15,6 @@ export default ({ pathContext }) => {
     <h2>{title}</h2>
     <Block>{employed}</Block>
     <Block>{moment(started).format('D MMM YYYY')} - {moment(finished).format('D MMM YYYY')}</Block>
-    <p dangerouslySetInnerHTML={{ __html: marked(content)}} />
+    <p dangerouslySetInnerHTML={{ __html: marked(content) }} />
   </div>;
 }
