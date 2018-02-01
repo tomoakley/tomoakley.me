@@ -2,8 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
+import Link from 'gatsby-link';
 import moment from 'moment'
 import marked from 'marked'
+import { ArticleHeader, ArticleTitle, ArticleDate } from '../components/Article';
+import Block from '../components/Block';
 
 const TopSection = styled.div`
   display: flex;
@@ -62,30 +65,6 @@ const SectionHeaderTagline = styled.span`
   padding-left: 15px;
 `;
 
-const ArticleHeader = styled.div`
-  display: flex;
-  flex-direction: row;
-  align-content: baseline;
-  justify-content: baseline;
-  margin-top: 10px;
-`;
-
-const ArticleDate = styled.div`
-  font-family: ${(props) => props.theme.fonts.sansSerifBold};
-  background: ${(props) => props.theme.primary};
-  padding: 5px 10px;
-  text-align: center;
-  line-height: 1.25;
-`;
-
-const Block = styled.span`
-  display: block;
-`;
-
-const ArticleTitle = styled.h2`
-  margin: 0 0 0 15px;
-`;
-
 export default class IndexPage extends React.Component {
 
   static propTypes = {
@@ -96,17 +75,29 @@ export default class IndexPage extends React.Component {
     const { edges: articles } = this.props.data.articles;
     const Articles = [];
     articles.forEach((article, key) => {
-      const date = moment(article.node.createdAt);
+      const {
+        title,
+        content: { content },
+        createdAt,
+        slug
+      } = article.node;
+      const date = {
+        day: moment(createdAt).format('D'),
+        month: moment(createdAt).format('MMM'),
+        monthNumber: moment(createdAt).format('MM'),
+        year: moment(createdAt).format('YYYY')
+      };
+      const fullSlug = `/article/${date.year}/${date.monthNumber}/${slug}`;
       Articles.push(
         <div key={key}>
           <ArticleHeader>
             <ArticleDate>
-              <Block>{date.format('D')}</Block>
-              <Block>{date.format('MMM')}</Block>
-              </ArticleDate>
-            <ArticleTitle>{article.node.title}</ArticleTitle>
+              <Block>{date.day}</Block>
+              <Block>{date.month}</Block>
+            </ArticleDate>
+            <ArticleTitle><Link to={fullSlug}>{article.node.title}</Link></ArticleTitle>
           </ArticleHeader>
-          <p dangerouslySetInnerHTML={{ __html: marked(article.node.content.content)}} />
+          <p dangerouslySetInnerHTML={{ __html: marked(content) }} />
         </div>
       );
     });
@@ -120,10 +111,10 @@ export default class IndexPage extends React.Component {
     projects.forEach((project, key) => {
       Projects.push(
         <div key={key}>
-          <h2>{project.node.title}</h2>
+          <h2><Link to={`project/${project.node.slug}`}>{project.node.title}</Link></h2>
           <Block>{project.node.employed}</Block>
           <Block>{date(project.node.started)} - {date(project.node.finished)}</Block>
-          <p dangerouslySetInnerHTML={{ __html: marked(project.node.content.content)}} />
+          <p dangerouslySetInnerHTML={{ __html: marked(project.node.content.content) }} />
         </div>
       )
     });
@@ -192,6 +183,7 @@ export const contentQuery = graphql`
             content
           }
           createdAt
+          slug
         }
       }
     }
@@ -205,6 +197,7 @@ export const contentQuery = graphql`
           employed
           started
           finished
+          slug
         }
       } 
     }
