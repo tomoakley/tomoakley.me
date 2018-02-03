@@ -95,7 +95,7 @@ export default class IndexPage extends React.Component {
               <Block>{date.day}</Block>
               <Block>{date.month}</Block>
             </ArticleDate>
-            <ArticleTitle><Link to={fullSlug}>{article.node.title}</Link></ArticleTitle>
+            <ArticleTitle><Link to={fullSlug}>{title}</Link></ArticleTitle>
           </ArticleHeader>
           <p dangerouslySetInnerHTML={{ __html: marked(content) }} />
         </div>
