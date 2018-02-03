@@ -4,7 +4,8 @@ import Helmet from 'react-helmet'
 import styled, { ThemeProvider } from 'styled-components'
 
 import { theme } from '../global-styles';
-import Header from '../components/header';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const AppWrapper = styled.div`
   max-width: calc(1140px + 16px * 2);
@@ -28,6 +29,7 @@ const TemplateWrapper = ({children, data}) => (
       </Helmet>
       <Header titles={data.pages.edges} />
       {children()}
+      <Footer />
     </AppWrapper>
   </ThemeProvider>
 );
