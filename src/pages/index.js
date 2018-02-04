@@ -7,6 +7,7 @@ import moment from 'moment'
 import marked from 'marked'
 import { ArticleHeader, ArticleTitle, ArticleDate } from '../components/Article';
 import Block from '../components/Block';
+import ProjectList from '../components/Project/List';
 
 const TopSection = styled.div`
   display: flex;
@@ -104,25 +105,19 @@ export default class IndexPage extends React.Component {
     return Articles;
   }
 
-  renderProjects() {
-    const { edges: projects } = this.props.data.projects;
-    const Projects = [];
-    const date = (original) => moment(original).format('D MMM YYYY');
-    projects.forEach((project, key) => {
-      Projects.push(
-        <div key={key}>
-          <h2><Link to={`project/${project.node.slug}`}>{project.node.title}</Link></h2>
-          <Block>{project.node.employed}</Block>
-          <Block>{date(project.node.started)} - {date(project.node.finished)}</Block>
-          <p dangerouslySetInnerHTML={{ __html: marked(project.node.content.content) }} />
-        </div>
-      )
-    });
-    return Projects;
-  }
-
   render() {
-    const { node: content } = this.props.data.content.edges[0];
+    const {
+      content: {
+        edges: {
+          0: {
+            node: content
+          }
+        }
+      },
+      projects: {
+        edges: projects
+      }
+    } = this.props.data;
     return (
       <div>
         <Helmet>
@@ -147,7 +142,7 @@ export default class IndexPage extends React.Component {
                 <SectionH2>Projects</SectionH2>
                 <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
               </SectionHeader>
-              {this.renderProjects()}
+              <ProjectList projects={projects} />
             </Subsection>
           </SubsectionContainer>
         </div>
