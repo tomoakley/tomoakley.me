@@ -2,11 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
-import Link from 'gatsby-link';
-import moment from 'moment'
 import marked from 'marked'
-import { ArticleHeader, ArticleTitle, ArticleDate } from '../components/Article';
-import Block from '../components/Block';
+import ProjectList from '../components/Project/List';
+import ArticleList from "../components/Article/List";
 
 const TopSection = styled.div`
   display: flex;
@@ -69,60 +67,24 @@ export default class IndexPage extends React.Component {
 
   static propTypes = {
     data: PropTypes.object.isRequired
-  }
-
-  renderArticles() {
-    const { edges: articles } = this.props.data.articles;
-    const Articles = [];
-    articles.forEach((article, key) => {
-      const {
-        title,
-        content: { content },
-        createdAt,
-        slug
-      } = article.node;
-      const date = {
-        day: moment(createdAt).format('D'),
-        month: moment(createdAt).format('MMM'),
-        monthNumber: moment(createdAt).format('MM'),
-        year: moment(createdAt).format('YYYY')
-      };
-      const fullSlug = `/article/${date.year}/${date.monthNumber}/${slug}`;
-      Articles.push(
-        <div key={key}>
-          <ArticleHeader>
-            <ArticleDate>
-              <Block>{date.day}</Block>
-              <Block>{date.month}</Block>
-            </ArticleDate>
-            <ArticleTitle><Link to={fullSlug}>{title}</Link></ArticleTitle>
-          </ArticleHeader>
-          <p dangerouslySetInnerHTML={{ __html: marked(content) }} />
-        </div>
-      );
-    });
-    return Articles;
-  }
-
-  renderProjects() {
-    const { edges: projects } = this.props.data.projects;
-    const Projects = [];
-    const date = (original) => moment(original).format('D MMM YYYY');
-    projects.forEach((project, key) => {
-      Projects.push(
-        <div key={key}>
-          <h2><Link to={`project/${project.node.slug}`}>{project.node.title}</Link></h2>
-          <Block>{project.node.employed}</Block>
-          <Block>{date(project.node.started)} - {date(project.node.finished)}</Block>
-          <p dangerouslySetInnerHTML={{ __html: marked(project.node.content.content) }} />
-        </div>
-      )
-    });
-    return Projects;
-  }
+  };
 
   render() {
-    const { node: content } = this.props.data.content.edges[0];
+    const {
+      content: {
+        edges: {
+          0: {
+            node: content
+          }
+        }
+      },
+      projects: {
+        edges: projects
+      },
+      articles: {
+        edges: articles
+      }
+    } = this.props.data;
     return (
       <div>
         <Helmet>
@@ -140,14 +102,14 @@ export default class IndexPage extends React.Component {
                 <SectionH2>Articles</SectionH2>
                 <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
               </SectionHeader>
-              {this.renderArticles()}
+              <ArticleList articles={articles} />
             </Subsection>
             <Subsection>
               <SectionHeader>
                 <SectionH2>Projects</SectionH2>
                 <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
               </SectionHeader>
-              {this.renderProjects()}
+              <ProjectList projects={projects} />
             </Subsection>
           </SubsectionContainer>
         </div>
