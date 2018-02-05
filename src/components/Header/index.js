@@ -30,7 +30,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
     let navbarItems = [];
     this.props.titles.forEach((title, i) => {
       const NavbarItem = (
-        <HeaderLink to={`/${title.node.pageTitle.toLowerCase()}`}
+        <HeaderLink to={`/${title.node.slug}`}
                     data-tag={title.node.shortDescription}
                     key={i}>
           {title.node.pageTitle}

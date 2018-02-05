@@ -45,7 +45,8 @@ export const pageQuery = graphql`
       edges {
         node {
           pageTitle
-          shortDescription
+          shortDescription,
+          slug
         }
       }
     }
