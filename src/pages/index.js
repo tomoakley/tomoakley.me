@@ -87,32 +87,26 @@ export default class IndexPage extends React.Component {
     } = this.props.data;
     return (
       <div>
-        <Helmet>
-          <title>Home Page</title>
-          <meta name="description" content="A React.js Boilerplate application homepage" />
-        </Helmet>
-        <div>
-          <TopSection>
-            <ProfilePic src={content.image.file.url} alt={content.image.title} />
-            <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
-          </TopSection>
-          <SubsectionContainer>
-            <Subsection>
-              <SectionHeader>
-                <SectionH2>Articles</SectionH2>
-                <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
-              </SectionHeader>
-              <ArticleList articles={articles} />
-            </Subsection>
-            <Subsection>
-              <SectionHeader>
-                <SectionH2>Projects</SectionH2>
-                <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
-              </SectionHeader>
-              <ProjectList projects={projects} />
-            </Subsection>
-          </SubsectionContainer>
-        </div>
+        <TopSection>
+          <ProfilePic src={content.image.file.url} alt={content.image.title} />
+          <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
+        </TopSection>
+        <SubsectionContainer>
+          <Subsection>
+            <SectionHeader>
+              <SectionH2>Articles</SectionH2>
+              <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
+            </SectionHeader>
+            <ArticleList articles={articles} />
+          </Subsection>
+          <Subsection>
+            <SectionHeader>
+              <SectionH2>Projects</SectionH2>
+              <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
+            </SectionHeader>
+            <ProjectList projects={projects} />
+          </Subsection>
+        </SubsectionContainer>
       </div>
     )
   }

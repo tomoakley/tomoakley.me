@@ -17,22 +17,49 @@ const AppWrapper = styled.div`
   line-height: 1.5;
 `;
 
-const TemplateWrapper = ({children, data}) => (
-  <ThemeProvider theme={theme}>
-    <AppWrapper>
-      <Helmet
-        titleTemplate="%s - Tom Oakley"
-        defaultTitle="Tom Oakley"
-      >
-        <meta name="description" content="Tom Oakley - software developer" />
-        <link rel="stylesheet" href="https://use.typekit.net/gri1fbz.css" />
-      </Helmet>
-      <Header titles={data.pages.edges} />
-      {children()}
-      <Footer />
-    </AppWrapper>
-  </ThemeProvider>
-);
+export default class TemplateWrapper extends React.Component {
+
+  getPageTitle() {
+    const {
+      location: { pathname }
+    } = this.props;
+    switch (pathname) {
+      case '/':
+        return '';
+      case '/about':
+        return 'About';
+      case '/articles':
+        return 'Articles';
+      case '/projects':
+        return 'Projects';
+      case '/resume':
+        return 'Résumé';
+      case '/connect':
+        return 'Connect';
+    }
+  }
+
+  render() {
+    const { data, children } = this.props;
+    return (
+    <ThemeProvider theme={theme}>
+      <AppWrapper>
+        <Helmet
+          titleTemplate="%s // Tom Oakley, developer & designer"
+          defaultTitle="Tom Oakley, developer & designer"
+        >
+          <title>{this.getPageTitle()}</title>
+          <meta name="description" content="Tom Oakley // JavaScript developer and designer for the web" />
+          <link rel="stylesheet" href="https://use.typekit.net/gri1fbz.css"/>
+        </Helmet>
+        <Header titles={data.pages.edges} />
+        {children()}
+        <Footer/>
+      </AppWrapper>
+    </ThemeProvider>
+    )
+  }
+}
 
 TemplateWrapper.propTypes = {
   children: PropTypes.func,
@@ -52,5 +79,3 @@ export const pageQuery = graphql`
     }
   }
 `;
-
-export default TemplateWrapper;

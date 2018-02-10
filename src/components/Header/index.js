@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import _map from 'lodash/map';
+import _isEmpty from 'lodash/isEmpty';
 
 import SiteName from './Name';
 import NavBar from './NavBar';
@@ -16,27 +18,27 @@ const StyledHeader = styled.div`
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   static propTypes = {
-    titles: PropTypes.array
+    titles: PropTypes.array,
   };
 
   constructor(props) {
     super(props);
     this.state = {
-      headerLinks: []
+      headerLinks: {},
     };
   }
 
   componentWillMount() {
-    let navbarItems = [];
-    this.props.titles.forEach((title, i) => {
-      const NavbarItem = (
+    const { titles, activePage } = this.props;
+    let navbarItems = {};
+    titles.forEach((title, i) => {
+      navbarItems[title.node.pageTitle] = (
         <HeaderLink to={`/${title.node.slug}`}
                     data-tag={title.node.shortDescription}
                     key={i}>
           {title.node.pageTitle}
         </HeaderLink>
       );
-      navbarItems.push(NavbarItem);
     });
     this.setState({ headerLinks: navbarItems });
   }
@@ -45,7 +47,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
     return (
       <StyledHeader>
         <SiteName />
-        <NavBar>{this.state.headerLinks}</NavBar>
+        <NavBar>{_map(this.state.headerLinks)}</NavBar>
       </StyledHeader>
     );
   }
