@@ -26,7 +26,6 @@ const IntroText = styled.p`
   font-family: ${(props) => props.theme.fonts.sansSerif};
   font-size: 18px;
   font-size: 1.8rem;
-  white-space: pre-line;
 `;
 
 const SubsectionContainer = styled.div`

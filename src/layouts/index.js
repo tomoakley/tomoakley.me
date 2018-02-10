@@ -25,7 +25,7 @@ export default class TemplateWrapper extends React.Component {
     } = this.props;
     switch (pathname) {
       case '/':
-        return '';
+        return 'Home';
       case '/about':
         return 'About';
       case '/articles':
