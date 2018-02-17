@@ -1,7 +1,7 @@
 {
   "name": "tomoakley.me",
   "description": "Tom Oakley // developer & designer",
-  "version": "0.1",
+  "version": "0.1.0",
   "author": "Tom Oakley <tom@tomoakley.me>",
   "dependencies": {
     "dotenv": "^4.0.0",
