@@ -46,17 +46,21 @@ const NavItem = styled.li`
   flex: 1 1 auto;
   justify-content: space-around;
   align-items: center;
-  &:not(:first-child) {
-    &::before {
-      content: '♦';
-      pointer-events: none;
+  @media screen and (min-width: 768px) {
+    &:not(:first-child) {
+      &::before {
+        content: '♦';
+        pointer-events: none;
+      }
     }
   }
   &:hover > a {
-    margin-top: -10px;
     background-color: ${props => props.theme.secondary};
     color: ${props => props.theme.primary};
-    animation: jump 1s 1;
+    @media screen and (min-width: 660px) {
+      animation: jump 1s 1;
+      margin-top: -10px;
+    }
   }
   &:active > a {
     margin-top: 0;

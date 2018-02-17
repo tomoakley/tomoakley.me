@@ -10,9 +10,13 @@ import HeaderLink from './HeaderLink';
 
 const StyledHeader = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
 `;
 
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
@@ -29,7 +33,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
   }
 
   componentWillMount() {
-    const { titles, activePage } = this.props;
+    const { titles } = this.props;
     let navbarItems = {};
     titles.forEach((title, i) => {
       navbarItems[title.node.pageTitle] = (
