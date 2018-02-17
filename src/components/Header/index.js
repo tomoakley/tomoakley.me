@@ -1,6 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
+import _map from 'lodash/map';
+import _isEmpty from 'lodash/isEmpty';
 
 import SiteName from './Name';
 import NavBar from './NavBar';
@@ -8,35 +10,39 @@ import HeaderLink from './HeaderLink';
 
 const StyledHeader = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: center;
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    align-items: flex-end;
+  }
 `;
 
 class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   static propTypes = {
-    titles: PropTypes.array
+    titles: PropTypes.array,
   };
 
   constructor(props) {
     super(props);
     this.state = {
-      headerLinks: []
+      headerLinks: {},
     };
   }
 
   componentWillMount() {
-    let navbarItems = [];
-    this.props.titles.forEach((title, i) => {
-      const NavbarItem = (
+    const { titles } = this.props;
+    let navbarItems = {};
+    titles.forEach((title, i) => {
+      navbarItems[title.node.pageTitle] = (
         <HeaderLink to={`/${title.node.slug}`}
                     data-tag={title.node.shortDescription}
                     key={i}>
           {title.node.pageTitle}
         </HeaderLink>
       );
-      navbarItems.push(NavbarItem);
     });
     this.setState({ headerLinks: navbarItems });
   }
@@ -45,7 +51,7 @@ class Header extends React.Component { // eslint-disable-line react/prefer-state
     return (
       <StyledHeader>
         <SiteName />
-        <NavBar>{this.state.headerLinks}</NavBar>
+        <NavBar>{_map(this.state.headerLinks)}</NavBar>
       </StyledHeader>
     );
   }

@@ -8,32 +8,47 @@ import ArticleList from "../components/Article/List";
 
 const TopSection = styled.div`
   display: flex;
-  flex-direction: row;
-  justify-content: space-between; 
-  align-items: flex-start;
+  flex-direction: column;
   margin-top: 30px;
+  @media screen and (min-width: 600px) {
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: flex-start;
+  }
 `;
 
 const ProfilePic = styled.img`
   border: solid 10px ${(props) => props.theme.primary};
   flex: 1 1 auto;
   width: 20%;
+  display: none;
+  @media screen and (min-width: 600px) {
+    display: block;
+  }
 `;
 
-const IntroText = styled.p`
+const IntroText = styled.div`
   flex: 1 1 auto;
-  margin: 0 0 0 40px;
+  margin: 0;
   font-family: ${(props) => props.theme.fonts.sansSerif};
   font-size: 18px;
   font-size: 1.8rem;
-  white-space: pre-line;
+  > p:first-child {
+    margin-top: 0;
+  }
+  @media screen and (min-width: 600px) {
+    margin-left: 40px;
+  }
 `;
 
 const SubsectionContainer = styled.div`
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   margin-top: 30px;
+  @media screen and (min-width: 730px) {
+    flex-direction: row;
+  }
 `;
 
 const Subsection = styled.div`
@@ -87,32 +102,26 @@ export default class IndexPage extends React.Component {
     } = this.props.data;
     return (
       <div>
-        <Helmet>
-          <title>Home Page</title>
-          <meta name="description" content="A React.js Boilerplate application homepage" />
-        </Helmet>
-        <div>
-          <TopSection>
-            <ProfilePic src={content.image.file.url} alt={content.image.title} />
-            <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
-          </TopSection>
-          <SubsectionContainer>
-            <Subsection>
-              <SectionHeader>
-                <SectionH2>Articles</SectionH2>
-                <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
-              </SectionHeader>
-              <ArticleList articles={articles} />
-            </Subsection>
-            <Subsection>
-              <SectionHeader>
-                <SectionH2>Projects</SectionH2>
-                <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
-              </SectionHeader>
-              <ProjectList projects={projects} />
-            </Subsection>
-          </SubsectionContainer>
-        </div>
+        <TopSection>
+          <ProfilePic src={content.image.file.url} alt={content.image.title} />
+          <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
+        </TopSection>
+        <SubsectionContainer>
+          <Subsection>
+            <SectionHeader>
+              <SectionH2>Articles</SectionH2>
+              <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
+            </SectionHeader>
+            <ArticleList articles={articles} />
+          </Subsection>
+          <Subsection>
+            <SectionHeader>
+              <SectionH2>Projects</SectionH2>
+              <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
+            </SectionHeader>
+            <ProjectList projects={projects} />
+          </Subsection>
+        </SubsectionContainer>
       </div>
     )
   }
