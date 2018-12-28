@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import marked from 'marked';
+import Helmet from 'react-helmet';
 
 export default class ResumePage extends React.Component {
 

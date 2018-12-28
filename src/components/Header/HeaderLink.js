@@ -1,6 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
+import { theme } from '../../global-styles';
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -44,17 +46,21 @@ const NavItem = styled.li`
   flex: 1 1 auto;
   justify-content: space-around;
   align-items: center;
-  &:not(:first-child) {
-    &::before {
-      content: '♦';
-      pointer-events: none;
+  @media screen and (min-width: 768px) {
+    &:not(:first-child) {
+      &::before {
+        content: '♦';
+        pointer-events: none;
+      }
     }
   }
   &:hover > a {
-    margin-top: -10px;
     background-color: ${props => props.theme.secondary};
     color: ${props => props.theme.primary};
-    animation: jump 1s 1;
+    @media screen and (min-width: 660px) {
+      animation: jump 1s 1;
+      margin-top: -10px;
+    }
   }
   &:active > a {
     margin-top: 0;
@@ -80,8 +86,16 @@ const NavItem = styled.li`
   
 `;
 
-export default function HeaderLink(props) {
-  return (
-    <NavItem><StyledLink {...props}>{props.children}</StyledLink></NavItem>
-  );
+export default class HeaderLink extends React.Component {
+
+  static propTypes = {
+    to: PropTypes.string,
+    'data-tag': PropTypes.string,
+  };
+
+  render() {
+    return (
+      <NavItem><StyledLink {...this.props} activeStyle={{ color: `${theme.primary}`, background: `${theme.secondary}` }}>{this.props.children}</StyledLink></NavItem>
+    );
+  }
 }
