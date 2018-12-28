@@ -4,12 +4,14 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "date-fns": "^1.30.1",
     "dotenv": "^4.0.0",
     "gatsby": "^1.9.145",
     "gatsby-link": "^1.6.32",
     "gatsby-plugin-react-helmet": "^1.0.8",
     "gatsby-plugin-styled-components": "^2.0.4",
     "gatsby-source-contentful": "^1.3.31",
+    "lodash": "^4.17.11",
     "marked": "^0.3.12",
     "moment": "^2.20.1",
     "react": "^16.2.0"

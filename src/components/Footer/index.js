@@ -5,7 +5,7 @@ const Footer = styled.div`
   display: flex;
   justify-content: space-between;
   color: #EBF3F6;
-  margin: 10px 0 15px;
+  margin: 40px 0 15px;
   font-size: 14px;
   font-size: 1.4rem;
 `;
