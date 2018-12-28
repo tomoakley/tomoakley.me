@@ -46,6 +46,7 @@ export default class TemplateWrapper extends React.PureComponent {
           titleTemplate="%s // Tom Oakley, developer & designer"
           defaultTitle="Tom Oakley, developer & designer"
         >
+          <html lang="en" />
           <title>{this.getPageTitle()}</title>
           <meta name="description" content="Tom Oakley // JavaScript developer and designer for the web" />
           <link rel="stylesheet" href="https://use.typekit.net/gri1fbz.css"/>
