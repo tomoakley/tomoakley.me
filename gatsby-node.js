@@ -6,6 +6,8 @@
 
 const path = require('path');
 const moment = require('moment');
+const format = require('date-fns').format
+const _kebabCase = require('lodash').kebabCase
 
 exports.onCreateNode = ({ node, boundActionCreators }) => {
   const { createNodeField } = boundActionCreators;
@@ -49,11 +51,36 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         }
       }
+      allContentfulReadingList {
+        edges {
+          node {
+            title
+            startDate
+            finishDate
+            linkToBuy
+            rating
+            tags
+            author
+            shortReview {
+              shortReview
+            }
+            quotes
+            coverPhoto {
+              file {
+                url
+                fileName
+                contentType
+              }
+            }
+          }
+        }
+      }
     }`
     ).then(result => {
       const {
         allContentfulArticle,
-        allContentfulProject
+        allContentfulProject,
+        allContentfulReadingList
       } = result.data;
       allContentfulArticle.edges.forEach(({ node }) => {
         const date = {
@@ -85,6 +112,23 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         });
       });
+      allContentfulReadingList.edges.forEach(({ node }) => {
+        createPage({
+          path: `book/${format(node.startDate, 'YYYY')}/${_kebabCase(node.title)}`,
+          component: path.resolve('./src/templates/book.js'),
+          context: {
+            title: node.title,
+            author: node.author,
+            startDate: node.startDate,
+            finishDate: node.finishDate,
+            tags: node.tags,
+            rating: node.rating,
+            shortReview: node.shortReview,
+            coverPhoto: node.coverPhoto,
+            linkToBuy: node.linkToBuy
+          }
+        })
+      })
       resolve();
     });
   });
