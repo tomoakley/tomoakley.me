@@ -1,7 +1,17 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
-import Book from '../components/Books/Book'
+import Book from '../components/Book'
 
-export default ({ pathContext }) => (
-    <Book details={pathContext} />
+const BookTemplate = ({ pathContext }) => (
+  <Book details={pathContext} />
 )
+
+BookTemplate.propTypes = {
+  pathContext: PropTypes.object.isRequired
+}
+
+export default BookTemplate
+
+
+

@@ -3,9 +3,9 @@ import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import marked from 'marked'
-import ProjectList from '../components/Project/List';
-import ArticleList from "../components/Article/List";
-import BooksList from '../components/Books/List';
+import ProjectList from '../components/Project/List'
+import ArticleList from '../components/Article/List'
+import BooksList from '../components/Book/List'
 
 const TopSection = styled.div`
   display: flex;
@@ -16,7 +16,7 @@ const TopSection = styled.div`
     justify-content: space-between; 
     align-items: flex-start;
   }
-`;
+`
 
 const ProfilePic = styled.img`
   border: solid 10px ${(props) => props.theme.primary};
@@ -26,7 +26,7 @@ const ProfilePic = styled.img`
   @media screen and (min-width: 600px) {
     display: block;
   }
-`;
+`
 
 const IntroText = styled.div`
   flex: 1 1 auto;
@@ -40,7 +40,7 @@ const IntroText = styled.div`
   @media screen and (min-width: 600px) {
     margin-left: 40px;
   }
-`;
+`
 
 const SubsectionContainer = styled.div`
   display: flex;
@@ -50,11 +50,11 @@ const SubsectionContainer = styled.div`
   @media screen and (min-width: 730px) {
     flex-direction: row;
   }
-`;
+`
 
 const Subsection = styled.div`
   flex: 0 1 45%;
-`;
+`
 
 const SectionHeader = styled.div`
   display: inline-flex;
@@ -71,13 +71,13 @@ const SectionH2 = styled.h2`
   font-size: 2.2rem;
   font-weight: bold;
   text-transform: uppercase;
-`;
+`
 
 const SectionHeaderTagline = styled.span`
   font-family: ${(props) => props.theme.fonts.sansSerif};
   font-style: italic;
   padding-left: 15px;
-`;
+`
 
 const Small = styled.small`
   margin-top: 15px;
@@ -88,7 +88,7 @@ export default class IndexPage extends React.Component {
 
   static propTypes = {
     data: PropTypes.object.isRequired
-  };
+  }
 
   render() {
     const {
@@ -222,4 +222,4 @@ export const contentQuery = graphql`
       }
     }
   }
-`;
+`

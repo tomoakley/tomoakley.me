@@ -1,6 +1,6 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import BookList from "../components/Books/List";
+import React from 'react'
+import PropTypes from 'prop-types'
+import BookList from '../components/Book/List'
 
 export default class BooksList extends React.PureComponent {
 

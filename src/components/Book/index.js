@@ -21,6 +21,7 @@ const BookHeader = styled.div`
   }
   > h2, h3 {
     margin: 0;
+    font-family: ${props => props.theme.fonts.sansSerif};
   }
 `
 
@@ -74,12 +75,12 @@ const AmazonLink = styled.a`
   margin-top: 5px;
 `
 
-const renderStartAndFinishDates = (startDate, finishDate) => {
+export const renderStartAndFinishDates = (startDate, finishDate) => {
   return isSameMonth(startDate, finishDate) ?
     format(startDate, 'MMM YYYY') :
     isSameYear(startDate, finishDate) ?
       `${format(startDate, 'MMM')} - ${format(finishDate, 'MMM')} ${format(finishDate, 'YYYY')}` :
-      `${format(startDate, 'MMM YY')} - ${format(finishDate, 'MMM YY')}`
+      `${format(startDate, 'MMM YYYY')} - ${format(finishDate, 'MMM YYYY')}`
 }
 
 const Book = ({ 

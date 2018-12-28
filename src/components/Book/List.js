@@ -5,7 +5,7 @@ import _map from 'lodash/map'
 import _kebabCase from 'lodash/kebabCase'
 import { format } from 'date-fns'
 
-import Book from './Book'
+import Book from './'
 
 const BookList = styled.ul`
   margin: 0;

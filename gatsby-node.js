@@ -4,18 +4,18 @@
  * See: https://www.gatsbyjs.org/docs/node-apis/
  */
 
-const path = require('path');
-const moment = require('moment');
+const path = require('path')
 const format = require('date-fns').format
 const _kebabCase = require('lodash').kebabCase
 
 exports.onCreateNode = ({ node, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators;
+  const { createNodeField } = boundActionCreators
   if (node.internal.type === 'ContentfulArticle' ||
-      node.internal.type === 'ContentfulProject') {
-    createNodeField({ node, name: 'slug', value: node.slug });
+      node.internal.type === 'ContentfulProject' ||
+      node.internal.type === 'ContentfulReadingList') {
+    createNodeField({ node, name: 'slug', value: node.slug || _kebabCase(node.title) })
   }
-};
+}
 
 exports.createPages = ({ graphql, boundActionCreators }) => {
   const { createPage } = boundActionCreators;
@@ -83,35 +83,30 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         allContentfulReadingList
       } = result.data;
       allContentfulArticle.edges.forEach(({ node }) => {
-        const date = {
-          month: moment(node.createdAt).format('MM'),
-          year: moment(node.createdAt).format('YYYY'),
-        };
         createPage({
-          path: `article/${date.year}/${date.month}/${node.fields.slug}`,
+          path: `article/${format(node.createdAt, 'YYYY')}/${format(node.createdAt, 'MM')}/${node.fields.slug}`,
           component: path.resolve('./src/templates/article.js'),
           context: {
             slug: node.fields.slug,
             title: node.title,
-            content: node.content.content,
+            content: node.content,
             createdAt: node.createdAt
           }
-        });
-      });
+        })
+      })
       allContentfulProject.edges.forEach(({ node }) => {
         createPage({
           path: `project/${node.fields.slug}`,
           component: path.resolve('./src/templates/project.js'),
           context: {
-            slug: node.fields.slug,
             title: node.title,
-            content: node.content.content,
+            content: node.content,
             employed: node.employed,
             started: node.started,
             finished: node.finished
           }
-        });
-      });
+        })
+      })
       allContentfulReadingList.edges.forEach(({ node }) => {
         createPage({
           path: `book/${format(node.startDate, 'YYYY')}/${_kebabCase(node.title)}`,
@@ -129,7 +124,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
           }
         })
       })
-      resolve();
-    });
-  });
-};
+      resolve()
+    })
+  })
+}

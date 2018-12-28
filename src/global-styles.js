@@ -22,6 +22,11 @@ injectGlobal`
     width: 100%;
   }
 
+  h1, h2, h3, h4 {
+    font-weight: normal;
+    font-family: ${theme.fonts.sansSerifBold};
+  }
+
   body {
     margin: 0;
     font-family: ${theme.fonts.sansSerif};
