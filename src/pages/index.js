@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 import marked from 'marked'
 import ProjectList from '../components/Project/List';
 import ArticleList from "../components/Article/List";
+import BooksList from '../components/Books/List';
 
 const TopSection = styled.div`
   display: flex;
@@ -78,6 +79,11 @@ const SectionHeaderTagline = styled.span`
   padding-left: 15px;
 `;
 
+const Small = styled.small`
+  margin-top: 15px;
+  display: block;
+`
+
 export default class IndexPage extends React.Component {
 
   static propTypes = {
@@ -98,6 +104,9 @@ export default class IndexPage extends React.Component {
       },
       articles: {
         edges: articles
+      },
+      books: {
+        edges: books
       }
     } = this.props.data;
     return (
@@ -120,6 +129,16 @@ export default class IndexPage extends React.Component {
               <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
             </SectionHeader>
             <ProjectList projects={projects} />
+          </Subsection>
+        </SubsectionContainer>
+        <SubsectionContainer>
+          <Subsection>
+            <SectionHeader>
+              <SectionH2>Books</SectionH2>
+              <SectionHeaderTagline>Books I am reading or have read</SectionHeaderTagline>
+            </SectionHeader>
+            <BooksList books={books} />
+            <Small>[Ed: Hi - if you like my book reviews, I have an <a href="http://amzn.eu/5yb7kVb">Amazon Wishlist</a> full of books; go there to find out what I'll be reading in the future! I'd be absolutely honoured if you wanted to buy me something off that list (but I'm not expecting that from anyone in the slightest). Thanks!]</Small>
           </Subsection>
         </SubsectionContainer>
       </div>
@@ -171,6 +190,30 @@ export const contentQuery = graphql`
           slug
         }
       } 
+    }
+    books: allContentfulReadingList(sort: { fields: [ startDate ], order: DESC }, limit: 3) {
+      edges {
+        node {
+          title
+          startDate
+          finishDate
+          linkToBuy
+          rating
+          tags
+          author
+          shortReview {
+            shortReview
+          }
+          quotes
+          coverPhoto {
+            file {
+              url
+              fileName
+              contentType
+            }
+          }
+        }
+      }
     }
   }
 `;

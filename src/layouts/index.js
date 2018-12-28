@@ -54,7 +54,7 @@ export default class TemplateWrapper extends React.Component {
         </Helmet>
         <Header titles={data.pages.edges} />
         {children()}
-        <Footer/>
+        <Footer />
       </AppWrapper>
     </ThemeProvider>
     )

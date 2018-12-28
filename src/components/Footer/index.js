@@ -7,7 +7,7 @@ const Footer = styled.div`
   flex-direction: column;
   align-items: center;
   color: #EBF3F6;
-  margin: 10px 0 15px;
+  margin: 40px 0 15px;
   font-size: 14px;
   font-size: 1.4rem;
   @media screen and (min-width: 400px) {
