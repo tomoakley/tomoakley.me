@@ -1,7 +1,7 @@
 require('dotenv').config();
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
+    title: `Tom Oakley`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

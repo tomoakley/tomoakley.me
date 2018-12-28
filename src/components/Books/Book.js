@@ -129,7 +129,7 @@ Book.propTypes = {
     startDate: PropTypes.string,
     finishDate: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
-    shortReview: PropTypes.string,
+    shortReview: PropTypes.objectOf(PropTypes.string),
     coverPhoto: PropTypes.shape({
       file: PropTypes.shape({
         url: PropTypes.string,

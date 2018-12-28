@@ -17,7 +17,7 @@ const AppWrapper = styled.div`
   line-height: 1.5;
 `;
 
-export default class TemplateWrapper extends React.Component {
+export default class TemplateWrapper extends React.PureComponent {
 
   getPageTitle() {
     const {
@@ -34,8 +34,6 @@ export default class TemplateWrapper extends React.Component {
         return 'Projects';
       case '/resume':
         return 'Résumé';
-      case '/connect':
-        return 'Connect';
     }
   }
 

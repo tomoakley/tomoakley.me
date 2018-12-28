@@ -23,8 +23,9 @@ export default class BooksList extends React.PureComponent {
     const { books } = this.props
     return (
       <BookList>
-        { _map(books, book => (
+        { _map(books, (book, i) => (
           <Book
+            key={i}
             details={book.node}
             slug={`/book/${format(book.node.startDate, 'YYYY')}/${_kebabCase(book.node.title)}`}
           />
