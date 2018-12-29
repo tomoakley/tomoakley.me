@@ -4,8 +4,8 @@ import styled from 'styled-components'
 import Link from 'gatsby-link'
 import marked from 'marked'
 
-import Block from '../Block'
-import { renderStartAndFinishDates } from '../Book'
+import Block from './Block'
+import { renderStartAndFinishDates } from './Book'
 
 const Title = styled.h2`
   font-family: ${props => props.theme.fonts.sansSerif};
@@ -17,12 +17,13 @@ const Project = ({
     employed,
     started,
     finished,
-    content
+    content,
+    slug
   },
-  slug
+  hasSlug
 }) => (
   <div>
-    <Title>{slug ? <Link to={slug}>{title}</Link> : title}</Title>
+    <Title>{hasSlug ? <Link to={`/project/${slug}`}>{title}</Link> : title}</Title>
     <Block>{employed}</Block>
     <Block>{renderStartAndFinishDates(started, finished)}</Block>
     {content && <p dangerouslySetInnerHTML={{ __html: marked(content.content) }} />}
@@ -35,9 +36,10 @@ Project.propTypes = {
     employed: PropTypes.node.string,
     started: PropTypes.string,
     finish: PropTypes.string,
-    content: PropTypes.objectOf(PropTypes.string)
-  }),
-  slug: PropTypes.string,
+    content: PropTypes.objectOf(PropTypes.string),
+    slug: PropTypes.string
+  }).isRequired,
+  hasSlug: PropTypes.string,
 }
 
 export default Project

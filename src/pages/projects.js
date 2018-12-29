@@ -2,7 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
-import ProjectList from '../components/Project/List'
+import List from '../components/List'
+import Project from '../components/Project'
 
 export default class ProjectsPage extends React.PureComponent {
 
@@ -17,7 +18,10 @@ export default class ProjectsPage extends React.PureComponent {
         <Helmet>
           <title>Projects</title>
         </Helmet>
-        <ProjectList projects={projects} />
+        <List
+          items={projects}
+          Component={Project}
+        />
       </div>
     )
   }

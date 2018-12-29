@@ -5,7 +5,7 @@ import Link from 'gatsby-link'
 import marked from 'marked'
 import { format } from 'date-fns'
 
-import Block from '../Block'
+import Block from './Block'
 
 const ArticleHeader = styled.div`
   display: flex;
@@ -28,13 +28,18 @@ const ArticleTitle = styled.h2`
   margin: 0 0 0 15px;
 `
 
+export const getSlug = (createdAt, slug) => (
+  `/article/${format(createdAt, 'YYYY')}/${format(createdAt, 'MM')}/${slug}`
+)
+
 const Article = ({
   details: {
     title,
     content,
-    createdAt
+    createdAt,
+    slug
   },
-  slug
+  hasSlug
 }) => (
   <div>
     <ArticleHeader>
@@ -42,7 +47,7 @@ const Article = ({
         <Block>{format(createdAt, 'D')}</Block>
         <Block>{format(createdAt, 'MMM')}</Block>
       </ArticleDate>
-      <ArticleTitle>{slug ? <Link to={slug}>{title}</Link> : title}</ArticleTitle>
+      <ArticleTitle>{hasSlug ? <Link to={getSlug(createdAt, slug)}>{title}</Link> : title}</ArticleTitle>
     </ArticleHeader>
     <p dangerouslySetInnerHTML={{ __html: marked(content.content) }} />
   </div>
@@ -52,9 +57,10 @@ Article.propTypes = {
   details: PropTypes.shape({
     title: PropTypes.string,
     content: PropTypes.objectOf(PropTypes.string),
-    createdAt: PropTypes.string
+    createdAt: PropTypes.string,
+    slug: PropTypes.string
   }).isRequired,
-  slug: PropTypes.string
+  hasSlug: PropTypes.string
 }
 
 export default Article

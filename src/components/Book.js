@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import { format, isSameYear, isSameMonth } from 'date-fns'
+import _kebabCase from 'lodash/kebabCase'
 import _join from 'lodash/join'
 import marked from 'marked'
 
@@ -83,6 +84,10 @@ export const renderStartAndFinishDates = (startDate, finishDate) => {
       `${format(startDate, 'MMM YYYY')} - ${format(finishDate, 'MMM YYYY')}`
 }
 
+const getSlug = (startDate, title) => (
+  `/book/${format(startDate, 'YYYY')}/${_kebabCase(title)}`
+)
+
 const Book = ({ 
   details: {
     title,
@@ -95,11 +100,11 @@ const Book = ({
     coverPhoto,
     linkToBuy
   },
-  slug
+  hasSlug
 }) => (
   <BookContainer>
       <BookHeader>
-          <h2>{slug ? <Link to={slug}>{title}</Link> : title}</h2>
+          <h2>{hasSlug ? <Link to={getSlug(startDate, title)}>{title}</Link> : title}</h2>
           <AuthorName>{author}</AuthorName>
       </BookHeader>
       <BookDetails>
@@ -139,8 +144,8 @@ Book.propTypes = {
       })
     }),
     linkToBuy: PropTypes.string
-  }),
-  slug: PropTypes.string
+  }).isRequired,
+  hasSlug: PropTypes.boolean
 }
 
 export default Book

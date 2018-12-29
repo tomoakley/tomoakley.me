@@ -3,9 +3,10 @@ import styled from 'styled-components'
 import Helmet from 'react-helmet'
 import PropTypes from 'prop-types'
 import marked from 'marked'
-import ProjectList from '../components/Project/List'
-import ArticleList from '../components/Article/List'
-import BooksList from '../components/Book/List'
+import List from '../components/List'
+import Book from '../components/Book'
+import Project from '../components/Project'
+import Article from '../components/Article'
 
 const TopSection = styled.div`
   display: flex;
@@ -125,14 +126,20 @@ export default class IndexPage extends React.PureComponent {
                 <SectionH2>Articles</SectionH2>
                 <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
               </SectionHeader>
-              <ArticleList articles={articles} />
+              <List 
+                items={articles}
+                Component={Article}
+              />
             </Subsection>
             <Subsection>
               <SectionHeader>
                 <SectionH2>Projects</SectionH2>
                 <SectionHeaderTagline>Stuff I've worked on which I'm proud of</SectionHeaderTagline>
               </SectionHeader>
-              <ProjectList projects={projects} />
+              <List
+                items={projects}
+                Component={Project}
+              />
             </Subsection>
           </SubsectionContainer>
           <SubsectionContainer>
@@ -141,7 +148,10 @@ export default class IndexPage extends React.PureComponent {
                 <SectionH2>Books</SectionH2>
                 <SectionHeaderTagline>Books I am reading or have read</SectionHeaderTagline>
               </SectionHeader>
-              <BooksList books={books} />
+              <List
+                items={books}
+                Component={Book}
+              />
               <Small>[Ed: Hi - if you like my book reviews, I have an <a href="http://amzn.eu/5yb7kVb">Amazon Wishlist</a> full of books; go there to find out what I'll be reading in the future! I'd be absolutely honoured if you wanted to buy me something off that list (but I'm not expecting that from anyone in the slightest). Thanks!]</Small>
             </Subsection>
           </SubsectionContainer>
