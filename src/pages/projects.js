@@ -1,8 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import ProjectList from "../components/Project/List";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 
-export default class ProjectsPage extends React.Component {
+import ProjectList from '../components/Project/List'
+
+export default class ProjectsPage extends React.PureComponent {
 
   static propTypes = {
     data: PropTypes.object.isRequired
@@ -10,7 +12,14 @@ export default class ProjectsPage extends React.Component {
 
   render() {
     const { edges: projects } = this.props.data.projects;
-    return <ProjectList projects={projects} />
+    return (
+      <div>
+        <Helmet>
+          <title>Projects</title>
+        </Helmet>
+        <ProjectList projects={projects} />
+      </div>
+    )
   }
 }
 
@@ -31,4 +40,4 @@ export const projectsQuery = graphql`
       }
     }
   } 
-`;
+`

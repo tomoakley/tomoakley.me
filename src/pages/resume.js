@@ -1,19 +1,24 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import marked from 'marked';
-import Helmet from 'react-helmet';
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+import marked from 'marked'
 
-export default class ResumePage extends React.Component {
+export default class ResumePage extends React.PureComponent {
 
   static propTypes = {
     data: PropTypes.object.isRequired
   };
 
   render() {
-    const { node: content } = this.props.data.content.edges[0];
+    const { node: content } = this.props.data.content.edges[0]
     return (
-      <div dangerouslySetInnerHTML={{ __html: marked(content.content.content) }} />
-    );
+      <div>
+        <Helmet>
+          <title>Résumé</title>
+        </Helmet>
+        <div dangerouslySetInnerHTML={{ __html: marked(content.content.content) }} />
+      </div>
+    )
   }
 }
 
@@ -27,4 +32,4 @@ export const contentQuery = graphql`
       } 
     } 
   } 
-`;
+`

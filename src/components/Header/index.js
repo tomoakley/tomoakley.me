@@ -1,12 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import _map from 'lodash/map';
-import _isEmpty from 'lodash/isEmpty';
+import React from 'react'
+import PropTypes from 'prop-types'
+import styled from 'styled-components'
+import _map from 'lodash/map'
 
-import SiteName from './Name';
-import NavBar from './NavBar';
-import HeaderLink from './HeaderLink';
+import SiteName from './Name'
+import NavBar from './NavBar'
+import HeaderLink from './HeaderLink'
 
 const StyledHeader = styled.div`
   display: flex;
@@ -19,42 +18,25 @@ const StyledHeader = styled.div`
   }
 `;
 
-class Header extends React.Component { // eslint-disable-line react/prefer-stateless-function
-
-  static propTypes = {
-    titles: PropTypes.array,
-  };
-
-  constructor(props) {
-    super(props);
-    this.state = {
-      headerLinks: {},
-    };
-  }
-
-  componentWillMount() {
-    const { titles } = this.props;
-    let navbarItems = {};
-    titles.forEach((title, i) => {
-      navbarItems[title.node.pageTitle] = (
-        <HeaderLink to={`/${title.node.slug}`}
-                    data-tag={title.node.shortDescription}
-                    key={i}>
+const Header = ({ titles }) => (
+  <StyledHeader>
+    <SiteName />
+    <NavBar>
+      {_map(titles, (title, i) => (
+        <HeaderLink 
+          to={`/${title.node.slug}`}
+          tag={title.node.shortDescription}
+          key={i}
+        >
           {title.node.pageTitle}
-        </HeaderLink>
-      );
-    });
-    this.setState({ headerLinks: navbarItems });
-  }
+        </HeaderLink> 
+      ))}
+    </NavBar>
+  </StyledHeader>
+)
 
-  render() {
-    return (
-      <StyledHeader>
-        <SiteName />
-        <NavBar>{_map(this.state.headerLinks)}</NavBar>
-      </StyledHeader>
-    );
-  }
+Header.propTypes = {
+  titles: PropTypes.array.isRequired
 }
 
 export default Header;

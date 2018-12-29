@@ -1,8 +1,10 @@
-import React from 'react';
-import PropTypes from 'prop-types';
-import ArticleList from "../components/Article/List";
+import React from 'react'
+import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
 
-export default class ProjectsPage extends React.Component {
+import ArticleList from '../components/Article/List'
+
+export default class ProjectsPage extends React.PureComponent {
 
   static propTypes = {
     data: PropTypes.object.isRequired
@@ -10,7 +12,14 @@ export default class ProjectsPage extends React.Component {
 
   render() {
     const { edges: articles } = this.props.data.articles;
-    return <ArticleList articles={articles} />
+    return (
+      <div>
+        <Helmet>
+          <title>Articles</title>
+        </Helmet>
+        <ArticleList articles={articles} />
+      </div>
+    )
   }
 }
 
@@ -29,4 +38,4 @@ export const articlesQuery = graphql`
       }
     }
   } 
-`;
+`

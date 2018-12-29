@@ -1,5 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Helmet from 'react-helmet'
+
 import BookList from '../components/Book/List'
 
 export default class BooksList extends React.PureComponent {
@@ -10,7 +12,14 @@ export default class BooksList extends React.PureComponent {
 
   render() {
     const { edges: books } = this.props.data.books;
-    return <BookList books={books} />
+    return (
+      <div>
+        <Helmet>
+          <title>Books</title>
+        </Helmet>
+        <BookList books={books} />
+      </div>
+    )
   }
 }
 

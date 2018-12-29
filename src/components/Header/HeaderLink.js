@@ -1,8 +1,9 @@
 import React from 'react';
-import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
-import styled from 'styled-components';
-import { theme } from '../../global-styles';
+import PropTypes from 'prop-types'
+import Link from 'gatsby-link'
+import styled from 'styled-components'
+
+import { theme } from '../../global-styles'
 
 const StyledLink = styled(Link)`
   text-decoration: none;
@@ -86,16 +87,22 @@ const NavItem = styled.li`
   
 `;
 
-export default class HeaderLink extends React.Component {
+const HeaderLink = ({ to, tag, children }) => (
+  <NavItem>
+    <StyledLink 
+      to={to}
+      data-tag={tag}
+      activeStyle={{ color: `${theme.primary}`, background: `${theme.secondary}` }}
+    >
+      {children}
+    </StyledLink>
+  </NavItem>
+)
 
-  static propTypes = {
-    to: PropTypes.string,
-    'data-tag': PropTypes.string,
-  };
-
-  render() {
-    return (
-      <NavItem><StyledLink {...this.props} activeStyle={{ color: `${theme.primary}`, background: `${theme.secondary}` }}>{this.props.children}</StyledLink></NavItem>
-    );
-  }
+HeaderLink.propTypes = {
+  to: PropTypes.string,
+  tag: PropTypes.string,
+  children: PropTypes.node
 }
+
+export default HeaderLink

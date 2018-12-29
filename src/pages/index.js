@@ -84,7 +84,7 @@ const Small = styled.small`
   display: block;
 `
 
-export default class IndexPage extends React.Component {
+export default class IndexPage extends React.PureComponent {
 
   static propTypes = {
     data: PropTypes.object.isRequired
@@ -112,8 +112,7 @@ export default class IndexPage extends React.Component {
     return (
       <div>
         <Helmet>
-          <title>Home Page</title>
-          <meta name="description" content="A React.js Boilerplate application homepage" />
+          <title>Home</title>
         </Helmet>
         <div>
           <TopSection>
