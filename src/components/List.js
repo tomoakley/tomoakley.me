@@ -12,8 +12,8 @@ const StyledList = styled.ul`
 export default class List extends React.PureComponent {
 
   static propTypes = {
-      items: PropTypes.arrayOf(PropTypes.object).isRequired,
-      Component: PropTypes.node
+    items: PropTypes.arrayOf(PropTypes.object).isRequired,
+    Component: PropTypes.func
   }
 
   render() {

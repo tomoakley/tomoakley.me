@@ -39,7 +39,7 @@ Project.propTypes = {
     content: PropTypes.objectOf(PropTypes.string),
     slug: PropTypes.string
   }).isRequired,
-  hasSlug: PropTypes.string,
+  hasSlug: PropTypes.bool,
 }
 
 export default Project

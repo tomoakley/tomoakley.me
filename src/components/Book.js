@@ -103,28 +103,28 @@ const Book = ({
   hasSlug
 }) => (
   <BookContainer>
-      <BookHeader>
-          <h2>{hasSlug ? <Link to={getSlug(startDate, title)}>{title}</Link> : title}</h2>
-          <AuthorName>{author}</AuthorName>
-      </BookHeader>
-      <BookDetails>
-          <DetailsItem>
-              {renderStartAndFinishDates(startDate, finishDate)}
-          </DetailsItem>
-          <DetailsItem>
-              {rating} {' '} &#9733;
-          </DetailsItem>
-          <DetailsItem>
-              {_join(tags, ', ')}
-          </DetailsItem>
-      </BookDetails>
-      {shortReview && (
-        <ItemContents>
-            <BookImg src={coverPhoto.file.url} alt={`${title} cover`} />
-            <P dangerouslySetInnerHTML={{ __html: marked(shortReview.shortReview) }} />
-        </ItemContents>
-      )}
-      {linkToBuy && <AmazonLink href={linkToBuy}>Amazon &#8594;</AmazonLink>}
+    <BookHeader>
+      <h2>{hasSlug ? <Link to={getSlug(startDate, title)}>{title}</Link> : title}</h2>
+      <AuthorName>{author}</AuthorName>
+    </BookHeader>
+    <BookDetails>
+      <DetailsItem>
+        {renderStartAndFinishDates(startDate, finishDate)}
+      </DetailsItem>
+      <DetailsItem>
+        {rating} {' '} &#9733;
+    </DetailsItem>
+      <DetailsItem>
+        {_join(tags, ', ')}
+      </DetailsItem>
+    </BookDetails>
+    {shortReview && (
+      <ItemContents>
+        <BookImg src={coverPhoto.file.url} alt={`${title} cover`} />
+        <P dangerouslySetInnerHTML={{ __html: marked(shortReview.shortReview) }} />
+      </ItemContents>
+    )}
+    {linkToBuy && <AmazonLink href={linkToBuy}>Amazon &#8594;</AmazonLink>}
   </BookContainer>
 )
 
@@ -145,7 +145,7 @@ Book.propTypes = {
     }),
     linkToBuy: PropTypes.string
   }).isRequired,
-  hasSlug: PropTypes.boolean
+  hasSlug: PropTypes.bool
 }
 
 export default Book

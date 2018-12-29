@@ -60,7 +60,7 @@ Article.propTypes = {
     createdAt: PropTypes.string,
     slug: PropTypes.string
   }).isRequired,
-  hasSlug: PropTypes.string
+  hasSlug: PropTypes.bool
 }
 
 export default Article
