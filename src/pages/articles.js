@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/Layout'
 import List from '../components/List'
 import Article from '../components/Article'
 
@@ -14,7 +16,7 @@ export default class ProjectsPage extends React.PureComponent {
   render() {
     const { edges: articles } = this.props.data.articles;
     return (
-      <div>
+      <Layout>
         <Helmet>
           <title>Articles</title>
         </Helmet>
@@ -22,7 +24,7 @@ export default class ProjectsPage extends React.PureComponent {
           items={articles}
           Component={Article}
         />
-      </div>
+      </Layout>
     )
   }
 }

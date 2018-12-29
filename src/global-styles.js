@@ -1,4 +1,4 @@
-import { injectGlobal } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
 export const theme = {
   background: '#17263F',
@@ -12,7 +12,7 @@ export const theme = {
 };
 
 /* eslint no-unused-expressions: 0 */
-injectGlobal`
+export const GlobalStyle = createGlobalStyle`
   html {
     font-size: 62.5%; 
   }

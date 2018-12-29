@@ -16,8 +16,8 @@ const ArticleHeader = styled.div`
 `
 
 const ArticleDate = styled.div`
-  font-family: ${(props) => props.theme.fonts.sansSerifBold};
-  background: ${(props) => props.theme.primary};
+  font-family: ${props => props.theme.fonts.sansSerifBold};
+  background: ${props => props.theme.primary};
   padding: 5px 10px;
   text-align: center;
   line-height: 1.25;

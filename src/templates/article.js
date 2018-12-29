@@ -2,19 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/Layout'
 import Article from '../components/Article'
 
-const ArticleTemplate = ({ pathContext }) => (
-  <div>
+const ArticleTemplate = ({ pageContext }) => (
+  <Layout>
     <Helmet>
-      <title>{pathContext.title}</title>  
+      <title>{pageContext.title}</title>  
     </Helmet>  
-    <Article details={pathContext} />
-  </div>
+    <Article details={pageContext} />
+  </Layout>
 )
 
 ArticleTemplate.propTypes = {
-  pathContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired
 }
 
 export default ArticleTemplate

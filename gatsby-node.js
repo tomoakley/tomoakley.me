@@ -8,8 +8,8 @@ const path = require('path')
 const format = require('date-fns').format
 const _kebabCase = require('lodash').kebabCase
 
-exports.onCreateNode = ({ node, boundActionCreators }) => {
-  const { createNodeField } = boundActionCreators
+exports.onCreateNode = ({ node, actions }) => {
+  const { createNodeField } = actions
   if (node.internal.type === 'ContentfulArticle' ||
       node.internal.type === 'ContentfulProject' ||
       node.internal.type === 'ContentfulReadingList') {
@@ -17,8 +17,8 @@ exports.onCreateNode = ({ node, boundActionCreators }) => {
   }
 }
 
-exports.createPages = ({ graphql, boundActionCreators }) => {
-  const { createPage } = boundActionCreators;
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
   return new Promise((resolve, reject) => {
     graphql(`{
       allContentfulArticle {

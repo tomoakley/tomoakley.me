@@ -1,8 +1,11 @@
 import React from 'react'
+import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Helmet from 'react-helmet'
-import PropTypes from 'prop-types'
 import marked from 'marked'
+
+import Layout from '../components/Layout'
 import List from '../components/List'
 import Book from '../components/Book'
 import Project from '../components/Project'
@@ -111,7 +114,7 @@ export default class IndexPage extends React.PureComponent {
       }
     } = this.props.data;
     return (
-      <div>
+      <Layout>
         <Helmet>
           <title>Home</title>
         </Helmet>
@@ -156,7 +159,7 @@ export default class IndexPage extends React.PureComponent {
             </Subsection>
           </SubsectionContainer>
         </div>
-      </div>
+      </Layout>
     )
   }
 }

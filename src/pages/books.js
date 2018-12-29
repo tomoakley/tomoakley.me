@@ -1,7 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/Layout'
 import List from '../components/List'
 import Book from '../components/Book'
 
@@ -14,7 +16,7 @@ export default class BooksList extends React.PureComponent {
   render() {
     const { edges: books } = this.props.data.books;
     return (
-      <div>
+      <Layout>
         <Helmet>
           <title>Books</title>
         </Helmet>
@@ -22,7 +24,7 @@ export default class BooksList extends React.PureComponent {
           items={books}
           Component={Book}
         />
-      </div>
+      </Layout>
     )
   }
 }

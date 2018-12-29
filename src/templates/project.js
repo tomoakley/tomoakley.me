@@ -2,19 +2,20 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 
+import Layout from '../components/Layout'
 import Project from '../components/Project'
 
-const ProjectTemplate = ({ pathContext }) => (
-  <div>
+const ProjectTemplate = ({ pageContext }) => (
+  <Layout>
     <Helmet>
-      <title>{pathContext.title}</title>  
+      <title>{pageContext.title}</title>  
     </Helmet>
-    <Project details={pathContext} />
-  </div>
+    <Project details={pageContext} />
+  </Layout>
 )
 
 ProjectTemplate.propTypes = {
-  pathContext: PropTypes.object.isRequired
+  pageContext: PropTypes.object.isRequired
 }
 
 export default ProjectTemplate

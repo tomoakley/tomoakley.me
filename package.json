@@ -6,17 +6,17 @@
   "dependencies": {
     "date-fns": "^1.30.1",
     "dotenv": "^4.0.0",
-    "gatsby": "^1.9.201",
-    "gatsby-link": "^1.6.32",
-    "gatsby-module-loader": "^1.0.11",
-    "gatsby-plugin-react-helmet": "^1.0.8",
-    "gatsby-plugin-styled-components": "^2.0.4",
-    "gatsby-source-contentful": "^1.3.31",
+    "gatsby": "^2.0.78",
+    "gatsby-plugin-react-helmet": "^3.0.5",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-source-contentful": "^2.0.22",
     "lodash": "^4.17.11",
-    "marked": "^0.3.12",
-    "prop-types": "^15.6.0",
+    "marked": "^0.5.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
-    "styled-components": "^2.4.0"
+    "styled-components": "^4.1.3"
   },
   "keywords": [
     "gatsby"
