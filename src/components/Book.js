@@ -7,7 +7,7 @@ import _kebabCase from 'lodash/kebabCase'
 import _join from 'lodash/join'
 import marked from 'marked'
 
-const BookContainer = styled.li`
+const BookContainer = styled.div`
   margin-top: 15px;
   display: flex;
   flex-direction: column;
