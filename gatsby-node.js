@@ -66,10 +66,12 @@ exports.createPages = ({ graphql, actions }) => {
             }
             quotes
             coverPhoto {
-              file {
-                url
-                fileName
-                contentType
+              description
+              fluid(maxWidth: 106) {
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
               }
             }
           }

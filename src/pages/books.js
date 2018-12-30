@@ -46,10 +46,9 @@ export const projectsQuery = graphql`
             }
             quotes
             coverPhoto {
-              file {
-                url
-                fileName
-                contentType
+              description
+              fluid(maxWidth: 125) {
+                ...GatsbyContentfulFluid_withWebp
               }
             }
           }

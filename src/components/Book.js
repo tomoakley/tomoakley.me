@@ -1,6 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
+import Img from 'gatsby-image'
 import styled from 'styled-components'
 import { format, isSameYear, isSameMonth } from 'date-fns'
 import _kebabCase from 'lodash/kebabCase'
@@ -56,11 +57,11 @@ const ItemContents = styled.div`
   margin-top: 10px;
 `
 
-const BookImg = styled.img`
+const BookImg = styled(Img)`
   float: left;
   width: 20%;
   max-width: 125px;
-  padding: 0 10px 0 0;
+  margin: 0 10px 0 0;
 `
 
 const P = styled.p`
@@ -113,14 +114,14 @@ const Book = ({
       </DetailsItem>
       <DetailsItem>
         {rating} {' '} &#9733;
-    </DetailsItem>
+      </DetailsItem>
       <DetailsItem>
         {_join(tags, ', ')}
       </DetailsItem>
     </BookDetails>
     {shortReview && (
       <ItemContents>
-        <BookImg src={coverPhoto.file.url} alt={`${title} cover`} />
+        <BookImg fluid={coverPhoto.fluid} alt={coverPhoto.description} />
         <P dangerouslySetInnerHTML={{ __html: marked(shortReview.shortReview) }} />
       </ItemContents>
     )}
@@ -137,11 +138,8 @@ Book.propTypes = {
     tags: PropTypes.arrayOf(PropTypes.string),
     shortReview: PropTypes.objectOf(PropTypes.string),
     coverPhoto: PropTypes.shape({
-      file: PropTypes.shape({
-        url: PropTypes.string,
-        fileName: PropTypes.string,
-        contentType: PropTypes.string
-      })
+      description: PropTypes.string,
+      fluid: PropTypes.object
     }),
     linkToBuy: PropTypes.string
   }).isRequired,

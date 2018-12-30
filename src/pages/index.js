@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import styled from 'styled-components'
+import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
 import marked from 'marked'
 
@@ -22,10 +23,10 @@ const TopSection = styled.div`
   }
 `
 
-const ProfilePic = styled.img`
+const ProfilePic = styled(Img)`
   border: solid 10px ${(props) => props.theme.primary};
-  flex: 1 1 auto;
-  width: 20%;
+  flex: 1 1 100%;
+  max-width: 235px;
   display: none;
   @media screen and (min-width: 600px) {
     display: block;
@@ -120,7 +121,10 @@ export default class IndexPage extends React.PureComponent {
         </Helmet>
         <div>
           <TopSection>
-            <ProfilePic src={content.image.file.url} alt={content.image.title} />
+            <ProfilePic 
+              fluid={content.image.fluid}
+              alt={content.image.description}
+            />
             <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
           </TopSection>
           <SubsectionContainer>
@@ -174,10 +178,9 @@ export const contentQuery = graphql`
             content
           } 
           image {
-            file {
-              url
-              fileName
-              contentType
+            description
+            fluid(maxWidth: 235) {
+              ...GatsbyContentfulFluid_withWebp
             }
           }
         }
@@ -224,10 +227,9 @@ export const contentQuery = graphql`
           }
           quotes
           coverPhoto {
-            file {
-              url
-              fileName
-              contentType
+            description
+            fluid(maxWidth: 106) {
+              ...GatsbyContentfulFluid_withWebp
             }
           }
         }
