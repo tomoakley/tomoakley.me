@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import styled from 'styled-components';
-import Link from 'gatsby-link'
+import styled from 'styled-components'
+import { Link } from 'gatsby'
 import marked from 'marked'
 import { format } from 'date-fns'
 
