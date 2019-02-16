@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 import Helmet from 'react-helmet'
-import marked from 'marked'
+import _get from 'lodash/get'
 
 import Layout from '../components/Layout'
 
@@ -19,7 +19,7 @@ export default class ResumePage extends React.PureComponent {
         <Helmet>
           <title>Résumé</title>
         </Helmet>
-        <div dangerouslySetInnerHTML={{ __html: marked(content.content.content) }} />
+        <div dangerouslySetInnerHTML={{ __html: _get(content, ['content', 'childMarkdownRemark', 'html']) }} />
       </Layout>
     )
   }
@@ -30,7 +30,11 @@ export const contentQuery = graphql`
     content: allContentfulPage(filter: { contentful_id: { eq: "3iDyj3aXRCmUKSymySaQI0" } }) {
       edges {
          node {
-            content { content } 
+            content {
+              childMarkdownRemark {
+                html
+              }
+            } 
          }
       } 
     } 

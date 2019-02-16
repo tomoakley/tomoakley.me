@@ -45,4 +45,9 @@ export const GlobalStyle = createGlobalStyle`
   a:visited {
     color: #EBF3F6;
   }
+
+  pre {
+    background: #282828;
+    padding: 10px;
+  }
 `;

@@ -36,7 +36,9 @@ export const projectsQuery = graphql`
         node {
           title
           content {
-            content
+            childMarkdownRemark {
+              html
+            }
           }
           employed
           started

@@ -2,8 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import marked from 'marked'
 import { format } from 'date-fns'
+import _get from 'lodash/get'
 
 import Block from './Block'
 
@@ -36,6 +36,7 @@ const Article = ({
   details: {
     title,
     content,
+    preview,
     createdAt,
     slug
   },
@@ -49,16 +50,26 @@ const Article = ({
       </ArticleDate>
       <ArticleTitle>{hasSlug ? <Link to={getSlug(createdAt, slug)}>{title}</Link> : title}</ArticleTitle>
     </ArticleHeader>
-    <p dangerouslySetInnerHTML={{ __html: marked(content.content) }} />
+    <div dangerouslySetInnerHTML={{ __html: _get(preview, ['childMarkdownRemark', 'html'], _get(content, ['childMarkdownRemark', 'html'], '')) }} />
   </div>
 )
+
 
 Article.propTypes = {
   details: PropTypes.shape({
     title: PropTypes.string,
-    content: PropTypes.objectOf(PropTypes.string),
+    content: PropTypes.objectOf(PropTypes.shape({
+      childMarkdownRemark: PropTypes.shape({
+        html: PropTypes.string
+      })
+    })),
     createdAt: PropTypes.string,
-    slug: PropTypes.string
+    slug: PropTypes.string,
+    preview: PropTypes.objectOf(PropTypes.shape({
+      childMarkdownRemark: PropTypes.shape({
+        html: PropTypes.string
+      })
+    }))
   }).isRequired,
   hasSlug: PropTypes.bool
 }

@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
-import marked from 'marked'
+import _get from 'lodash/get'
 
 import Block from './Block'
 import { renderStartAndFinishDates } from './Book'
@@ -26,17 +26,21 @@ const Project = ({
     <Title>{hasSlug ? <Link to={`/project/${slug}`}>{title}</Link> : title}</Title>
     <Block>{employed}</Block>
     <Block>{renderStartAndFinishDates(started, finished)}</Block>
-    {content && <p dangerouslySetInnerHTML={{ __html: marked(content.content) }} />}
+    {content && <div dangerouslySetInnerHTML={{ __html: _get(content, ['childMarkdownRemark', 'html'], '') }} />}
   </div>
 )
 
 Project.propTypes = {
   details: PropTypes.shape({
     title: PropTypes.string,
-    employed: PropTypes.node.string,
+    employed: PropTypes.string,
     started: PropTypes.string,
     finish: PropTypes.string,
-    content: PropTypes.objectOf(PropTypes.string),
+    content: PropTypes.objectOf(PropTypes.shape({
+      childMarkdownRemark: PropTypes.shape({
+        html: PropTypes.string
+      })
+    })),
     slug: PropTypes.string
   }).isRequired,
   hasSlug: PropTypes.bool,

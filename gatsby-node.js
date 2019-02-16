@@ -29,9 +29,12 @@ exports.createPages = ({ graphql, actions }) => {
             }
             createdAt
             content {
-              content
+              childMarkdownRemark {
+                html
+              }
             }
             title
+            tags
           }
         }
       }
@@ -45,7 +48,9 @@ exports.createPages = ({ graphql, actions }) => {
             started
             finished
             content {
-              content
+              childMarkdownRemark {
+                html
+              }
             }
             title
           }
@@ -62,7 +67,9 @@ exports.createPages = ({ graphql, actions }) => {
             tags
             author
             shortReview {
-              shortReview
+              childMarkdownRemark {
+                html
+              }
             }
             quotes
             coverPhoto {
@@ -72,6 +79,8 @@ exports.createPages = ({ graphql, actions }) => {
                 srcSet
                 srcWebp
                 srcSetWebp
+                aspectRatio
+                sizes
               }
             }
           }
@@ -92,7 +101,8 @@ exports.createPages = ({ graphql, actions }) => {
             slug: node.fields.slug,
             title: node.title,
             content: node.content,
-            createdAt: node.createdAt
+            createdAt: node.createdAt,
+            tags: node.tags,
           }
         })
       })

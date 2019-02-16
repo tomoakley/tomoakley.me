@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import styled from 'styled-components'
 import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
-import marked from 'marked'
+import _get from 'lodash/get'
 
 import Layout from '../components/Layout'
 import List from '../components/List'
@@ -125,7 +125,7 @@ export default class IndexPage extends React.PureComponent {
               fluid={content.image.fluid}
               alt={content.image.description}
             />
-            <IntroText dangerouslySetInnerHTML={{ __html: marked(content.content.content) }}/>
+            <IntroText dangerouslySetInnerHTML={{ __html: _get(content, ['content', 'childMarkdownRemark', 'html'], '') }}/>
           </TopSection>
           <SubsectionContainer>
             <Subsection>
@@ -175,7 +175,9 @@ export const contentQuery = graphql`
         node {
           pageTitle,
           content {
-            content
+            childMarkdownRemark {
+              html
+            }
           } 
           image {
             description
@@ -191,10 +193,17 @@ export const contentQuery = graphql`
         node {
           title
           content {
-            content
+            childMarkdownRemark {
+              html
+            }
           }
           createdAt
           slug
+          preview {
+            childMarkdownRemark {
+              html
+            }
+          }
         }
       }
     }
@@ -203,7 +212,9 @@ export const contentQuery = graphql`
         node {
           title
           content {
-            content
+            childMarkdownRemark {
+              html
+            }
           }
           employed
           started
@@ -223,7 +234,9 @@ export const contentQuery = graphql`
           tags
           author
           shortReview {
-            shortReview
+            childMarkdownRemark {
+              html
+            }
           }
           quotes
           coverPhoto {

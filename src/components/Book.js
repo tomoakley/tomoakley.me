@@ -6,7 +6,7 @@ import styled from 'styled-components'
 import { format, isSameYear, isSameMonth } from 'date-fns'
 import _kebabCase from 'lodash/kebabCase'
 import _join from 'lodash/join'
-import marked from 'marked'
+import _get from 'lodash/get'
 
 const BookContainer = styled.div`
   margin-top: 15px;
@@ -64,7 +64,7 @@ const BookImg = styled(Img)`
   margin: 0 10px 0 0;
 `
 
-const P = styled.p`
+const P = styled.div`
   margin: 0;
   > p {
     margin: 0;
@@ -122,7 +122,7 @@ const Book = ({
     {shortReview && (
       <ItemContents>
         <BookImg fluid={coverPhoto.fluid} alt={coverPhoto.description} />
-        <P dangerouslySetInnerHTML={{ __html: marked(shortReview.shortReview) }} />
+        <P dangerouslySetInnerHTML={{ __html: _get(shortReview, ['childMarkdownRemark', 'html'], '') }} />
       </ItemContents>
     )}
     {linkToBuy && <AmazonLink href={linkToBuy}>Amazon &#8594;</AmazonLink>}
@@ -136,7 +136,11 @@ Book.propTypes = {
     startDate: PropTypes.string,
     finishDate: PropTypes.string,
     tags: PropTypes.arrayOf(PropTypes.string),
-    shortReview: PropTypes.objectOf(PropTypes.string),
+    shortReview: PropTypes.objectOf(PropTypes.shape({
+      childMarkdownRemark: PropTypes.shape({
+        html: PropTypes.string
+      })
+    })),
     coverPhoto: PropTypes.shape({
       description: PropTypes.string,
       fluid: PropTypes.object

@@ -36,7 +36,14 @@ export const articlesQuery = graphql`
         node {
           title
           content {
-            content
+            childMarkdownRemark {
+              html
+            }
+          }
+          preview {
+            childMarkdownRemark {
+              html
+            }
           }
           createdAt
           slug

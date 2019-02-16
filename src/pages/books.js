@@ -42,7 +42,9 @@ export const projectsQuery = graphql`
             tags
             author
             shortReview {
-              shortReview
+              childMarkdownRemark {
+                html
+              }
             }
             quotes
             coverPhoto {
