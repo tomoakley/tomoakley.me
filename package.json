@@ -17,6 +17,8 @@
     "gatsby-transformer-sharp": "^2.1.9",
     "install": "^0.12.2",
     "lodash": "^4.17.11",
+    "netlify-lambda": "^1.4.13",
+    "node-fetch": "^2.6.0",
     "npm": "^6.5.0",
     "prop-types": "^15.6.2",
     "react": "^16.7.0",
@@ -30,12 +32,15 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "gatsby build && lambda-build",
+    "develop": "concurrently \"gatsby develop\" \"yarn run lambda-serve\"",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lambda-serve": "netlify-lambda serve src-lambda",
+    "lambda-build": "netlify-lambda build src-lambda"
   },
   "devDependencies": {
+    "concurrently": "^4.1.0",
     "enzyme": "^3.3.0",
     "prettier": "^1.9.2"
   }
