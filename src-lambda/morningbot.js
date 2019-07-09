@@ -1,26 +1,36 @@
 import fetch from 'node-fetch'
+import getYear from 'date-fns/get_year'
+import getDate from 'date-fns/get_date'
+import getMonth from 'date-fns/get_month'
+import _find from 'lodash/find'
+
+require('dotenv').config()
 
 export async function handler(event, context) {
 
   // Get National Rail auth token
-  const { services }= async () => new Promise(async (resolve, reject) => {
+  const getTrainDataAtSpecificStation = (serviceUid, date, stationCode) => new Promise(async (resolve, reject) => {
     try {
-      const response = await fetch('https://api.rtt.io/api/v1/json/search/WDT/to/PAD', {
+      const response = await fetch(`https://${process.env.RTT_ROOT_URL}/service/${serviceUid}/${getYear(date)}/0${getMonth(date)+1}/${getDate(date)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
-          'Authorization': 'Basic rttapi_tomoakley:ad0ef52c9206a11a96b4b5589fb93722de0dcc1a'
+          'Authorization': `Basic ${process.env.RTT_AUTH}`,
+          'Referer': 'http://localhost:9000'
         },
       })
-      resolve(await response.json())
+
+      const data = await response.json()
+
+      return resolve(_find(data.locations, ['crs', stationCode]))
+
     } catch (err) {
+      console.log('error', err)
       reject(err)
     }
   })
 
-  const myTrain = services[2]
-
-  const { locationDetail: { realtimeArrival, gbttBookedArrival } } = myTrain
+  const { realtimeArrival, gbttBookedArrival } = await getTrainDataAtSpecificStation('C23332', new Date(), 'WDT')
 
   const minutesLateBy = realtimeArrival - gbttBookedArrival 
 
@@ -38,7 +48,7 @@ export async function handler(event, context) {
   // Send to Slack
   const body = JSON.stringify({ text: slackMessage });
   try {
-    await fetch('https://hooks.slack.com/services/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', {
+    await fetch(`https://${process.env.MORNINGBOT_SLACK_HOOK}`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
