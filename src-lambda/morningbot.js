@@ -2,6 +2,7 @@ import fetch from 'node-fetch'
 import getYear from 'date-fns/get_year'
 import getDate from 'date-fns/get_date'
 import getMonth from 'date-fns/get_month'
+import format from 'date-fns/format'
 import _find from 'lodash/find'
 
 require('dotenv').config()
@@ -11,7 +12,7 @@ export async function handler(event, context) {
   // Get National Rail auth token
   const getTrainDataAtSpecificStation = (serviceUid, date, stationCode) => new Promise(async (resolve, reject) => {
     try {
-      const response = await fetch(`https://${process.env.RTT_ROOT_URL}/service/${serviceUid}/${getYear(date)}/0${getMonth(date)+1}/${getDate(date)}`, {
+      const response = await fetch(`https://${process.env.RTT_ROOT_URL}/service/${serviceUid}/${getYear(date)}/${format(date, 'MM')}/${getDate(date)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -30,7 +31,7 @@ export async function handler(event, context) {
     }
   })
 
-  const { realtimeArrival, gbttBookedArrival } = await getTrainDataAtSpecificStation('C23332', new Date(), 'WDT')
+  const { realtimeArrival, gbttBookedArrival } = await getTrainDataAtSpecificStation('C23164', new Date(), 'WDT')
 
   const minutesLateBy = realtimeArrival - gbttBookedArrival 
 
