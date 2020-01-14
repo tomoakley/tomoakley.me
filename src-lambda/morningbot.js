@@ -1,7 +1,6 @@
 import fetch from 'node-fetch'
 import getYear from 'date-fns/get_year'
 import getDate from 'date-fns/get_date'
-import getMonth from 'date-fns/get_month'
 import format from 'date-fns/format'
 import _find from 'lodash/find'
 
@@ -31,9 +30,9 @@ export async function handler(event, context) {
     }
   })
 
-  const { realtimeArrival, gbttBookedArrival } = await getTrainDataAtSpecificStation('C23164', new Date(), 'WDT')
+  const { realtimeArrival, gbttBookedArrival } = await getTrainDataAtSpecificStation('G37461', new Date(), 'WDT')
 
-  const minutesLateBy = realtimeArrival - gbttBookedArrival 
+  const minutesLateBy = realtimeArrival - gbttBookedArrival
 
   const message = minutesLateBy < 2
     ? `The ${gbttBookedArrival} is on time! ETA ${realtimeArrival}`
