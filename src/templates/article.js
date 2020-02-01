@@ -69,7 +69,7 @@ const ArticleTemplate = ({
       <title>{title}</title>
     </Helmet>
     <ArticleContainer>
-      <ArticlePhoto fluid={coverPhoto.fluid} />
+      {coverPhoto && <ArticlePhoto fluid={coverPhoto.fluid} />}
       <ArticleHeader>
         <ArticleTitle>{title}</ArticleTitle>
         <ArticleMetaData>
