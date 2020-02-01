@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'	
+import { StaticQuery, graphql } from 'gatsby'
 import styled, { ThemeProvider } from 'styled-components'
 
 import { theme, GlobalStyle } from '../global-styles'
@@ -18,9 +18,9 @@ const AppWrapper = styled.div`
   line-height: 1.5;
 `
 
-const Layout = ({ children }) => (		
-  <StaticQuery		
-    query={graphql`		
+const Layout = ({ children }) => (
+  <StaticQuery
+    query={graphql`
       query PageQueryAndContentQuery {
         pages: allContentfulPage(filter: { includeInNavbar: { eq: true } }) {
           edges {
@@ -33,7 +33,7 @@ const Layout = ({ children }) => (
         }
       }
     `}
-    render={data => (	
+    render={data => (
       <ThemeProvider theme={theme}>
         <AppWrapper>
           <Helmet
@@ -54,8 +54,8 @@ const Layout = ({ children }) => (
   />
 )
 
-Layout.propTypes = {		
-  children: PropTypes.node.isRequired,		
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
 }
 
 export default Layout

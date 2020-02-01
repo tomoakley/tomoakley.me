@@ -18,7 +18,7 @@ const TopSection = styled.div`
   margin-top: 30px;
   @media screen and (min-width: 600px) {
     flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: flex-start;
   }
 `
@@ -121,7 +121,7 @@ export default class IndexPage extends React.PureComponent {
         </Helmet>
         <div>
           <TopSection>
-            <ProfilePic 
+            <ProfilePic
               fluid={content.image.fluid}
               alt={content.image.description}
             />
@@ -133,7 +133,7 @@ export default class IndexPage extends React.PureComponent {
                 <SectionH2>Articles</SectionH2>
                 <SectionHeaderTagline>Assortment of coding, design, and life</SectionHeaderTagline>
               </SectionHeader>
-              <List 
+              <List
                 items={articles}
                 Component={Article}
               />
@@ -178,7 +178,7 @@ export const contentQuery = graphql`
             childMarkdownRemark {
               html
             }
-          } 
+          }
           image {
             description
             fluid(maxWidth: 235) {
@@ -192,6 +192,11 @@ export const contentQuery = graphql`
       edges {
         node {
           title
+          coverPhoto {
+            fluid(maxWidth: 350) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
           content {
             childMarkdownRemark {
               html
@@ -221,7 +226,7 @@ export const contentQuery = graphql`
           finished
           slug
         }
-      } 
+      }
     }
     books: allContentfulReadingList(sort: { fields: [ startDate ], order: DESC }, limit: 3) {
       edges {

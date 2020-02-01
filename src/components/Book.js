@@ -10,6 +10,7 @@ import _get from 'lodash/get'
 
 const BookContainer = styled.div`
   margin-top: 15px;
+  max-width: 80ch;
   display: flex;
   flex-direction: column;
 `
@@ -89,7 +90,7 @@ const getSlug = (startDate, title) => (
   `/book/${format(startDate, 'YYYY')}/${_kebabCase(title)}`
 )
 
-const Book = ({ 
+const Book = ({
   details: {
     title,
     author,
