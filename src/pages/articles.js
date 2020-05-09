@@ -35,6 +35,11 @@ export const articlesQuery = graphql`
       edges {
         node {
           title
+          coverPhoto {
+            fluid(maxWidth: 400) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
           content {
             childMarkdownRemark {
               html
@@ -50,5 +55,5 @@ export const articlesQuery = graphql`
         }
       }
     }
-  } 
+  }
 `

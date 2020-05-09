@@ -198,6 +198,11 @@ export const contentQuery = graphql`
       edges {
         node {
           title
+          coverPhoto {
+            fluid(maxWidth: 350) {
+              ...GatsbyContentfulFluid_withWebp
+            }
+          }
           content {
             childMarkdownRemark {
               html

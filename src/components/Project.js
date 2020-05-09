@@ -11,6 +11,10 @@ const Title = styled.h2`
   font-family: ${props => props.theme.fonts.sansSerif};
 `
 
+const Container = styled.div`
+  max-width: 80ch;
+`
+
 const Project = ({
   details: {
     title,
@@ -22,12 +26,12 @@ const Project = ({
   },
   hasSlug
 }) => (
-  <div>
+  <Container>
     <Title>{hasSlug ? <Link to={`/project/${slug}`}>{title}</Link> : title}</Title>
     <Block>{employed}</Block>
     <Block>{renderStartAndFinishDates(started, finished)}</Block>
     {content && <div dangerouslySetInnerHTML={{ __html: _get(content, ['childMarkdownRemark', 'html'], '') }} />}
-  </div>
+  </Container>
 )
 
 Project.propTypes = {

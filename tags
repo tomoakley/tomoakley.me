@@ -1,0 +1,1202 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/b818539/
+$	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+0	.cache/babelState.json	/^        {$/;"	o	array:stages.build-html.plugins
+0	.cache/babelState.json	/^        {$/;"	o	array:stages.build-javascript.plugins
+0	.cache/babelState.json	/^        {$/;"	o	array:stages.develop-html.plugins
+0	.cache/babelState.json	/^        {$/;"	o	array:stages.develop.plugins
+0	.cache/babelState.json	/^    ">0.25%",$/;"	s	array:browserslist
+0	package.json	/^    "gatsby"$/;"	s	array:keywords
+1	.cache/babelState.json	/^    "not dead"$/;"	s	array:browserslist
+@contentful/gatsby-transformer-contentful-richtext	package.json	/^    "@contentful\/gatsby-transformer-contentful-richtext": "^13.0.1",$/;"	s	object:dependencies
+A	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+A	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+AboutPage	src/pages/about.js	/^export default class AboutPage extends React.PureComponent {$/;"	c
+AmazonLink	src/components/Book.js	/^const AmazonLink = styled.a`$/;"	C
+AnonymousClass390d473f7b01	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:v
+AnonymousFunction390d473f0100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f0300
+AnonymousFunction390d473f0500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f0800
+AnonymousFunction390d473f0a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f0f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f1400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f1900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f1a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f1f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f2300.c
+AnonymousFunction390d473f2500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f2800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f2f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f3f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f4500
+AnonymousFunction390d473f4700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f4f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f5000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f5600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f5600
+AnonymousFunction390d473f5800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f5f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f5f00
+AnonymousFunction390d473f6100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f6400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f6e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f6f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+AnonymousFunction390d473f7100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f7f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f8600
+AnonymousFunction390d473f8800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8900	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8a00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8b00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8c00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8d00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8e00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f8f00	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9000	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9100	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f9000
+AnonymousFunction390d473f9200	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9300	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9400	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9500	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9600	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9700	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction390d473f9800	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+AnonymousFunction8ea689cb0100	.cache/register-service-worker.js	/^    .then(function(reg) {$/;"	f
+AnonymousFunction8ea689cb0200	.cache/register-service-worker.js	/^    .catch(function(e) {$/;"	f
+AnonymousFunctiona65ab3490100	.cache/__tests__/minimal-config.js	/^  spawn.stderr.on(`data`, function(chunk) {$/;"	f
+AnonymousFunctiona65ab3490200	.cache/__tests__/minimal-config.js	/^  spawn.stdout.on(`data`, function(chunk) {$/;"	f
+AnonymousFunctiona65ab3490300	.cache/__tests__/minimal-config.js	/^  spawn.on(`close`, function() {$/;"	f
+AnonymousFunctione5763a000100	.cache/commonjs/register-service-worker.js	/^  navigator.serviceWorker.register(`${__BASE_PATH__}\/sw.js`).then(function (reg) {$/;"	f
+AnonymousFunctione5763a000200	.cache/commonjs/register-service-worker.js	/^  }).catch(function (e) {$/;"	f
+AppWrapper	src/components/Layout.js	/^const AppWrapper = styled.div`$/;"	C
+Article	src/components/Article.js	/^const Article = ({$/;"	c
+ArticleContainer	src/templates/article.js	/^const ArticleContainer = styled.div`$/;"	C
+ArticleDate	src/components/Article.js	/^const ArticleDate = styled.div`$/;"	C
+ArticleFooter	src/templates/article.js	/^const ArticleFooter = styled.div`$/;"	C
+ArticleHeader	src/components/Article.js	/^const ArticleHeader = styled.div`$/;"	C
+ArticleHeader	src/templates/article.js	/^const ArticleHeader = styled.div`$/;"	C
+ArticleMetaData	src/templates/article.js	/^const ArticleMetaData = styled.div`$/;"	C
+ArticleTemplate	src/templates/article.js	/^const ArticleTemplate = ({ $/;"	c
+ArticleTitle	src/components/Article.js	/^const ArticleTitle = styled.h2`$/;"	C
+ArticleTitle	src/templates/article.js	/^const ArticleTitle = styled.h2`$/;"	C
+AuthorName	src/components/Book.js	/^const AuthorName = styled.h3`$/;"	C
+B	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+Block	src/components/Block.js	/^const Block = styled.span`$/;"	C
+Book	src/components/Book.js	/^const Book = ({ $/;"	c
+BookContainer	src/components/Book.js	/^const BookContainer = styled.div`$/;"	C
+BookDetails	src/components/Book.js	/^const BookDetails = styled.ul`$/;"	C
+BookHeader	src/components/Book.js	/^const BookHeader = styled.div`$/;"	C
+BookImg	src/components/Book.js	/^const BookImg = styled(Img)`$/;"	C
+BookTemplate	src/templates/book.js	/^const BookTemplate = ({ pageContext }) => ($/;"	C
+BooksList	src/pages/books.js	/^export default class BooksList extends React.PureComponent {$/;"	c
+ContactLink	src/components/Footer.js	/^const ContactLink = styled.span`$/;"	C
+CopyrightDetails	src/components/Footer.js	/^const CopyrightDetails = styled.div`$/;"	C
+D	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+D	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports
+D	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+DD	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+DDD	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+DDDD	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+DetailsItem	src/components/Book.js	/^const DetailsItem = styled.li`$/;"	C
+DevPageRenderer	.cache/commonjs/public-page-renderer-dev.js	/^const DevPageRenderer = ({$/;"	C
+DevPageRenderer	.cache/public-page-renderer-dev.js	/^const DevPageRenderer = ({ location }) => {$/;"	C
+E	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+EnsureResources	.cache/commonjs/ensure-resources.js	/^class EnsureResources extends _react.default.Component {$/;"	c
+EnsureResources	.cache/ensure-resources.js	/^class EnsureResources extends React.Component {$/;"	c
+ErrorOverlay	.cache/commonjs/error-overlay-handler.js	/^var ErrorOverlay = _interopRequireWildcard(require("react-error-overlay"));$/;"	v
+Footer	src/components/Footer.js	/^const Footer = styled.div`$/;"	C
+G	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+GG	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+GGGG	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+GlobalStyle	src/global-styles.js	/^export const GlobalStyle = createGlobalStyle`$/;"	C
+H	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+HH	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+HTML	.cache/commonjs/default-html.js	/^function HTML(props) {$/;"	f
+HTML	.cache/default-html.js	/^export default function HTML(props) {$/;"	f
+Header	src/components/Header/index.js	/^const Header = ({ titles }) => ($/;"	C
+HeaderLink	src/components/Header/HeaderLink.js	/^const HeaderLink = ({ to, tag, children }) => ($/;"	C
+Html	.cache/commonjs/develop-static-entry.js	/^let Html;$/;"	v
+Html	.cache/commonjs/static-entry.js	/^let Html;$/;"	v
+Html	.cache/develop-static-entry.js	/^let Html$/;"	v
+Html	.cache/static-entry.js	/^let Html$/;"	v
+Img	src/components/Header/Img.js	/^const Img = styled(NormalImg)`$/;"	C
+IndexPage	src/pages/index.js	/^export default class IndexPage extends React.PureComponent {$/;"	c
+IntroText	src/pages/index.js	/^const IntroText = styled.div`$/;"	C
+Introducing	src/components/Header/Name.js	/^const Introducing = styled.span`$/;"	C
+ItemContents	src/components/Book.js	/^const ItemContents = styled.div`$/;"	C
+JSONStore	.cache/commonjs/json-store.js	/^class JSONStore extends _react.default.Component {$/;"	c
+JSONStore	.cache/json-store.js	/^class JSONStore extends React.Component {$/;"	c
+L	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+Layout	src/components/Layout.js	/^const Layout = ({ children }) => ($/;"	C
+List	src/components/List.js	/^export default class List extends React.Component {$/;"	c
+M	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+M	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+MAX_HISTORY	.cache/commonjs/loader.js	/^const MAX_HISTORY = 5;$/;"	C
+MAX_HISTORY	.cache/loader.js	/^const MAX_HISTORY = 5$/;"	C
+MM	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+MMM	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+MMMM	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+Name	src/components/Header/Name.js	/^const Name = styled.h1`$/;"	C
+NameContainer	src/components/Header/Name.js	/^const NameContainer = styled(Link)`$/;"	C
+NavItem	src/components/Header/HeaderLink.js	/^const NavItem = styled.li`$/;"	C
+NotFoundPage	src/pages/404.js	/^const NotFoundPage = () => ($/;"	C
+P	src/components/Book.js	/^const P = styled.div`$/;"	C
+PageRenderer	.cache/commonjs/page-renderer.js	/^class PageRenderer extends _react.default.Component {$/;"	c
+PageRenderer	.cache/page-renderer.js	/^class PageRenderer extends React.Component {$/;"	c
+ProdPageRenderer	.cache/commonjs/public-page-renderer-prod.js	/^const ProdPageRenderer = ({$/;"	C
+ProdPageRenderer	.cache/public-page-renderer-prod.js	/^const ProdPageRenderer = ({ location }) => {$/;"	C
+ProfilePic	src/pages/index.js	/^const ProfilePic = styled(Img)`$/;"	C
+Project	src/components/Project.js	/^const Project = ({$/;"	c
+ProjectTemplate	src/templates/project.js	/^const ProjectTemplate = ({ pageContext }) => ($/;"	C
+ProjectsPage	src/pages/articles.js	/^export default class ProjectsPage extends React.PureComponent {$/;"	c
+ProjectsPage	src/pages/projects.js	/^export default class ProjectsPage extends React.PureComponent {$/;"	c
+Q	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+React	.cache/commonjs/static-entry.js	/^const React = require(`react`);$/;"	C
+React	.cache/static-entry.js	/^const React = require(`react`)$/;"	C
+ResumePage	src/pages/resume.js	/^export default class ResumePage extends React.PureComponent {$/;"	c
+Root	.cache/commonjs/root.js	/^const Root = () => (0, _react.createElement)(_router.Router, {$/;"	C
+RouteHandler	.cache/commonjs/root.js	/^class RouteHandler extends _react.default.Component {$/;"	c
+RouteHandler	.cache/commonjs/static-entry.js	/^  class RouteHandler extends React.Component {$/;"	c
+RouteHandler	.cache/static-entry.js	/^  class RouteHandler extends React.Component {$/;"	c
+RouteUpdates	.cache/commonjs/navigation.js	/^class RouteUpdates extends _react.default.Component {$/;"	c
+RouteUpdates	.cache/navigation.js	/^class RouteUpdates extends React.Component {$/;"	c
+Router	.cache/commonjs/static-entry.js	/^      Router = _require3.Router,$/;"	C
+S	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+S	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f0800
+S	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+SS	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+SSS	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+SectionH2	src/pages/index.js	/^const SectionH2 = styled.h2`$/;"	C
+SectionHeader	src/pages/index.js	/^const SectionHeader = styled.div`$/;"	C
+SectionHeaderTagline	src/pages/index.js	/^const SectionHeaderTagline = styled.span`$/;"	C
+ServerLocation	.cache/commonjs/static-entry.js	/^      ServerLocation = _require3.ServerLocation,$/;"	C
+SiteName	src/components/Header/Name.js	/^export default function SiteName() {$/;"	f
+Small	src/pages/index.js	/^const Small = styled.small`$/;"	C
+StaticEntry	.cache/__tests__/static-entry.js	/^let StaticEntry$/;"	v
+StaticQuery	.cache/commonjs/gatsby-browser-entry.js	/^const StaticQuery = props => _react.default.createElement(StaticQueryContext.Consumer, null, sta/;"	C
+StaticQuery	.cache/gatsby-browser-entry.js	/^const StaticQuery = props => ($/;"	C
+StaticQueryContext	.cache/commonjs/gatsby-browser-entry.js	/^const StaticQueryContext = _react.default.createContext({});$/;"	C
+StaticQueryContext	.cache/gatsby-browser-entry.js	/^const StaticQueryContext = React.createContext({})$/;"	C
+StyledHeader	src/components/Header/index.js	/^const StyledHeader = styled.div`$/;"	C
+StyledLink	src/components/Header/HeaderLink.js	/^const StyledLink = styled(Link)`$/;"	C
+Subsection	src/pages/index.js	/^const Subsection = styled.div`$/;"	C
+SubsectionContainer	src/pages/index.js	/^const SubsectionContainer = styled.div`$/;"	C
+T	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+Tagline	src/components/Header/Name.js	/^const Tagline = styled.span`$/;"	C
+Title	src/components/Project.js	/^const Title = styled.h2`$/;"	C
+TopSection	src/pages/index.js	/^const TopSection = styled.div`$/;"	C
+W	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+W	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+WW	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+WrappedRoot	.cache/commonjs/root.js	/^const WrappedRoot = (0, _apiRunnerBrowser.apiRunner)(`wrapRootElement`, {$/;"	C
+WrappedRoot	.cache/root.js	/^const WrappedRoot = apiRunner($/;"	C
+X	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+YY	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+YYYY	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+Z	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+ZZ	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+[`${process.cwd()}/public/chunk-map.json`]	.cache/__tests__/static-entry.js	/^  [`${process.cwd()}\/public\/chunk-map.json`]: `{}`,$/;"	p	class:jest.mock.mock.mock.mock
+[`${process.cwd()}/public/webpack.stats.json`]	.cache/__tests__/static-entry.js	/^  [`${process.cwd()}\/public\/webpack.stats.json`]: `{}`,$/;"	p	class:jest.mock.mock.mock.mock
+_	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+__PATH_PREFIX__	.cache/.eslintrc.json	/^    "__PATH_PREFIX__": false,$/;"	b	object:globals
+___emitter	.cache/.eslintrc.json	/^    "___emitter": false$/;"	b	object:globals
+__data__	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports
+_apiRunnerBrowser	.cache/commonjs/app.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	v
+_apiRunnerBrowser	.cache/commonjs/navigation.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	v
+_apiRunnerBrowser	.cache/commonjs/page-renderer.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	v
+_apiRunnerBrowser	.cache/commonjs/production-app.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	v
+_apiRunnerBrowser	.cache/commonjs/register-service-worker.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	v
+_apiRunnerBrowser	.cache/commonjs/root.js	/^var _apiRunnerBrowser = require(".\/api-runner-browser");$/;"	v
+_apiRunnerSsr	.cache/commonjs/develop-static-entry.js	/^var _apiRunnerSsr = _interopRequireDefault(require(".\/api-runner-ssr"));$/;"	v
+_asyncRequires	.cache/commonjs/production-app.js	/^var _asyncRequires = _interopRequireDefault(require(".\/async-requires"));$/;"	v
+_default	.cache/commonjs/create-react-context.js	/^var _default = _react.default.createContext;$/;"	v
+_default	.cache/commonjs/develop-static-entry.js	/^var _default = (pagePath, callback) => {$/;"	v
+_default	.cache/commonjs/emitter.js	/^var _default = emitter;$/;"	v
+_default	.cache/commonjs/ensure-resources.js	/^var _default = EnsureResources;$/;"	v
+_default	.cache/commonjs/find-page.js	/^var _default = (pages, pathPrefix = ``) => rawPathname => {$/;"	v
+_default	.cache/commonjs/json-store.js	/^var _default = JSONStore;$/;"	v
+_default	.cache/commonjs/loader.js	/^var _default = queue;$/;"	v
+_default	.cache/commonjs/page-renderer.js	/^var _default = PageRenderer;$/;"	v
+_default	.cache/commonjs/public-page-renderer-dev.js	/^var _default = DevPageRenderer;$/;"	v
+_default	.cache/commonjs/public-page-renderer-prod.js	/^var _default = ProdPageRenderer;$/;"	v
+_default	.cache/commonjs/root.js	/^var _default = () => WrappedRoot;$/;"	v
+_default	.cache/commonjs/static-entry.js	/^var _default = (pagePath, callback) => {$/;"	v
+_default	.cache/commonjs/strip-prefix.js	/^var _default = (str, prefix = ``) => {$/;"	v
+_default	.cache/test-require-error.js	/^var _default = (moduleName, err) => {$/;"	v
+_defineProperty2	.cache/commonjs/json-store.js	/^var _defineProperty2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/defineProperty"/;"	v
+_domready	.cache/commonjs/app.js	/^var _domready = _interopRequireDefault(require("@mikaelkristiansson\/domready"));$/;"	v
+_domready	.cache/commonjs/production-app.js	/^var _domready = _interopRequireDefault(require("@mikaelkristiansson\/domready"));$/;"	v
+_emitter	.cache/commonjs/app.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	v
+_emitter	.cache/commonjs/loader.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	v
+_emitter	.cache/commonjs/navigation.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	v
+_emitter	.cache/commonjs/production-app.js	/^var _emitter = _interopRequireDefault(require(".\/emitter"));$/;"	v
+_ensureResources	.cache/commonjs/production-app.js	/^var _ensureResources = _interopRequireDefault(require(".\/ensure-resources"));$/;"	v
+_ensureResources	.cache/commonjs/root.js	/^var _ensureResources = _interopRequireDefault(require(".\/ensure-resources"));$/;"	v
+_errorOverlayHandler	.cache/commonjs/root.js	/^var _errorOverlayHandler = require(".\/error-overlay-handler");$/;"	v
+_errorOverlayHandler	.cache/commonjs/socketIo.js	/^var _errorOverlayHandler = require(".\/error-overlay-handler");$/;"	v
+_extends2	.cache/commonjs/json-store.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	v
+_extends2	.cache/commonjs/production-app.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	v
+_extends2	.cache/commonjs/root.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	v
+_extends2	.cache/commonjs/static-entry.js	/^var _extends2 = _interopRequireDefault(require("@babel\/runtime\/helpers\/extends"));$/;"	v
+_findPage	.cache/commonjs/loader.js	/^var _findPage = _interopRequireDefault(require(".\/find-page"));$/;"	v
+_gatsby	.cache/commonjs/json-store.js	/^var _gatsby = require("gatsby");$/;"	v
+_gatsbyLink	.cache/commonjs/gatsby-browser-entry.js	/^var _gatsbyLink = _interopRequireWildcard(require("gatsby-link"));$/;"	v
+_gatsbyLink	.cache/commonjs/navigation.js	/^var _gatsbyLink = require("gatsby-link");$/;"	v
+_gatsbyReactRouterScroll	.cache/commonjs/production-app.js	/^var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");$/;"	v
+_gatsbyReactRouterScroll	.cache/commonjs/root.js	/^var _gatsbyReactRouterScroll = require("gatsby-react-router-scroll");$/;"	v
+_interopRequireDefault	.cache/commonjs/app.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/create-react-context.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/default-html.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/develop-static-entry.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/emitter.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/ensure-resources.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/find-page.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/gatsby-browser-entry.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/json-store.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/loader.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/navigation.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/page-renderer.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/production-app.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/public-page-renderer-dev.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/public-page-renderer-prod.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/root.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireDefault	.cache/commonjs/static-entry.js	/^var _interopRequireDefault = require("@babel\/runtime\/helpers\/interopRequireDefault");$/;"	v
+_interopRequireWildcard	.cache/commonjs/app.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	v
+_interopRequireWildcard	.cache/commonjs/error-overlay-handler.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	v
+_interopRequireWildcard	.cache/commonjs/gatsby-browser-entry.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	v
+_interopRequireWildcard	.cache/commonjs/page-renderer.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	v
+_interopRequireWildcard	.cache/commonjs/production-app.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	v
+_interopRequireWildcard	.cache/commonjs/root.js	/^var _interopRequireWildcard = require("@babel\/runtime\/helpers\/interopRequireWildcard");$/;"	v
+_jsonStore	.cache/commonjs/public-page-renderer-dev.js	/^var _jsonStore = _interopRequireDefault(require(".\/json-store"));$/;"	v
+_jsonStore	.cache/commonjs/root.js	/^var _jsonStore = _interopRequireDefault(require(".\/json-store"));$/;"	v
+_kebabCase	gatsby-node.js	/^const _kebabCase = require('lodash').kebabCase$/;"	C
+_loader	.cache/commonjs/app.js	/^var _loader = _interopRequireWildcard(require(".\/loader"));$/;"	v
+_loader	.cache/commonjs/ensure-resources.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	v
+_loader	.cache/commonjs/navigation.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	v
+_loader	.cache/commonjs/page-renderer.js	/^var _loader = require(".\/loader");$/;"	v
+_loader	.cache/commonjs/production-app.js	/^var _loader = _interopRequireWildcard(require(".\/loader"));$/;"	v
+_loader	.cache/commonjs/public-page-renderer-dev.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	v
+_loader	.cache/commonjs/public-page-renderer-prod.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	v
+_loader	.cache/commonjs/root.js	/^var _loader = _interopRequireDefault(require(".\/loader"));$/;"	v
+_lodash	.cache/commonjs/develop-static-entry.js	/^var _lodash = require("lodash");$/;"	v
+_mitt	.cache/commonjs/emitter.js	/^var _mitt = _interopRequireDefault(require("mitt"));$/;"	v
+_navigation	.cache/commonjs/production-app.js	/^var _navigation = require(".\/navigation");$/;"	v
+_navigation	.cache/commonjs/root.js	/^var _navigation = require(".\/navigation");$/;"	v
+_pageRenderer	.cache/commonjs/json-store.js	/^var _pageRenderer = _interopRequireDefault(require(".\/page-renderer"));$/;"	v
+_pageRenderer	.cache/commonjs/production-app.js	/^var _pageRenderer = _interopRequireDefault(require(".\/page-renderer"));$/;"	v
+_pageRenderer	.cache/commonjs/public-page-renderer-prod.js	/^var _pageRenderer = _interopRequireDefault(require(".\/page-renderer"));$/;"	v
+_pages	.cache/commonjs/app.js	/^var _pages = _interopRequireDefault(require(".\/pages.json"));$/;"	v
+_parsePath	.cache/commonjs/navigation.js	/^  let _parsePath = (0, _gatsbyLink.parsePath)(to),$/;"	v
+_prefetch	.cache/commonjs/loader.js	/^var _prefetch = _interopRequireDefault(require(".\/prefetch"));$/;"	v
+_propTypes	.cache/commonjs/default-html.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_propTypes	.cache/commonjs/ensure-resources.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_propTypes	.cache/commonjs/gatsby-browser-entry.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_propTypes	.cache/commonjs/navigation.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_propTypes	.cache/commonjs/page-renderer.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_propTypes	.cache/commonjs/public-page-renderer-dev.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_propTypes	.cache/commonjs/public-page-renderer-prod.js	/^var _propTypes = _interopRequireDefault(require("prop-types"));$/;"	v
+_publicPageRenderer	.cache/commonjs/gatsby-browser-entry.js	/^var _publicPageRenderer = _interopRequireDefault(require(".\/public-page-renderer"));$/;"	v
+_react	.cache/commonjs/app.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/create-react-context.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/default-html.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/develop-static-entry.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/ensure-resources.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/gatsby-browser-entry.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/json-store.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/navigation.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/page-renderer.js	/^var _react = _interopRequireWildcard(require("react"));$/;"	v
+_react	.cache/commonjs/production-app.js	/^var _react = _interopRequireWildcard(require("react"));$/;"	v
+_react	.cache/commonjs/public-page-renderer-dev.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/public-page-renderer-prod.js	/^var _react = _interopRequireDefault(require("react"));$/;"	v
+_react	.cache/commonjs/root.js	/^var _react = _interopRequireWildcard(require("react"));$/;"	v
+_reactDom	.cache/commonjs/app.js	/^var _reactDom = _interopRequireDefault(require("react-dom"));$/;"	v
+_reactDom	.cache/commonjs/production-app.js	/^var _reactDom = _interopRequireDefault(require("react-dom"));$/;"	v
+_read	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t
+_redirects	.cache/commonjs/navigation.js	/^var _redirects = _interopRequireDefault(require(".\/redirects.json"));$/;"	v
+_require	.cache/commonjs/static-entry.js	/^const _require = require(`path`),$/;"	C
+_require$publicLoader	.cache/commonjs/api-runner-browser.js	/^const _require$publicLoader = require(`.\/loader`).publicLoader,$/;"	C
+_require2	.cache/commonjs/static-entry.js	/^const _require2 = require(`react-dom\/server`),$/;"	C
+_require3	.cache/commonjs/static-entry.js	/^const _require3 = require(`@reach\/router`),$/;"	C
+_require4	.cache/commonjs/static-entry.js	/^const _require4 = require(`lodash`),$/;"	C
+_require5	.cache/commonjs/static-entry.js	/^const _require5 = require(`.\/data.json`),$/;"	C
+_require6	.cache/commonjs/static-entry.js	/^const _require6 = require(`gatsby\/package.json`),$/;"	C
+_router	.cache/commonjs/navigation.js	/^var _router = require("@reach\/router");$/;"	v
+_router	.cache/commonjs/production-app.js	/^var _router = require("@reach\/router");$/;"	v
+_router	.cache/commonjs/root.js	/^var _router = require("@reach\/router");$/;"	v
+_server	.cache/commonjs/develop-static-entry.js	/^var _server = require("react-dom\/server");$/;"	v
+_shallowCompare	.cache/commonjs/ensure-resources.js	/^var _shallowCompare = _interopRequireDefault(require("shallow-compare"));$/;"	v
+_socketIo	.cache/commonjs/app.js	/^var _socketIo = _interopRequireDefault(require(".\/socketIo"));$/;"	v
+_socketIo	.cache/commonjs/json-store.js	/^var _socketIo = require(".\/socketIo");$/;"	v
+_stripPrefix	.cache/commonjs/find-page.js	/^var _stripPrefix = _interopRequireDefault(require(".\/strip-prefix"));$/;"	v
+_syncRequires	.cache/commonjs/app.js	/^var _syncRequires = _interopRequireDefault(require(".\/sync-requires"));$/;"	v
+_utils	.cache/commonjs/find-page.js	/^var _utils = require("@reach\/router\/lib\/utils");$/;"	v
+_utils	.cache/commonjs/production-app.js	/^var _utils = require("@reach\/router\/lib\/utils");$/;"	v
+a	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f5000
+a	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+a	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+aa	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+aboutXHours	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+aboutXMonths	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+aboutXYears	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+add	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:u
+addDataPaths	.cache/commonjs/loader.js	/^  addDataPaths: dataPaths => {$/;"	C
+addDataPaths	.cache/loader.js	/^  addDataPaths: dataPaths => {$/;"	p	class:queue
+addDevRequires	.cache/commonjs/loader.js	/^  addDevRequires: devRequires => {$/;"	C
+addDevRequires	.cache/loader.js	/^  addDevRequires: devRequires => {$/;"	p	class:queue
+addPagesArray	.cache/commonjs/loader.js	/^  addPagesArray: newPages => {$/;"	p	class:queue
+addPagesArray	.cache/loader.js	/^  addPagesArray: newPages => {$/;"	p	class:queue
+addProdRequires	.cache/commonjs/loader.js	/^  addProdRequires: prodRequires => {$/;"	C
+addProdRequires	.cache/loader.js	/^  addProdRequires: prodRequires => {$/;"	p	class:queue
+agent	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+almostXYears	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+apiRunner	.cache/commonjs/loader.js	/^let apiRunner;$/;"	v
+apiRunner	.cache/commonjs/static-entry.js	/^const apiRunner = require(`.\/api-runner-ssr`);$/;"	C
+apiRunner	.cache/loader.js	/^let apiRunner$/;"	v
+apiRunner	.cache/static-entry.js	/^const apiRunner = require(`.\/api-runner-ssr`)$/;"	C
+apis	.cache/api-runner-ssr.js	/^const apis = require(`.\/api-ssr-docs`)$/;"	C
+apis	.cache/commonjs/api-runner-ssr.js	/^const apis = require(`.\/api-ssr-docs`); \/\/ Run the specified API in any plugins that have imp/;"	C
+appearsOnLine	.cache/commonjs/loader.js	/^const appearsOnLine = () => {$/;"	C
+appearsOnLine	.cache/loader.js	/^const appearsOnLine = () => {$/;"	C
+arrayBuffer	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
+articlesQuery	src/pages/articles.js	/^export const articlesQuery = graphql`$/;"	C
+asyncRequires	.cache/commonjs/loader.js	/^let asyncRequires = {};$/;"	v
+asyncRequires	.cache/loader.js	/^let asyncRequires = {}$/;"	v
+author	package.json	/^  "author": "Tom Oakley <tom@tomoakley.me>",$/;"	s
+b	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+b	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+background	src/global-styles.js	/^  background: "#17263F",$/;"	p	class:theme
+beforeEach	.cache/__tests__/static-entry.js	/^beforeEach(() => {$/;"	c
+body	.cache/commonjs/default-html.js	/^  body: _propTypes.default.string,$/;"	p	class:HTML.propTypes
+body	.cache/default-html.js	/^  body: PropTypes.string,$/;"	p	class:HTML.propTypes
+body	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+body	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:v.AnonymousClass390d473f7b01
+body	src-lambda/morningbot.js	/^  const body = JSON.stringify({ text: slackMessage });$/;"	C
+bodyAttributes	.cache/commonjs/default-html.js	/^  bodyAttributes: _propTypes.default.object,$/;"	p	class:HTML.propTypes
+bodyAttributes	.cache/commonjs/develop-static-entry.js	/^  let bodyAttributes = {};$/;"	v
+bodyAttributes	.cache/commonjs/static-entry.js	/^  let bodyAttributes = {};$/;"	v
+bodyAttributes	.cache/default-html.js	/^  bodyAttributes: PropTypes.object,$/;"	p	class:HTML.propTypes
+bodyAttributes	.cache/develop-static-entry.js	/^  let bodyAttributes = {}$/;"	v
+bodyAttributes	.cache/static-entry.js	/^  let bodyAttributes = {}$/;"	v
+bodyComponent	.cache/commonjs/static-entry.js	/^  const bodyComponent = apiRunner(`wrapRootElement`, {$/;"	C
+bodyComponent	.cache/static-entry.js	/^  const bodyComponent = apiRunner($/;"	C
+bodyHtml	.cache/commonjs/static-entry.js	/^  let bodyHtml = ``;$/;"	v
+bodyHtml	.cache/static-entry.js	/^  let bodyHtml = ``$/;"	v
+bodyProps	.cache/commonjs/develop-static-entry.js	/^  let bodyProps = {};$/;"	v
+bodyProps	.cache/commonjs/static-entry.js	/^  let bodyProps = {};$/;"	v
+bodyProps	.cache/develop-static-entry.js	/^  let bodyProps = {}$/;"	v
+bodyProps	.cache/static-entry.js	/^  let bodyProps = {}$/;"	v
+bodyScripts	.cache/commonjs/static-entry.js	/^  const bodyScripts = scripts.filter(s => s.rel !== `prefetch`).map(s => {$/;"	C
+browser	.cache/.eslintrc.json	/^    "browser": true$/;"	b	object:env
+browserslist	.cache/babelState.json	/^  "browserslist": [$/;"	a
+build	package.json	/^    "build": "gatsby build && yarn lambda-build",$/;"	s	object:scripts
+build-html	.cache/babelState.json	/^    "build-html": {$/;"	o	object:stages
+build-javascript	.cache/babelState.json	/^    "build-javascript": {$/;"	o	object:stages
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:AnonymousFunction390d473f1200
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:AnonymousFunction390d473f9300
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f2300
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f8d00
+c	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+cacheDirectory	.cache/babelState.json	/^        "cacheDirectory": true,$/;"	b	object:stages.build-html.options
+cacheDirectory	.cache/babelState.json	/^        "cacheDirectory": true,$/;"	b	object:stages.build-javascript.options
+cacheDirectory	.cache/babelState.json	/^        "cacheDirectory": true,$/;"	b	object:stages.develop-html.options
+cacheDirectory	.cache/babelState.json	/^        "cacheDirectory": true,$/;"	b	object:stages.develop.options
+checkNonEmptyHeadersPlugin	.cache/__tests__/static-entry.js	/^const checkNonEmptyHeadersPlugin = {$/;"	c
+child	.cache/__tests__/minimal-config.js	/^const child = require(`child_process`)$/;"	C
+children	.cache/commonjs/gatsby-browser-entry.js	/^  children: _propTypes.default.func$/;"	p	class:StaticQuery.propTypes
+children	.cache/gatsby-browser-entry.js	/^  children: PropTypes.func,$/;"	p	class:StaticQuery.propTypes
+children	src/components/Header/HeaderLink.js	/^  children: PropTypes.node,$/;"	p	class:HeaderLink.propTypes
+children	src/components/Layout.js	/^  children: PropTypes.node.isRequired,$/;"	p	class:Layout.propTypes
+chunkMapping	.cache/commonjs/static-entry.js	/^const chunkMapping = JSON.parse(fs.readFileSync(`${process.cwd()}\/public\/chunk-map.json`, `utf/;"	C
+chunkMapping	.cache/static-entry.js	/^const chunkMapping = JSON.parse($/;"	C
+clear	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+clear	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:s
+clearError	.cache/commonjs/error-overlay-handler.js	/^const clearError = errorID => {$/;"	C
+clearError	.cache/error-overlay-handler.js	/^export const clearError = errorID => {$/;"	C
+componentDidMount	.cache/commonjs/json-store.js	/^  componentDidMount() {$/;"	m	class:JSONStore
+componentDidMount	.cache/commonjs/navigation.js	/^  componentDidMount() {$/;"	m	class:RouteUpdates
+componentDidMount	.cache/json-store.js	/^  componentDidMount() {$/;"	m	class:JSONStore
+componentDidMount	.cache/navigation.js	/^  componentDidMount() {$/;"	m	class:RouteUpdates
+componentDidUpdate	.cache/commonjs/navigation.js	/^  componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {$/;"	m	class:RouteUpdates
+componentDidUpdate	.cache/navigation.js	/^  componentDidUpdate(prevProps, prevState, shouldFireRouteUpdate) {$/;"	m	class:RouteUpdates
+componentWillUnmount	.cache/commonjs/json-store.js	/^  componentWillUnmount() {$/;"	m	class:JSONStore
+componentWillUnmount	.cache/json-store.js	/^  componentWillUnmount() {$/;"	m	class:JSONStore
+components	.cache/__tests__/static-entry.js	/^        const components = props[`get${type}BodyComponents`]()$/;"	C
+compress	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+concurrently	package.json	/^    "concurrently": "^4.1.0",$/;"	s	object:devDependencies
+constructor	.cache/commonjs/ensure-resources.js	/^  constructor(props) {$/;"	m	class:EnsureResources
+constructor	.cache/commonjs/json-store.js	/^  constructor(props) {$/;"	m	class:JSONStore
+constructor	.cache/commonjs/navigation.js	/^  constructor(props) {$/;"	m	class:RouteUpdates
+constructor	.cache/ensure-resources.js	/^  constructor(props) {$/;"	m	class:EnsureResources
+constructor	.cache/json-store.js	/^  constructor(props) {$/;"	m	class:JSONStore
+constructor	.cache/navigation.js	/^  constructor(props) {$/;"	m	class:RouteUpdates
+constructor	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
+contentQuery	src/pages/about.js	/^export const contentQuery = graphql`$/;"	C
+contentQuery	src/pages/index.js	/^export const contentQuery = graphql`$/;"	C
+contentQuery	src/pages/resume.js	/^export const contentQuery = graphql`$/;"	C
+context	.cache/commonjs/gatsby-browser-entry.js	/^  const context = _react.default.useContext(StaticQueryContext);$/;"	C
+context	.cache/gatsby-browser-entry.js	/^  const context = React.useContext(StaticQueryContext)$/;"	C
+counter	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+counter	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+createComponentUrls	.cache/commonjs/loader.js	/^const createComponentUrls = componentChunkName => window.___chunkMapping[componentChunkName].map/;"	C
+createComponentUrls	.cache/loader.js	/^const createComponentUrls = componentChunkName =>$/;"	C
+createElement	.cache/commonjs/static-entry.js	/^const createElement = React.createElement;$/;"	C
+createElement	.cache/static-entry.js	/^const createElement = React.createElement$/;"	C
+createJsonURL	.cache/commonjs/loader.js	/^const createJsonURL = jsonName => `${__PATH_PREFIX__}\/static\/d\/${jsonName}.json`;$/;"	C
+custom404	.cache/root.js	/^      let custom404$/;"	v
+d	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:r
+d	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+d	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+data	.cache/commonjs/gatsby-browser-entry.js	/^  data: _propTypes.default.object,$/;"	p	class:StaticQuery.propTypes
+data	.cache/commonjs/page-renderer.js	/^  data: _propTypes.default.object,$/;"	p	class:PageRenderer.propTypes
+data	.cache/gatsby-browser-entry.js	/^  data: PropTypes.object,$/;"	p	class:StaticQuery.propTypes
+data	.cache/page-renderer.js	/^  data: PropTypes.object,$/;"	p	class:PageRenderer.propTypes
+dataAndContext	.cache/commonjs/static-entry.js	/^  let dataAndContext = {};$/;"	v
+dataAndContext	.cache/static-entry.js	/^  let dataAndContext = {}$/;"	v
+dataPath	.cache/commonjs/static-entry.js	/^    const dataPath = `${__PATH_PREFIX__}\/static\/d\/${dataPaths[page.jsonName]}.json`;$/;"	C
+dataPath	.cache/static-entry.js	/^    const dataPath = `${__PATH_PREFIX__}\/static\/d\/${$/;"	C
+dataPaths	.cache/commonjs/static-entry.js	/^      dataPaths = _require5.dataPaths,$/;"	C
+date-fns	package.json	/^    "date-fns": "^1.30.1",$/;"	s	object:dependencies
+dd	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+ddd	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+dddd	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:t.exports.c
+dependencies	package.json	/^  "dependencies": {$/;"	o
+description	package.json	/^  "description": "Tom Oakley \/\/ developer & designer",$/;"	s
+details	src/components/Article.js	/^  details: PropTypes.shape({$/;"	p	class:Article.propTypes
+details	src/components/Article.js	/^  details: {$/;"	p	class:Article
+details	src/components/Book.js	/^  details: PropTypes.shape({$/;"	p	class:Book.propTypes
+details	src/components/Book.js	/^  details: {$/;"	p	class:Book
+details	src/components/Project.js	/^  details: PropTypes.shape({$/;"	p	class:Project.propTypes
+details	src/components/Project.js	/^  details: {$/;"	p	class:Project
+dev404PageResources	.cache/root.js	/^      const dev404PageResources = loader.getResourcesForPathnameSync($/;"	C
+devDependencies	package.json	/^  "devDependencies": {$/;"	o
+devGetPageData	.cache/commonjs/loader.js	/^let devGetPageData;$/;"	v
+devGetPageData	.cache/loader.js	/^let devGetPageData$/;"	v
+develop	.cache/babelState.json	/^    "develop": {$/;"	o	object:stages
+develop	package.json	/^    "develop": "concurrently \\"gatsby develop\\" \\"yarn run lambda-serve\\"",$/;"	s	object:scripts
+develop-html	.cache/babelState.json	/^    "develop-html": {$/;"	o	object:stages
+disableCorePrefetching	.cache/commonjs/loader.js	/^let disableCorePrefetching = false;$/;"	v
+disableCorePrefetching	.cache/loader.js	/^let disableCorePrefetching = false$/;"	v
+distanceInWords	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports
+disturbed	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:v.AnonymousClass390d473f7b01
+dotenv	package.json	/^    "dotenv": "^4.0.0",$/;"	s	object:dependencies
+e	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f9300
+emitter	.cache/commonjs/emitter.js	/^const emitter = (0, _mitt.default)();$/;"	C
+emitter	.cache/emitter.js	/^const emitter = mitt()$/;"	C
+enqueue	.cache/commonjs/loader.js	/^  enqueue: path => {$/;"	C
+enqueue	.cache/loader.js	/^  enqueue: path => {$/;"	p	class:queue
+env	.cache/.eslintrc.json	/^  "env": {$/;"	o
+enzyme	package.json	/^    "enzyme": "^3.3.0",$/;"	s	object:devDependencies
+error	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:v.AnonymousClass390d473f7b01
+errorMap	.cache/commonjs/error-overlay-handler.js	/^const errorMap = {};$/;"	C
+errorMsg	.cache/commonjs/error-overlay-handler.js	/^    const errorMsg = errors.join(`\\n\\n`);$/;"	C
+errorMsg	.cache/error-overlay-handler.js	/^    const errorMsg = errors.join(`\\n\\n`)$/;"	C
+exports	gatsby-config.js	/^module.exports = {$/;"	c	class:module
+exports	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t
+exports	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t
+f	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+f	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+failedPaths	.cache/commonjs/loader.js	/^const failedPaths = {};$/;"	C
+failedPaths	.cache/loader.js	/^const failedPaths = {}$/;"	C
+fakeStylesPlugin	.cache/__tests__/static-entry.js	/^const fakeStylesPlugin = {$/;"	c
+fetchHistory	.cache/commonjs/loader.js	/^let fetchHistory = [];$/;"	v
+fetchHistory	.cache/loader.js	/^let fetchHistory = []$/;"	v
+fetchPageResourceMap	.cache/commonjs/loader.js	/^const fetchPageResourceMap = () => {$/;"	C
+fetchPageResourceMap	.cache/loader.js	/^const fetchPageResourceMap = () => {$/;"	C
+fetchPromise	.cache/commonjs/loader.js	/^        const fetchPromise = new Promise((resolve, reject) => {$/;"	C
+fetchPromise	.cache/loader.js	/^        const fetchPromise = new Promise((resolve, reject) => {$/;"	C
+fetchResource	.cache/commonjs/loader.js	/^const fetchResource = resourceName => {$/;"	C
+fetchResource	.cache/loader.js	/^const fetchResource = resourceName => {$/;"	C
+fetchedPageResourceMap	.cache/commonjs/loader.js	/^let fetchedPageResourceMap = false;$/;"	v
+fetchedPageResourceMap	.cache/loader.js	/^let fetchedPageResourceMap = false$/;"	v
+fetchingPageResourceMapPromise	.cache/commonjs/loader.js	/^    fetchingPageResourceMapPromise = new Promise(resolve => {$/;"	v
+fetchingPageResourceMapPromise	.cache/commonjs/loader.js	/^let fetchingPageResourceMapPromise = null;$/;"	v
+fetchingPageResourceMapPromise	.cache/loader.js	/^    fetchingPageResourceMapPromise = new Promise(resolve => {$/;"	v
+fetchingPageResourceMapPromise	.cache/loader.js	/^let fetchingPageResourceMapPromise = null$/;"	v
+findPage	.cache/__tests__/find-page.js	/^let findPage$/;"	v
+findPage	.cache/commonjs/loader.js	/^let findPage;$/;"	v
+findPage	.cache/loader.js	/^let findPage$/;"	v
+finishFlush	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.c
+firstLine	.cache/commonjs/develop-static-entry.js	/^  const firstLine = err.toString().split(`\\n`)[0];$/;"	C
+firstLine	.cache/commonjs/static-entry.js	/^  const firstLine = err.toString().split(`\\n`)[0];$/;"	C
+firstLine	.cache/develop-static-entry.js	/^  const firstLine = err.toString().split(`\\n`)[0]$/;"	C
+firstLine	.cache/static-entry.js	/^  const firstLine = err.toString().split(`\\n`)[0]$/;"	C
+firstLine	.cache/test-require-error.js	/^  const firstLine = err.toString().split(`\\n`)[0];$/;"	C
+flatten	.cache/commonjs/static-entry.js	/^      flatten = _require4.flatten,$/;"	C
+flush	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.c
+follow	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+fonts	src/global-styles.js	/^  fonts: {$/;"	c	class:theme
+format	gatsby-node.js	/^const format = require('date-fns').format$/;"	C
+format	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports
+format	package.json	/^    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \\"src\/**\/*.js\\/;"	s	object:scripts
+foundPage	.cache/commonjs/find-page.js	/^  let foundPage; \/\/ Array.prototype.find is not supported in IE so we use this somewhat odd$/;"	v
+foundPage	.cache/find-page.js	/^  let foundPage$/;"	v
+fs	.cache/commonjs/static-entry.js	/^const fs = require(`fs`);$/;"	C
+fs	.cache/static-entry.js	/^const fs = require(`fs`)$/;"	C
+g	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+g	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+gatsby	package.json	/^    "gatsby": "^2.1.4",$/;"	s	object:dependencies
+gatsby-image	package.json	/^    "gatsby-image": "^2.0.25",$/;"	s	object:dependencies
+gatsby-plugin-react-helmet	package.json	/^    "gatsby-plugin-react-helmet": "^3.0.5",$/;"	s	object:dependencies
+gatsby-plugin-sharp	package.json	/^    "gatsby-plugin-sharp": "^2.0.17",$/;"	s	object:dependencies
+gatsby-plugin-styled-components	package.json	/^    "gatsby-plugin-styled-components": "^3.0.4",$/;"	s	object:dependencies
+gatsby-plugin-typography	package.json	/^    "gatsby-plugin-typography": "^2.5.1",$/;"	s	object:dependencies
+gatsby-source-contentful	package.json	/^    "gatsby-source-contentful": "^2.0.29",$/;"	s	object:dependencies
+gatsby-transformer-remark	package.json	/^    "gatsby-transformer-remark": "^2.2.5",$/;"	s	object:dependencies
+gatsby-transformer-sharp	package.json	/^    "gatsby-transformer-sharp": "^2.1.9",$/;"	s	object:dependencies
+gatsbyVersion	.cache/commonjs/static-entry.js	/^      gatsbyVersion = _require6.version; \/\/ Speed up looking up pages.$/;"	C
+get	.cache/commonjs/static-entry.js	/^      get = _require4.get,$/;"	C
+getDerivedStateFromProps	.cache/commonjs/ensure-resources.js	/^  static getDerivedStateFromProps({$/;"	m	class:EnsureResources
+getDerivedStateFromProps	.cache/commonjs/json-store.js	/^  static getDerivedStateFromProps(props, state) {$/;"	m	class:JSONStore
+getDerivedStateFromProps	.cache/ensure-resources.js	/^  static getDerivedStateFromProps({ location }, prevState) {$/;"	m	class:EnsureResources
+getDerivedStateFromProps	.cache/json-store.js	/^  static getDerivedStateFromProps(props, state) {$/;"	m	class:JSONStore
+getHeadComponents	.cache/commonjs/develop-static-entry.js	/^  const getHeadComponents = () => headComponents;$/;"	C
+getHeadComponents	.cache/commonjs/static-entry.js	/^  const getHeadComponents = () => headComponents;$/;"	C
+getIsInitialized	.cache/commonjs/socketIo.js	/^const getIsInitialized = () => isInitialized;$/;"	C
+getIsInitialized	.cache/socketIo.js	/^export const getIsInitialized = () => isInitialized$/;"	C
+getPage	.cache/commonjs/loader.js	/^  getPage: pathname => findPage(pathname),$/;"	C
+getPage	.cache/commonjs/static-entry.js	/^const getPage = path => pagesObjectMap.get(path);$/;"	C
+getPage	.cache/loader.js	/^  getPage: pathname => findPage(pathname),$/;"	p	class:queue
+getPage	.cache/static-entry.js	/^const getPage = path => pagesObjectMap.get(path)$/;"	C
+getPageData	.cache/commonjs/socketIo.js	/^function getPageData(pathname) {$/;"	f
+getPageData	.cache/socketIo.js	/^function getPageData(pathname) {$/;"	f
+getPageQueryData	.cache/commonjs/socketIo.js	/^const getPageQueryData = () => pageQueryData;$/;"	C
+getPageQueryData	.cache/socketIo.js	/^export const getPageQueryData = () => pageQueryData$/;"	C
+getPathFromProps	.cache/commonjs/json-store.js	/^const getPathFromProps = props => props.pageResources && props.pageResources.page ? props.pageRe/;"	C
+getPathFromProps	.cache/json-store.js	/^const getPathFromProps = props =>$/;"	C
+getPostBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const getPostBodyComponents = () => postBodyComponents;$/;"	C
+getPostBodyComponents	.cache/commonjs/static-entry.js	/^  const getPostBodyComponents = () => postBodyComponents;$/;"	C
+getPreBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const getPreBodyComponents = () => preBodyComponents;$/;"	C
+getPreBodyComponents	.cache/commonjs/static-entry.js	/^  const getPreBodyComponents = () => preBodyComponents;$/;"	C
+getResourceModule	.cache/commonjs/loader.js	/^const getResourceModule = resourceName => fetchResource(resourceName).then(preferDefault);$/;"	C
+getResourceModule	.cache/loader.js	/^const getResourceModule = resourceName =>$/;"	C
+getResourceURLsForPathname	.cache/commonjs/api-runner-browser.js	/^      getResourceURLsForPathname = _require$publicLoader.getResourceURLsForPathname;$/;"	C
+getResourceURLsForPathname	.cache/commonjs/loader.js	/^  getResourceURLsForPathname: path => {$/;"	C
+getResourceURLsForPathname	.cache/commonjs/loader.js	/^  getResourceURLsForPathname: queue.getResourceURLsForPathname,$/;"	p	class:publicLoader
+getResourceURLsForPathname	.cache/loader.js	/^  getResourceURLsForPathname: path => {$/;"	p	class:queue
+getResourcesForPathname	.cache/commonjs/api-runner-browser.js	/^      getResourcesForPathname = _require$publicLoader.getResourcesForPathname,$/;"	C
+getResourcesForPathname	.cache/commonjs/loader.js	/^  getResourcesForPathname: path => new Promise((resolve, reject) => {$/;"	C
+getResourcesForPathname	.cache/commonjs/loader.js	/^  getResourcesForPathname: queue.getResourcesForPathname,$/;"	p	class:publicLoader
+getResourcesForPathname	.cache/loader.js	/^  getResourcesForPathname: path =>$/;"	p	class:queue
+getResourcesForPathnameSync	.cache/commonjs/api-runner-browser.js	/^      getResourcesForPathnameSync = _require$publicLoader.getResourcesForPathnameSync,$/;"	C
+getResourcesForPathnameSync	.cache/commonjs/loader.js	/^  getResourcesForPathnameSync: path => {$/;"	C
+getResourcesForPathnameSync	.cache/commonjs/loader.js	/^  getResourcesForPathnameSync: queue.getResourcesForPathnameSync$/;"	p	class:publicLoader
+getResourcesForPathnameSync	.cache/loader.js	/^  getResourcesForPathnameSync: path => {$/;"	p	class:queue
+getSlug	src/components/Article.js	/^export const getSlug = (createdAt, slug) => ($/;"	C
+getSlug	src/components/Book.js	/^const getSlug = (startDate, title) => ($/;"	C
+getSnapshotBeforeUpdate	.cache/commonjs/navigation.js	/^  getSnapshotBeforeUpdate(prevProps) {$/;"	m	class:RouteUpdates
+getSnapshotBeforeUpdate	.cache/navigation.js	/^  getSnapshotBeforeUpdate(prevProps) {$/;"	m	class:RouteUpdates
+getStaticQueryData	.cache/commonjs/socketIo.js	/^const getStaticQueryData = () => staticQueryData;$/;"	C
+getStaticQueryData	.cache/socketIo.js	/^export const getStaticQueryData = () => staticQueryData$/;"	C
+getTrainDataAtSpecificStation	src-lambda/morningbot.js	/^  const getTrainDataAtSpecificStation = (serviceUid, date, stationCode) => new Promise(async (re/;"	C
+globals	.cache/.eslintrc.json	/^  "globals": {$/;"	o
+graphql	.cache/commonjs/gatsby-browser-entry.js	/^function graphql() {$/;"	f
+graphql	.cache/gatsby-browser-entry.js	/^function graphql() {$/;"	f
+h	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+h	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+halfAMinute	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t
+handleErrorOverlay	.cache/commonjs/error-overlay-handler.js	/^const handleErrorOverlay = () => {$/;"	C
+handleErrorOverlay	.cache/error-overlay-handler.js	/^const handleErrorOverlay = () => {$/;"	C
+handleResourceLoadError	.cache/commonjs/loader.js	/^const handleResourceLoadError = (path, message) => {$/;"	C
+hasPageResourceMap	.cache/commonjs/loader.js	/^let hasPageResourceMap = process.env.NODE_ENV !== `production`;$/;"	v
+hasPageResourceMap	.cache/loader.js	/^let hasPageResourceMap = process.env.NODE_ENV !== `production`$/;"	v
+hasResources	.cache/commonjs/ensure-resources.js	/^  hasResources(pageResources) {$/;"	m	class:EnsureResources
+hasResources	.cache/ensure-resources.js	/^  hasResources(pageResources) {$/;"	m	class:EnsureResources
+hasSlug	src/components/Article.js	/^  hasSlug: PropTypes.bool$/;"	p	class:Article.propTypes
+hasSlug	src/components/Book.js	/^  hasSlug: PropTypes.bool$/;"	p	class:Book.propTypes
+hasSlug	src/components/Project.js	/^  hasSlug: PropTypes.bool,$/;"	p	class:Project.propTypes
+hash	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.__data__
+headComponents	.cache/commonjs/default-html.js	/^  headComponents: _propTypes.default.array,$/;"	p	class:HTML.propTypes
+headComponents	.cache/commonjs/develop-static-entry.js	/^  let headComponents = [];$/;"	v
+headComponents	.cache/commonjs/static-entry.js	/^  let headComponents = [React.createElement("meta", {$/;"	v
+headComponents	.cache/default-html.js	/^  headComponents: PropTypes.array,$/;"	p	class:HTML.propTypes
+headComponents	.cache/develop-static-entry.js	/^  let headComponents = []$/;"	v
+headComponents	.cache/static-entry.js	/^  let headComponents = [$/;"	v
+headers	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+headers	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+hh	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+hovering	.cache/commonjs/loader.js	/^  hovering: path => {$/;"	C
+hovering	.cache/loader.js	/^  hovering: path => {$/;"	p	class:queue
+html	.cache/commonjs/static-entry.js	/^  const html = `<!DOCTYPE html>${renderToStaticMarkup(React.createElement(Html, (0, _extends2.de/;"	C
+htmlAttributes	.cache/commonjs/default-html.js	/^  htmlAttributes: _propTypes.default.object,$/;"	p	class:HTML.propTypes
+htmlAttributes	.cache/commonjs/develop-static-entry.js	/^  let htmlAttributes = {};$/;"	v
+htmlAttributes	.cache/commonjs/static-entry.js	/^  let htmlAttributes = {};$/;"	v
+htmlAttributes	.cache/default-html.js	/^  htmlAttributes: PropTypes.object,$/;"	p	class:HTML.propTypes
+htmlAttributes	.cache/develop-static-entry.js	/^  let htmlAttributes = {}$/;"	v
+htmlAttributes	.cache/static-entry.js	/^  let htmlAttributes = {}$/;"	v
+htmlElement	.cache/commonjs/develop-static-entry.js	/^  const htmlElement = _react.default.createElement(Html, Object.assign({}, bodyProps, {$/;"	C
+htmlStr	.cache/commonjs/develop-static-entry.js	/^  let htmlStr;$/;"	v
+htmlStr	.cache/develop-static-entry.js	/^  let htmlStr$/;"	v
+i	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f6400
+i	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f7600
+i	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+inFlightGetPageDataPromiseCache	.cache/commonjs/socketIo.js	/^const inFlightGetPageDataPromiseCache = {};$/;"	C
+inFlightGetPageDataPromiseCache	.cache/socketIo.js	/^const inFlightGetPageDataPromiseCache = {}$/;"	C
+inInitialRender	.cache/commonjs/loader.js	/^let inInitialRender = true;$/;"	v
+inInitialRender	.cache/loader.js	/^let inInitialRender = true$/;"	v
+index	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:A.r
+init	.cache/commonjs/navigation.js	/^function init() {$/;"	f
+init	.cache/navigation.js	/^function init() {$/;"	f
+injectValuePlugin	.cache/__tests__/static-entry.js	/^const injectValuePlugin = (hookName, methodName, value) => {$/;"	C
+install	package.json	/^    "install": "^0.12.2",$/;"	s	object:dependencies
+isInitialRender	.cache/commonjs/ensure-resources.js	/^let isInitialRender = true; \/\/ Pass pathname in as prop.$/;"	v
+isInitialRender	.cache/ensure-resources.js	/^let isInitialRender = true$/;"	v
+isInitialized	.cache/commonjs/socketIo.js	/^let isInitialized = false;$/;"	v
+isInitialized	.cache/socketIo.js	/^let isInitialized = false$/;"	v
+isObject	.cache/commonjs/static-entry.js	/^      isObject = _require4.isObject,$/;"	C
+isOnLine	.cache/commonjs/loader.js	/^  const isOnLine = navigator.onLine;$/;"	C
+isOnLine	.cache/loader.js	/^  const isOnLine = navigator.onLine$/;"	C
+isRedirect	.cache/commonjs/static-entry.js	/^      isRedirect = _require3.isRedirect;$/;"	C
+j	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+j	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+join	.cache/commonjs/static-entry.js	/^      join = _require.join;$/;"	C
+jsonDataPaths	.cache/commonjs/loader.js	/^let jsonDataPaths = {};$/;"	v
+jsonDataPaths	.cache/loader.js	/^let jsonDataPaths = {}$/;"	v
+jsonPromiseStore	.cache/commonjs/loader.js	/^const jsonPromiseStore = {};$/;"	C
+jsonPromiseStore	.cache/loader.js	/^const jsonPromiseStore = {}$/;"	C
+keywords	package.json	/^  "keywords": [$/;"	a
+kind	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:A.r
+l	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:AnonymousFunction390d473f7a00
+l	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+l	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+lambda-build	package.json	/^    "lambda-build": "netlify-lambda build src-lambda"$/;"	s	object:scripts
+lambda-serve	package.json	/^    "lambda-serve": "netlify-lambda serve src-lambda",$/;"	s	object:scripts
+lessThanXMinutes	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+lessThanXSeconds	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+license	package.json	/^  "license": "MIT",$/;"	s
+linkPrefetchStrategy	.cache/commonjs/prefetch.js	/^const linkPrefetchStrategy = function linkPrefetchStrategy(url) {$/;"	f
+linkPrefetchStrategy	.cache/prefetch.js	/^const linkPrefetchStrategy = function(url) {$/;"	f
+location	.cache/commonjs/ensure-resources.js	/^      location: Object.assign({}, location),$/;"	p	class:EnsureResources.constructor.state
+location	.cache/commonjs/ensure-resources.js	/^  location: _propTypes.default.object.isRequired,$/;"	p	class:EnsureResources.propTypes
+location	.cache/commonjs/navigation.js	/^  location: _propTypes.default.object.isRequired$/;"	p	class:RouteUpdates.propTypes
+location	.cache/commonjs/page-renderer.js	/^  location: _propTypes.default.object.isRequired,$/;"	p	class:PageRenderer.propTypes
+location	.cache/commonjs/public-page-renderer-dev.js	/^  location: _propTypes.default.shape({$/;"	p	class:DevPageRenderer.propTypes
+location	.cache/commonjs/public-page-renderer-prod.js	/^  location: _propTypes.default.shape({$/;"	p	class:ProdPageRenderer.propTypes
+location	.cache/ensure-resources.js	/^      location: { ...location },$/;"	p	class:EnsureResources.constructor.state
+location	.cache/ensure-resources.js	/^  location: PropTypes.object.isRequired,$/;"	p	class:EnsureResources.propTypes
+location	.cache/navigation.js	/^  location: PropTypes.object.isRequired,$/;"	p	class:RouteUpdates.propTypes
+location	.cache/page-renderer.js	/^  location: PropTypes.object.isRequired,$/;"	p	class:PageRenderer.propTypes
+location	.cache/public-page-renderer-dev.js	/^  location: PropTypes.shape({$/;"	p	class:DevPageRenderer.propTypes
+location	.cache/public-page-renderer-prod.js	/^  location: PropTypes.shape({$/;"	p	class:ProdPageRenderer.propTypes
+lodash	package.json	/^    "lodash": "^4.17.11",$/;"	s	object:dependencies
+m	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+m	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+m	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+main	package.json	/^  "main": "n\/a",$/;"	s
+map	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.__data__
+maybeRedirect	.cache/commonjs/navigation.js	/^function maybeRedirect(pathname) {$/;"	f
+maybeRedirect	.cache/navigation.js	/^function maybeRedirect(pathname) {$/;"	f
+merge	.cache/commonjs/static-entry.js	/^      merge = _require4.merge,$/;"	C
+message	src-lambda/morningbot.js	/^  const message = minutesLateBy < 2$/;"	C
+method	.cache/__tests__/static-entry.js	/^        const method = staticEntry[methodName]$/;"	C
+method	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+minutesLateBy	src-lambda/morningbot.js	/^  const minutesLateBy = realtimeArrival - gbttBookedArrival$/;"	C
+mm	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+mock	.cache/__tests__/static-entry.js	/^jest.mock(`fs`, () => {$/;"	c	class:jest.mock.mock.mock
+n	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:AnonymousFunction390d473f9300
+n	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+name	.cache/babelState.json	/^          "name": "babel-plugin-styled-components",$/;"	s	object:stages.build-html.plugins.0
+name	.cache/babelState.json	/^          "name": "babel-plugin-styled-components",$/;"	s	object:stages.build-javascript.plugins.0
+name	.cache/babelState.json	/^          "name": "babel-plugin-styled-components",$/;"	s	object:stages.develop-html.plugins.0
+name	.cache/babelState.json	/^          "name": "babel-plugin-styled-components",$/;"	s	object:stages.develop.plugins.0
+name	package.json	/^  "name": "tomoakley.me",$/;"	s
+navigate	.cache/commonjs/navigation.js	/^const navigate = (to, options = {}) => {$/;"	C
+navigate	.cache/navigation.js	/^const navigate = (to, options = {}) => {$/;"	C
+netlify-lambda	package.json	/^    "netlify-lambda": "^1.4.13",$/;"	s	object:dependencies
+node-fetch	package.json	/^    "node-fetch": "^2.6.0",$/;"	s	object:dependencies
+npm	package.json	/^    "npm": "^6.5.0",$/;"	s	object:dependencies
+nt	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+o	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:AnonymousFunction390d473f9300
+o	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f7600
+o	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+onPostPrefetchPathname	.cache/commonjs/loader.js	/^const onPostPrefetchPathname = pathname => {$/;"	C
+onPostPrefetchPathname	.cache/loader.js	/^const onPostPrefetchPathname = pathname => {$/;"	C
+onPreRenderHTML	.cache/__tests__/static-entry.js	/^    onPreRenderHTML: ({ getHeadComponents, replaceHeadComponents }) => {$/;"	p	class:beforeEach.plugin
+onPreRenderHTML	.cache/__tests__/static-entry.js	/^    onPreRenderHTML: ({$/;"	p	class:checkNonEmptyHeadersPlugin.plugin
+onPreRouteUpdate	.cache/commonjs/navigation.js	/^const onPreRouteUpdate = (location, prevLocation) => {$/;"	C
+onPreRouteUpdate	.cache/navigation.js	/^const onPreRouteUpdate = (location, prevLocation) => {$/;"	C
+onPrefetchPathname	.cache/commonjs/loader.js	/^const onPrefetchPathname = pathname => {$/;"	C
+onPrefetchPathname	.cache/loader.js	/^const onPrefetchPathname = pathname => {$/;"	C
+onRenderBody	.cache/__tests__/static-entry.js	/^    onRenderBody: ({ setHeadComponents }) =>$/;"	p	class:fakeStylesPlugin.plugin
+onRouteUpdate	.cache/commonjs/navigation.js	/^const onRouteUpdate = (location, prevLocation) => {$/;"	C
+onRouteUpdate	.cache/navigation.js	/^const onRouteUpdate = (location, prevLocation) => {$/;"	C
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.aboutXHours
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.aboutXMonths
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.aboutXYears
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.almostXYears
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.lessThanXMinutes
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.lessThanXSeconds
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.overXYears
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xDays
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xHours
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xMinutes
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xMonths
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xSeconds
+one	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xYears
+options	.cache/babelState.json	/^          "options": {$/;"	o	object:stages.build-html.plugins.0
+options	.cache/babelState.json	/^          "options": {$/;"	o	object:stages.build-javascript.plugins.0
+options	.cache/babelState.json	/^          "options": {$/;"	o	object:stages.develop-html.plugins.0
+options	.cache/babelState.json	/^          "options": {$/;"	o	object:stages.develop.plugins.0
+options	.cache/babelState.json	/^      "options": {$/;"	o	object:stages.build-html
+options	.cache/babelState.json	/^      "options": {$/;"	o	object:stages.build-javascript
+options	.cache/babelState.json	/^      "options": {$/;"	o	object:stages.develop
+options	.cache/babelState.json	/^      "options": {$/;"	o	object:stages.develop-html
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.aboutXHours
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.aboutXMonths
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.aboutXYears
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.almostXYears
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.lessThanXMinutes
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.lessThanXSeconds
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.overXYears
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xDays
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xHours
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xMinutes
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xMonths
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xSeconds
+other	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.t.xYears
+overXYears	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+overlayErrorID	.cache/commonjs/root.js	/^  const overlayErrorID = `webpack`; \/\/ Report build errors$/;"	C
+overlayErrorID	.cache/root.js	/^  const overlayErrorID = `webpack`$/;"	C
+p	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+p	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+page	.cache/commonjs/loader.js	/^    const page = findPage(path);$/;"	C
+page	.cache/commonjs/loader.js	/^    let page = findPage(path); \/\/ In production, we lazy load page metadata. If that$/;"	v
+page	.cache/commonjs/static-entry.js	/^  const page = getPage(pagePath);$/;"	C
+page	.cache/root.js	/^    let page = loader.getPage(location.pathname)$/;"	v
+pageCache	.cache/commonjs/find-page.js	/^const pageCache = {};$/;"	C
+pageCache	.cache/find-page.js	/^const pageCache = {}$/;"	C
+pageContext	.cache/commonjs/page-renderer.js	/^  pageContext: _propTypes.default.object.isRequired$/;"	p	class:PageRenderer.propTypes
+pageContext	.cache/page-renderer.js	/^  pageContext: PropTypes.object.isRequired,$/;"	p	class:PageRenderer.propTypes
+pageContext	src/templates/article.js	/^  pageContext: PropTypes.object.isRequired$/;"	p	class:ArticleTemplate.propTypes
+pageContext	src/templates/article.js	/^  pageContext: {$/;"	p	class:ArticleTemplate
+pageContext	src/templates/book.js	/^  pageContext: PropTypes.object.isRequired$/;"	p	class:BookTemplate.propTypes
+pageContext	src/templates/project.js	/^  pageContext: PropTypes.object.isRequired$/;"	p	class:ProjectTemplate.propTypes
+pageFinderFactory	.cache/__tests__/find-page.js	/^const pageFinderFactory = require(`..\/find-page`).default$/;"	C
+pageQueryData	.cache/commonjs/json-store.js	/^      pageQueryData: (0, _socketIo.getPageQueryData)(),$/;"	p	class:JSONStore.constructor.state
+pageQueryData	.cache/commonjs/socketIo.js	/^let pageQueryData = {};$/;"	v
+pageQueryData	.cache/json-store.js	/^      pageQueryData: getPageQueryData(),$/;"	p	class:super.state
+pageQueryData	.cache/socketIo.js	/^let pageQueryData = {}$/;"	v
+pageResources	.cache/commonjs/ensure-resources.js	/^      pageResources: _loader.default.getResourcesForPathnameSync(location.pathname)$/;"	p	class:EnsureResources.constructor.state
+pageResources	.cache/commonjs/ensure-resources.js	/^  pageResources: _propTypes.default.object$/;"	p	class:EnsureResources.propTypes
+pageResources	.cache/commonjs/page-renderer.js	/^  pageResources: _propTypes.default.object.isRequired,$/;"	p	class:PageRenderer.propTypes
+pageResources	.cache/commonjs/public-page-renderer-dev.js	/^  const pageResources = _loader.default.getResourcesForPathnameSync(location.pathname);$/;"	C
+pageResources	.cache/commonjs/public-page-renderer-prod.js	/^  const pageResources = _loader.default.getResourcesForPathnameSync(location.pathname);$/;"	C
+pageResources	.cache/ensure-resources.js	/^      pageResources: loader.getResourcesForPathnameSync(location.pathname),$/;"	p	class:EnsureResources.constructor.state
+pageResources	.cache/ensure-resources.js	/^  pageResources: PropTypes.object,$/;"	p	class:EnsureResources.propTypes
+pageResources	.cache/page-renderer.js	/^  pageResources: PropTypes.object.isRequired,$/;"	p	class:PageRenderer.propTypes
+pageResources	.cache/public-page-renderer-dev.js	/^  const pageResources = loader.getResourcesForPathnameSync(location.pathname)$/;"	C
+pageResources	.cache/public-page-renderer-prod.js	/^  const pageResources = loader.getResourcesForPathnameSync(location.pathname)$/;"	C
+pages	.cache/commonjs/static-entry.js	/^      pages = _require5.pages;$/;"	C
+pagesObjectMap	.cache/commonjs/static-entry.js	/^const pagesObjectMap = new Map();$/;"	C
+pagesObjectMap	.cache/static-entry.js	/^const pagesObjectMap = new Map()$/;"	C
+path	.cache/__tests__/minimal-config.js	/^const path = require(`path`)$/;"	C
+path	.cache/commonjs/json-store.js	/^      path: null$/;"	p	class:JSONStore.constructor.state
+path	.cache/json-store.js	/^      path: null,$/;"	p	class:super.state
+path	gatsby-node.js	/^const path = require('path')$/;"	C
+pathScriptsCache	.cache/commonjs/loader.js	/^let pathScriptsCache = {};$/;"	v
+pathScriptsCache	.cache/loader.js	/^let pathScriptsCache = {}$/;"	v
+pathToJsonData	.cache/commonjs/static-entry.js	/^    const pathToJsonData = join(process.cwd(), `\/public\/static\/d`, `${dataPaths[page.jsonName/;"	C
+pathToJsonData	.cache/static-entry.js	/^    const pathToJsonData = join($/;"	C
+pathname	.cache/commonjs/find-page.js	/^  let pathname = decodeURIComponent(rawPathname); \/\/ Remove the pathPrefix from the pathname.$/;"	v
+pathname	.cache/commonjs/navigation.js	/^      pathname = _parsePath.pathname;$/;"	v
+pathname	.cache/find-page.js	/^  let pathname = decodeURIComponent(rawPathname)$/;"	v
+plugin	.cache/__tests__/static-entry.js	/^  plugin: {$/;"	c	class:beforeEach
+plugin	.cache/__tests__/static-entry.js	/^  plugin: {$/;"	c	class:checkNonEmptyHeadersPlugin
+plugin	.cache/__tests__/static-entry.js	/^  plugin: {$/;"	c	class:fakeStylesPlugin
+plugins	.cache/api-runner-browser.js	/^const plugins = require(`.\/api-runner-browser-plugins`)$/;"	C
+plugins	.cache/api-runner-ssr.js	/^var plugins = [{$/;"	v
+plugins	.cache/babelState.json	/^            "plugins": [],$/;"	a	object:stages.build-html.plugins.0.options
+plugins	.cache/babelState.json	/^            "plugins": [],$/;"	a	object:stages.build-javascript.plugins.0.options
+plugins	.cache/babelState.json	/^            "plugins": [],$/;"	a	object:stages.develop-html.plugins.0.options
+plugins	.cache/babelState.json	/^            "plugins": [],$/;"	a	object:stages.develop.plugins.0.options
+plugins	.cache/babelState.json	/^      "plugins": [$/;"	a	object:stages.build-html
+plugins	.cache/babelState.json	/^      "plugins": [$/;"	a	object:stages.build-javascript
+plugins	.cache/babelState.json	/^      "plugins": [$/;"	a	object:stages.develop
+plugins	.cache/babelState.json	/^      "plugins": [$/;"	a	object:stages.develop-html
+plugins	.cache/commonjs/api-runner-browser.js	/^const plugins = require(`.\/api-runner-browser-plugins`);$/;"	C
+plugins	gatsby-config.js	/^  plugins: [$/;"	p	class:module.exports
+postBodyComponents	.cache/commonjs/default-html.js	/^  postBodyComponents: _propTypes.default.array$/;"	p	class:HTML.propTypes
+postBodyComponents	.cache/commonjs/develop-static-entry.js	/^  let postBodyComponents = [];$/;"	v
+postBodyComponents	.cache/commonjs/static-entry.js	/^  let postBodyComponents = [];$/;"	v
+postBodyComponents	.cache/default-html.js	/^  postBodyComponents: PropTypes.array,$/;"	p	class:HTML.propTypes
+postBodyComponents	.cache/develop-static-entry.js	/^  let postBodyComponents = []$/;"	v
+postBodyComponents	.cache/static-entry.js	/^  let postBodyComponents = []$/;"	v
+postInitialRenderWork	.cache/commonjs/loader.js	/^const postInitialRenderWork = () => {$/;"	C
+postInitialRenderWork	.cache/loader.js	/^export const postInitialRenderWork = () => {$/;"	C
+preBodyComponents	.cache/commonjs/default-html.js	/^  preBodyComponents: _propTypes.default.array,$/;"	p	class:HTML.propTypes
+preBodyComponents	.cache/commonjs/develop-static-entry.js	/^  let preBodyComponents = [];$/;"	v
+preBodyComponents	.cache/commonjs/static-entry.js	/^  let preBodyComponents = [];$/;"	v
+preBodyComponents	.cache/default-html.js	/^  preBodyComponents: PropTypes.array,$/;"	p	class:HTML.propTypes
+preBodyComponents	.cache/develop-static-entry.js	/^  let preBodyComponents = []$/;"	v
+preBodyComponents	.cache/static-entry.js	/^  let preBodyComponents = []$/;"	v
+preFetched	.cache/commonjs/prefetch.js	/^const preFetched = {};$/;"	C
+preFetched	.cache/prefetch.js	/^const preFetched = {}$/;"	C
+preferDefault	.cache/commonjs/loader.js	/^const preferDefault = m => m && m.default || m;$/;"	C
+preferDefault	.cache/commonjs/public-page-renderer.js	/^const preferDefault = m => m && m.default || m;$/;"	C
+preferDefault	.cache/loader.js	/^const preferDefault = m => (m && m.default) || m$/;"	C
+preferDefault	.cache/public-page-renderer.js	/^const preferDefault = m => (m && m.default) || m$/;"	C
+prefetch	.cache/commonjs/prefetch.js	/^const prefetch = function prefetch(url) {$/;"	f
+prefetch	.cache/prefetch.js	/^const prefetch = function(url) {$/;"	f
+prefetchCompleted	.cache/commonjs/loader.js	/^let prefetchCompleted = {};$/;"	v
+prefetchCompleted	.cache/loader.js	/^let prefetchCompleted = {}$/;"	v
+prefetchResource	.cache/commonjs/loader.js	/^const prefetchResource = resourceName => {$/;"	C
+prefetchResource	.cache/loader.js	/^const prefetchResource = resourceName => {$/;"	C
+prefetchTriggered	.cache/commonjs/loader.js	/^let prefetchTriggered = {};$/;"	v
+prefetchTriggered	.cache/loader.js	/^let prefetchTriggered = {}$/;"	v
+presets	.cache/babelState.json	/^      "presets": [],$/;"	a	object:stages.build-html
+presets	.cache/babelState.json	/^      "presets": [],$/;"	a	object:stages.build-javascript
+presets	.cache/babelState.json	/^      "presets": [],$/;"	a	object:stages.develop
+presets	.cache/babelState.json	/^      "presets": [],$/;"	a	object:stages.develop-html
+prettier	package.json	/^    "prettier": "^1.9.2"$/;"	s	object:devDependencies
+primary	src/global-styles.js	/^  primary: "#A4C6CF",$/;"	p	class:theme
+projectsQuery	src/pages/books.js	/^export const projectsQuery = graphql`$/;"	C
+projectsQuery	src/pages/projects.js	/^export const projectsQuery = graphql`$/;"	C
+prop-types	package.json	/^    "prop-types": "^15.6.2",$/;"	s	object:dependencies
+propTypes	.cache/commonjs/default-html.js	/^HTML.propTypes = {$/;"	c	class:HTML
+propTypes	.cache/commonjs/ensure-resources.js	/^EnsureResources.propTypes = {$/;"	c	class:EnsureResources
+propTypes	.cache/commonjs/gatsby-browser-entry.js	/^StaticQuery.propTypes = {$/;"	c	class:StaticQuery
+propTypes	.cache/commonjs/navigation.js	/^RouteUpdates.propTypes = {$/;"	c	class:RouteUpdates
+propTypes	.cache/commonjs/page-renderer.js	/^PageRenderer.propTypes = {$/;"	c	class:PageRenderer
+propTypes	.cache/commonjs/public-page-renderer-dev.js	/^DevPageRenderer.propTypes = {$/;"	c	class:DevPageRenderer
+propTypes	.cache/commonjs/public-page-renderer-prod.js	/^ProdPageRenderer.propTypes = {$/;"	c	class:ProdPageRenderer
+propTypes	.cache/default-html.js	/^HTML.propTypes = {$/;"	c	class:HTML
+propTypes	.cache/ensure-resources.js	/^EnsureResources.propTypes = {$/;"	c	class:EnsureResources
+propTypes	.cache/gatsby-browser-entry.js	/^StaticQuery.propTypes = {$/;"	c	class:StaticQuery
+propTypes	.cache/navigation.js	/^RouteUpdates.propTypes = {$/;"	c	class:RouteUpdates
+propTypes	.cache/page-renderer.js	/^PageRenderer.propTypes = {$/;"	c	class:PageRenderer
+propTypes	.cache/public-page-renderer-dev.js	/^DevPageRenderer.propTypes = {$/;"	c	class:DevPageRenderer
+propTypes	.cache/public-page-renderer-prod.js	/^ProdPageRenderer.propTypes = {$/;"	c	class:ProdPageRenderer
+propTypes	src/components/Article.js	/^Article.propTypes = {$/;"	c	class:Article
+propTypes	src/components/Book.js	/^Book.propTypes = {$/;"	c	class:Book
+propTypes	src/components/Header/HeaderLink.js	/^HeaderLink.propTypes = {$/;"	c	class:HeaderLink
+propTypes	src/components/Header/index.js	/^Header.propTypes = {$/;"	c	class:Header
+propTypes	src/components/Layout.js	/^Layout.propTypes = {$/;"	c	class:Layout
+propTypes	src/components/Project.js	/^Project.propTypes = {$/;"	c	class:Project
+propTypes	src/templates/article.js	/^ArticleTemplate.propTypes = {$/;"	c	class:ArticleTemplate
+propTypes	src/templates/book.js	/^BookTemplate.propTypes = {$/;"	c	class:BookTemplate
+propTypes	src/templates/project.js	/^ProjectTemplate.propTypes = {$/;"	c	class:ProjectTemplate
+publicLoader	.cache/commonjs/loader.js	/^const publicLoader = {$/;"	c
+query	.cache/commonjs/gatsby-browser-entry.js	/^  query: _propTypes.default.string.isRequired,$/;"	p	class:StaticQuery.propTypes
+query	.cache/gatsby-browser-entry.js	/^  query: PropTypes.string.isRequired,$/;"	p	class:StaticQuery.propTypes
+queue	.cache/commonjs/loader.js	/^const queue = {$/;"	c
+queue	.cache/loader.js	/^const queue = {$/;"	c
+r	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:A
+r	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f0100
+r	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f6400.i
+r	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:t.exports.AnonymousFunction390d473f2700
+r	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+react	package.json	/^    "react": "^16.7.0",$/;"	s	object:dependencies
+react-dom	package.json	/^    "react-dom": "^16.7.0",$/;"	s	object:dependencies
+react-helmet	package.json	/^    "react-helmet": "^5.2.0",$/;"	s	object:dependencies
+react-typography	package.json	/^    "react-typography": "^0.16.19",$/;"	s	object:dependencies
+real404PageResources	.cache/root.js	/^      const real404PageResources = loader.getResourcesForPathnameSync($/;"	C
+redirect	.cache/commonjs/navigation.js	/^  const redirect = redirectMap[pathname]; \/\/ If we're redirecting, just replace the passed in /;"	C
+redirect	.cache/navigation.js	/^  const redirect = redirectMap[pathname]$/;"	C
+redirectMap	.cache/commonjs/navigation.js	/^const redirectMap = _redirects.default.reduce((map, redirect) => {$/;"	C
+redirectMap	.cache/navigation.js	/^const redirectMap = redirects.reduce((map, redirect) => {$/;"	C
+regex	.cache/commonjs/develop-static-entry.js	/^  const regex = new RegExp(`Error: Cannot find module\\\\s.${moduleName}`);$/;"	C
+regex	.cache/commonjs/static-entry.js	/^  const regex = new RegExp(`Error: Cannot find module\\\\s.${moduleName}`);$/;"	C
+regex	.cache/develop-static-entry.js	/^  const regex = new RegExp(`Error: Cannot find module\\\\s.${moduleName}`)$/;"	C
+regex	.cache/static-entry.js	/^  const regex = new RegExp(`Error: Cannot find module\\\\s.${moduleName}`)$/;"	C
+regex	.cache/test-require-error.js	/^  const regex = new RegExp(`Error: Cannot find module\\\\s.${moduleName.replace(\/[-\/\\\\^$*+?./;"	C
+registerPath	.cache/commonjs/socketIo.js	/^function registerPath(path) {$/;"	f
+registerPath	.cache/socketIo.js	/^function registerPath(path) {$/;"	f
+reloadPage	.cache/commonjs/ensure-resources.js	/^  reloadPage(prevHref) {$/;"	m	class:EnsureResources
+reloadPage	.cache/ensure-resources.js	/^  reloadPage(prevHref) {$/;"	m	class:EnsureResources
+render	.cache/commonjs/ensure-resources.js	/^  render() {$/;"	m	class:EnsureResources
+render	.cache/commonjs/gatsby-browser-entry.js	/^  render: _propTypes.default.func,$/;"	p	class:StaticQuery.propTypes
+render	.cache/commonjs/json-store.js	/^  render() {$/;"	m	class:JSONStore
+render	.cache/commonjs/navigation.js	/^  render() {$/;"	m	class:RouteUpdates
+render	.cache/commonjs/page-renderer.js	/^  render() {$/;"	m	class:PageRenderer
+render	.cache/commonjs/root.js	/^  render() {$/;"	m	class:RouteHandler
+render	.cache/commonjs/static-entry.js	/^    render() {$/;"	m	class:RouteHandler
+render	.cache/ensure-resources.js	/^  render() {$/;"	m	class:EnsureResources
+render	.cache/gatsby-browser-entry.js	/^  render: PropTypes.func,$/;"	p	class:StaticQuery.propTypes
+render	.cache/json-store.js	/^  render() {$/;"	m	class:JSONStore
+render	.cache/navigation.js	/^  render() {$/;"	m	class:RouteUpdates
+render	.cache/page-renderer.js	/^  render() {$/;"	m	class:PageRenderer
+render	.cache/static-entry.js	/^    render() {$/;"	m	class:RouteHandler
+render	src/pages/index.js	/^  render() {$/;"	m	class:IndexPage
+renderStartAndFinishDates	src/components/Book.js	/^export const renderStartAndFinishDates = (startDate, finishDate) => {$/;"	C
+renderToStaticMarkup	.cache/commonjs/static-entry.js	/^      renderToStaticMarkup = _require2.renderToStaticMarkup;$/;"	C
+renderToString	.cache/commonjs/static-entry.js	/^      renderToString = _require2.renderToString,$/;"	C
+replaceBodyHTMLString	.cache/commonjs/static-entry.js	/^  const replaceBodyHTMLString = body => {$/;"	C
+replaceBodyHTMLString	.cache/static-entry.js	/^  const replaceBodyHTMLString = body => {$/;"	C
+replaceHeadComponents	.cache/commonjs/develop-static-entry.js	/^  const replaceHeadComponents = components => {$/;"	C
+replaceHeadComponents	.cache/commonjs/static-entry.js	/^  const replaceHeadComponents = components => {$/;"	C
+replaceHeadComponents	.cache/develop-static-entry.js	/^  const replaceHeadComponents = components => {$/;"	C
+replaceHeadComponents	.cache/static-entry.js	/^  const replaceHeadComponents = components => {$/;"	C
+replacePostBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const replacePostBodyComponents = components => {$/;"	C
+replacePostBodyComponents	.cache/commonjs/static-entry.js	/^  const replacePostBodyComponents = components => {$/;"	C
+replacePostBodyComponents	.cache/develop-static-entry.js	/^  const replacePostBodyComponents = components => {$/;"	C
+replacePostBodyComponents	.cache/static-entry.js	/^  const replacePostBodyComponents = components => {$/;"	C
+replacePreBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const replacePreBodyComponents = components => {$/;"	C
+replacePreBodyComponents	.cache/commonjs/static-entry.js	/^  const replacePreBodyComponents = components => {$/;"	C
+replacePreBodyComponents	.cache/develop-static-entry.js	/^  const replacePreBodyComponents = components => {$/;"	C
+replacePreBodyComponents	.cache/static-entry.js	/^  const replacePreBodyComponents = components => {$/;"	C
+reportError	.cache/commonjs/error-overlay-handler.js	/^const reportError = (errorID, error) => {$/;"	C
+reportError	.cache/error-overlay-handler.js	/^export const reportError = (errorID, error) => {$/;"	C
+resourceFunction	.cache/commonjs/loader.js	/^  let resourceFunction;$/;"	v
+resourceFunction	.cache/loader.js	/^  let resourceFunction$/;"	v
+results	.cache/api-runner-browser.js	/^  let results = plugins.map(plugin => {$/;"	v
+results	.cache/api-runner-ssr.js	/^  let results = plugins.map(plugin => {$/;"	v
+results	.cache/commonjs/api-runner-browser.js	/^  let results = plugins.map(plugin => {$/;"	v
+results	.cache/commonjs/api-runner-ssr.js	/^  let results = plugins.map(plugin => {$/;"	v
+retryResources	.cache/commonjs/ensure-resources.js	/^  retryResources(nextProps) {$/;"	m	class:EnsureResources
+retryResources	.cache/ensure-resources.js	/^  retryResources(nextProps) {$/;"	m	class:EnsureResources
+reverseBodyComponentsPluginFactory	.cache/__tests__/static-entry.js	/^const reverseBodyComponentsPluginFactory = type => {$/;"	C
+routerElement	.cache/commonjs/static-entry.js	/^  const routerElement = createElement(ServerLocation, {$/;"	C
+routerElement	.cache/static-entry.js	/^  const routerElement = createElement($/;"	C
+s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c
+s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f1000
+s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f3b00
+s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+sanitizeComponents	.cache/commonjs/static-entry.js	/^const sanitizeComponents = components => {$/;"	C
+sanitizeComponents	.cache/static-entry.js	/^const sanitizeComponents = components => {$/;"	C
+sansSerif	src/global-styles.js	/^    sansSerif: "'Lato', 'Helvetica Neue', Helvetica, sans-serif",$/;"	p	class:theme.fonts
+sansSerifBold	src/global-styles.js	/^    sansSerifBold: "'Lato', 'Helvetica Neue', Helvetica, sans-serif",$/;"	p	class:theme.fonts
+scriptChunkMapping	.cache/commonjs/static-entry.js	/^  const scriptChunkMapping = `\/*<![CDATA[*\/window.___chunkMapping=${JSON.stringify(chunkMappin/;"	C
+scripts	.cache/commonjs/static-entry.js	/^  const scripts = scriptsAndStyles.filter(script => script.name && script.name.endsWith(`.js`));$/;"	C
+scripts	.cache/static-entry.js	/^  const scripts = scriptsAndStyles.filter($/;"	C
+scripts	package.json	/^  "scripts": {$/;"	o
+scriptsAndStyles	.cache/commonjs/static-entry.js	/^  let scriptsAndStyles = flatten([`app`, page.componentChunkName].map(s => {$/;"	v
+scriptsAndStyles	.cache/static-entry.js	/^  let scriptsAndStyles = flatten($/;"	v
+secondary	src/global-styles.js	/^  secondary: "#EBF3F6",$/;"	p	class:theme
+serif	src/global-styles.js	/^    serif: "'Cardo', Georgia, Times New Roman, serif",$/;"	p	class:theme.fonts
+setApiRunnerForLoader	.cache/commonjs/loader.js	/^const setApiRunnerForLoader = runner => {$/;"	C
+setApiRunnerForLoader	.cache/loader.js	/^export const setApiRunnerForLoader = runner => {$/;"	C
+setBodyAttributes	.cache/commonjs/develop-static-entry.js	/^  const setBodyAttributes = attributes => {$/;"	C
+setBodyAttributes	.cache/commonjs/static-entry.js	/^  const setBodyAttributes = attributes => {$/;"	C
+setBodyProps	.cache/commonjs/develop-static-entry.js	/^  const setBodyProps = props => {$/;"	C
+setBodyProps	.cache/commonjs/static-entry.js	/^  const setBodyProps = props => {$/;"	C
+setHeadComponents	.cache/commonjs/develop-static-entry.js	/^  const setHeadComponents = components => {$/;"	C
+setHeadComponents	.cache/commonjs/static-entry.js	/^  const setHeadComponents = components => {$/;"	C
+setHeadComponents	.cache/develop-static-entry.js	/^  const setHeadComponents = components => {$/;"	C
+setHtmlAttributes	.cache/commonjs/develop-static-entry.js	/^  const setHtmlAttributes = attributes => {$/;"	C
+setHtmlAttributes	.cache/commonjs/static-entry.js	/^  const setHtmlAttributes = attributes => {$/;"	C
+setPostBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const setPostBodyComponents = components => {$/;"	C
+setPostBodyComponents	.cache/commonjs/static-entry.js	/^  const setPostBodyComponents = components => {$/;"	C
+setPreBodyComponents	.cache/commonjs/develop-static-entry.js	/^  const setPreBodyComponents = components => {$/;"	C
+setPreBodyComponents	.cache/commonjs/static-entry.js	/^  const setPreBodyComponents = components => {$/;"	C
+shouldComponentUpdate	.cache/commonjs/ensure-resources.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	m	class:EnsureResources
+shouldComponentUpdate	.cache/commonjs/json-store.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	m	class:JSONStore
+shouldComponentUpdate	.cache/ensure-resources.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	m	class:EnsureResources
+shouldComponentUpdate	.cache/json-store.js	/^  shouldComponentUpdate(nextProps, nextState) {$/;"	m	class:JSONStore
+shouldFallbackTo404Resources	.cache/commonjs/loader.js	/^const shouldFallbackTo404Resources = path => (hasPageResourceMap || inInitialRender) && path !==/;"	C
+shouldFallbackTo404Resources	.cache/loader.js	/^const shouldFallbackTo404Resources = path =>$/;"	C
+shouldUpdateScroll	.cache/commonjs/navigation.js	/^function shouldUpdateScroll(prevRouterProps, {$/;"	f
+shouldUpdateScroll	.cache/navigation.js	/^function shouldUpdateScroll(prevRouterProps, { location }) {$/;"	f
+signal	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+siteMetadata	gatsby-config.js	/^  siteMetadata: {$/;"	c	class:module.exports
+size	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	G	class:AnonymousFunction390d473f7a00.l
+size	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+slackMessage	src-lambda/morningbot.js	/^  const slackMessage = `Morning Tom! ${message}.`$/;"	C
+slice	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
+socket	.cache/commonjs/socketIo.js	/^let socket = null;$/;"	v
+socket	.cache/socketIo.js	/^let socket = null$/;"	v
+socketIo	.cache/commonjs/socketIo.js	/^function socketIo() {$/;"	f
+socketIo	.cache/socketIo.js	/^export default function socketIo() {$/;"	f
+sourceType	.cache/babelState.json	/^        "sourceType": "unambiguous"$/;"	s	object:stages.build-html.options
+sourceType	.cache/babelState.json	/^        "sourceType": "unambiguous"$/;"	s	object:stages.build-javascript.options
+sourceType	.cache/babelState.json	/^        "sourceType": "unambiguous"$/;"	s	object:stages.develop-html.options
+sourceType	.cache/babelState.json	/^        "sourceType": "unambiguous"$/;"	s	object:stages.develop.options
+ss	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+ssr	.cache/babelState.json	/^            "ssr": false$/;"	b	object:stages.develop-html.plugins.0.options
+ssr	.cache/babelState.json	/^            "ssr": false$/;"	b	object:stages.develop.plugins.0.options
+ssr	.cache/babelState.json	/^            "ssr": true$/;"	b	object:stages.build-html.plugins.0.options
+ssr	.cache/babelState.json	/^            "ssr": true$/;"	b	object:stages.build-javascript.plugins.0.options
+stage	.cache/babelState.json	/^          "stage": "build-html",$/;"	s	object:stages.build-html.plugins.0
+stage	.cache/babelState.json	/^          "stage": "build-javascript",$/;"	s	object:stages.build-javascript.plugins.0
+stage	.cache/babelState.json	/^          "stage": "develop",$/;"	s	object:stages.develop.plugins.0
+stage	.cache/babelState.json	/^          "stage": "develop-html",$/;"	s	object:stages.develop-html.plugins.0
+stages	.cache/babelState.json	/^  "stages": {$/;"	o
+state	.cache/commonjs/ensure-resources.js	/^    this.state = {$/;"	c	class:EnsureResources.constructor
+state	.cache/commonjs/json-store.js	/^    this.state = {$/;"	c	class:JSONStore.constructor
+state	.cache/ensure-resources.js	/^    this.state = {$/;"	c	class:EnsureResources.constructor
+state	.cache/json-store.js	/^    super(props)$/;"	c	class:super
+staticQueryData	.cache/commonjs/json-store.js	/^      staticQueryData: (0, _socketIo.getStaticQueryData)(),$/;"	p	class:JSONStore.constructor.state
+staticQueryData	.cache/commonjs/socketIo.js	/^let staticQueryData = {};$/;"	v
+staticQueryData	.cache/json-store.js	/^      staticQueryData: getStaticQueryData(),$/;"	p	class:super.state
+staticQueryData	.cache/socketIo.js	/^let staticQueryData = {}$/;"	v
+stats	.cache/commonjs/static-entry.js	/^const stats = JSON.parse(fs.readFileSync(`${process.cwd()}\/public\/webpack.stats.json`, `utf-8`/;"	C
+status	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+statusText	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+stream	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
+string	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.__data__
+stripPrefix	.cache/__tests__/strip-prefix.js	/^const stripPrefix = require(`..\/strip-prefix`).default$/;"	C
+styled-components	package.json	/^    "styled-components": "^4.1.3",$/;"	s	object:dependencies
+styles	.cache/commonjs/static-entry.js	/^  const styles = scriptsAndStyles.filter(style => style.name && style.name.endsWith(`.css`));$/;"	C
+styles	.cache/static-entry.js	/^  const styles = scriptsAndStyles.filter($/;"	C
+succeededFetch	.cache/commonjs/loader.js	/^  const succeededFetch = fetchHistory.find(entry => entry.succeeded);$/;"	C
+succeededFetch	.cache/loader.js	/^  const succeededFetch = fetchHistory.find(entry => entry.succeeded)$/;"	C
+support	.cache/commonjs/prefetch.js	/^const support = function support(feature) {$/;"	f
+support	.cache/prefetch.js	/^const support = function(feature) {$/;"	f
+syncRequires	.cache/commonjs/loader.js	/^let syncRequires = {};$/;"	v
+syncRequires	.cache/commonjs/static-entry.js	/^const syncRequires = require(`.\/sync-requires`);$/;"	C
+syncRequires	.cache/loader.js	/^let syncRequires = {}$/;"	v
+syncRequires	.cache/static-entry.js	/^const syncRequires = require(`.\/sync-requires`)$/;"	C
+t	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports
+t	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+tag	src/components/Header/HeaderLink.js	/^  tag: PropTypes.string,$/;"	p	class:HeaderLink.propTypes
+target	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:A.r
+test	package.json	/^    "test": "echo \\"Error: no test specified\\" && exit 1",$/;"	s	object:scripts
+testRequireError	.cache/commonjs/develop-static-entry.js	/^const testRequireError = (moduleName, err) => {$/;"	C
+testRequireError	.cache/commonjs/static-entry.js	/^const testRequireError = (moduleName, err) => {$/;"	C
+testRequireError	.cache/develop-static-entry.js	/^const testRequireError = (moduleName, err) => {$/;"	C
+testRequireError	.cache/static-entry.js	/^const testRequireError = (moduleName, err) => {$/;"	C
+text	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
+theme	src/global-styles.js	/^export const theme = {$/;"	c
+timeout	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
+timeout	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+timeoutId	.cache/commonjs/navigation.js	/^  const timeoutId = setTimeout(() => {$/;"	C
+timeoutId	.cache/navigation.js	/^  const timeoutId = setTimeout(() => {$/;"	C
+title	gatsby-config.js	/^    title: `Tom Oakley`,$/;"	p	class:module.exports.siteMetadata
+titles	src/components/Header/index.js	/^  titles: PropTypes.array.isRequired$/;"	p	class:Header.propTypes
+to	src/components/Header/HeaderLink.js	/^  to: PropTypes.string,$/;"	p	class:HeaderLink.propTypes
+toString	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
+trimmedPathname	.cache/commonjs/find-page.js	/^  let trimmedPathname = (0, _stripPrefix.default)(pathname, pathPrefix); \/\/ Remove any hashfra/;"	v
+trimmedPathname	.cache/find-page.js	/^  let trimmedPathname = stripPrefix(pathname, pathPrefix)$/;"	v
+type	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	G	class:AnonymousFunction390d473f7a00.l
+typography	package.json	/^    "typography": "^0.16.19"$/;"	s	object:dependencies
+typography	src/utils/typography.js	/^const typography = new Typography({$/;"	C
+u	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c
+u	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+u	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+uniqBy	.cache/commonjs/static-entry.js	/^      uniqBy = _require4.uniqBy;$/;"	C
+unregisterPath	.cache/commonjs/socketIo.js	/^function unregisterPath(path) {$/;"	f
+unregisterPath	.cache/socketIo.js	/^function unregisterPath(path) {$/;"	f
+url	.cache/commonjs/loader.js	/^    const url = createJsonURL(jsonDataPaths[resourceName]);$/;"	C
+url	.cache/loader.js	/^    const url = createJsonURL(jsonDataPaths[resourceName])$/;"	C
+url	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
+useStaticQuery	.cache/commonjs/gatsby-browser-entry.js	/^const useStaticQuery = query => {$/;"	C
+useStaticQuery	.cache/gatsby-browser-entry.js	/^const useStaticQuery = query => {$/;"	C
+v	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+v	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+version	package.json	/^  "version": "0.1.0",$/;"	s
+w	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+w	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+windowData	.cache/commonjs/static-entry.js	/^  const windowData = `\/*<![CDATA[*\/window.page=${JSON.stringify(page)};${page.jsonName in data/;"	C
+x	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
+x	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+x	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+xDays	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+xHours	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+xMinutes	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+xMonths	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+xSeconds	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+xYears	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:t.exports.t
+xhrPrefetchStrategy	.cache/commonjs/prefetch.js	/^const xhrPrefetchStrategy = function xhrPrefetchStrategy(url) {$/;"	f
+xhrPrefetchStrategy	.cache/prefetch.js	/^const xhrPrefetchStrategy = function(url) {$/;"	f
+y	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v

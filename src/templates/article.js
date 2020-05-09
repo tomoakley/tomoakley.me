@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import PropTypes from 'prop-types'
+import Img from 'gatsby-image'
 import Helmet from 'react-helmet'
 import { format } from 'date-fns'
 import _get from 'lodash/get'
@@ -9,7 +10,8 @@ import Layout from '../components/Layout'
 
 const ArticleContainer = styled.div`
   max-width: 960px;
-  margin: 10px auto 0;
+  margin: 30px auto 0;
+  max-width: 80ch;
   @media screen and (min-width: 768px) {
     width: 70%;
   }
@@ -39,6 +41,11 @@ const ArticleMetaData = styled.div`
   }
 `
 
+const ArticlePhoto = styled(Img)`
+  width: 60%;
+  border-bottom: 8px solid white;
+`
+
 const ArticleFooter = styled.div`
   width: 40%;
   max-width: 400px;
@@ -48,19 +55,21 @@ const ArticleFooter = styled.div`
   font-size: 1.4rem;
 `
 
-const ArticleTemplate = ({ 
+const ArticleTemplate = ({
   pageContext: {
     title,
     createdAt,
     tags,
-    content
+    content,
+    coverPhoto
   }
 }) => (
   <Layout>
     <Helmet>
-      <title>{title}</title>  
-    </Helmet>  
+      <title>{title}</title>
+    </Helmet>
     <ArticleContainer>
+      {coverPhoto && <ArticlePhoto fluid={coverPhoto.fluid} />}
       <ArticleHeader>
         <ArticleTitle>{title}</ArticleTitle>
         <ArticleMetaData>

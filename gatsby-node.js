@@ -27,6 +27,16 @@ exports.createPages = ({ graphql, actions }) => {
             fields {
               slug
             }
+            coverPhoto {
+              fluid(maxWidth: 800) {
+                src
+                srcSet
+                srcWebp
+                srcSetWebp
+                aspectRatio
+                sizes
+              }
+            }
             createdAt
             content {
               childMarkdownRemark {
@@ -102,6 +112,7 @@ exports.createPages = ({ graphql, actions }) => {
             title: node.title,
             content: node.content,
             createdAt: node.createdAt,
+            coverPhoto: node.coverPhoto,
             tags: node.tags,
           }
         })
