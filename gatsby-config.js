@@ -1,4 +1,4 @@
-require('dotenv').config();
+require("dotenv").config();
 module.exports = {
   siteMetadata: {
     title: `Tom Oakley`,
@@ -13,8 +13,14 @@ module.exports = {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
-        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
       },
-    }
-  ]
-}
+    },
+    {
+      resolve: "gatsby-plugin-typography",
+      options: {
+        pathToConfigModule: "src/utils/typography",
+      },
+    },
+  ],
+};

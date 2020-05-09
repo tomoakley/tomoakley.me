@@ -1,12 +1,12 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
-import { StaticQuery, graphql } from 'gatsby'	
-import styled, { ThemeProvider } from 'styled-components'
+import React from "react";
+import PropTypes from "prop-types";
+import Helmet from "react-helmet";
+import { StaticQuery, graphql } from "gatsby";
+import styled, { ThemeProvider } from "styled-components";
 
-import { theme, GlobalStyle } from '../global-styles'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import { theme, GlobalStyle } from "../global-styles";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 const AppWrapper = styled.div`
   max-width: calc(1140px + 16px * 2);
@@ -16,24 +16,24 @@ const AppWrapper = styled.div`
   padding: 0 16px;
   flex-direction: column;
   line-height: 1.5;
-`
+`;
 
-const Layout = ({ children }) => (		
-  <StaticQuery		
-    query={graphql`		
+const Layout = ({ children }) => (
+  <StaticQuery
+    query={graphql`
       query PageQueryAndContentQuery {
         pages: allContentfulPage(filter: { includeInNavbar: { eq: true } }) {
           edges {
             node {
               pageTitle
-              shortDescription,
+              shortDescription
               slug
             }
           }
         }
       }
     `}
-    render={data => (	
+    render={(data) => (
       <ThemeProvider theme={theme}>
         <AppWrapper>
           <Helmet
@@ -41,8 +41,10 @@ const Layout = ({ children }) => (
             defaultTitle="Tom Oakley, developer & designer"
           >
             <html lang="en" />
-            <meta name="description" content="Tom Oakley // JavaScript developer and designer for the web" />
-            <link rel="stylesheet" href="https://use.typekit.net/gri1fbz.css"/>
+            <meta
+              name="description"
+              content="Tom Oakley // JavaScript developer and designer for the web"
+            />
           </Helmet>
           <GlobalStyle />
           <Header titles={data.pages.edges} />
@@ -52,10 +54,11 @@ const Layout = ({ children }) => (
       </ThemeProvider>
     )}
   />
-)
+);
 
-Layout.propTypes = {		
-  children: PropTypes.node.isRequired,		
-}
+Layout.propTypes = {
+  children: PropTypes.node.isRequired,
+};
 
-export default Layout
+export default Layout;
+

@@ -1,20 +1,21 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export const theme = {
-  background: '#17263F',
-  primary: '#A4C6CF',
-  secondary: '#EBF3F6',
+  background: "#17263F",
+  primary: "#A4C6CF",
+  secondary: "#EBF3F6",
   fonts: {
-    sansSerif: "'futura-pt', 'Helvetica Neue', Helvetica, sans-serif",
-    sansSerifBold: "'futura-pt-bold', 'Helvetica Neue', Helvetica, sans-serif",
-    serif: "'adelle', Georgia, Times New Roman, serif"
-  }
+    sansSerif: "'Lato', 'Helvetica Neue', Helvetica, sans-serif",
+    sansSerifBold: "'Lato', 'Helvetica Neue', Helvetica, sans-serif",
+    serif: "'Cardo', Georgia, Times New Roman, serif",
+  },
 };
 
 /* eslint no-unused-expressions: 0 */
 export const GlobalStyle = createGlobalStyle`
+
   html {
-    font-size: 62.5%; 
+    font-size: 62.5%;
   }
   html,
   body {
@@ -32,6 +33,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: ${theme.fonts.sansSerif};
     font-size: 16px;
     font-size: 1.6rem;
+    font-weight: 300;
     background-color: #17263F;
   }
 
@@ -40,7 +42,7 @@ export const GlobalStyle = createGlobalStyle`
     min-height: 100%;
     min-width: 100%;
   }
-  
+
   a:link,
   a:visited {
     color: #EBF3F6;
