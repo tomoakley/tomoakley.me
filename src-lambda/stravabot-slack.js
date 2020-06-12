@@ -118,16 +118,13 @@ exports.handler = async (event, context, callback) => {
     )}`,
   });
   try {
-    await fetch(
-      "https://hooks.slack.com/services/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",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body,
-      }
-    );
+    await fetch(`https://${process.env.TM_SLACK_HOOK}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body,
+    });
   } catch (err) {
     console.error(err);
   }
