@@ -5,7 +5,8 @@
   "author": "Tom Oakley <tom@tomoakley.me>",
   "dependencies": {
     "@contentful/gatsby-transformer-contentful-richtext": "^13.0.1",
-    "date-fns": "^1.30.1",
+    "aws-sdk": "^2.694.0",
+    "date-fns": "1.30.1",
     "dotenv": "^4.0.0",
     "gatsby": "^2.1.4",
     "gatsby-image": "^2.0.25",
@@ -22,10 +23,12 @@
     "node-fetch": "^2.6.0",
     "npm": "^6.5.0",
     "prop-types": "^15.6.2",
+    "qs": "^6.9.4",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
     "react-typography": "^0.16.19",
+    "simple-oauth2": "3.4.0",
     "styled-components": "^4.1.3",
     "typography": "^0.16.19"
   },
@@ -43,6 +46,9 @@
     "lambda-build": "netlify-lambda build src-lambda"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.10.1",
+    "@babel/preset-env": "^7.10.2",
+    "babel-plugin-shebang": "^1.0.0",
     "concurrently": "^4.1.0",
     "enzyme": "^3.3.0",
     "prettier": "^1.9.2"
