@@ -273,6 +273,7 @@ Router	.cache/commonjs/static-entry.js	/^      Router = _require3.Router,$/;"	C
 S	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
 S	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f0800
 S	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
+S3Client	src-lambda/utils/Aws.js	/^export class S3Client {$/;"	c
 SS	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
 SSS	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
 SectionH2	src/pages/index.js	/^const SectionH2 = styled.h2`$/;"	C
@@ -470,6 +471,8 @@ arrayBuffer	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(expo
 articlesQuery	src/pages/articles.js	/^export const articlesQuery = graphql`$/;"	C
 asyncRequires	.cache/commonjs/loader.js	/^let asyncRequires = {};$/;"	v
 asyncRequires	.cache/loader.js	/^let asyncRequires = {}$/;"	v
+athleteDistances	src-lambda/stravabot-slack.js	/^  const athleteDistances = athletes.map(async (athlete) => {$/;"	C
+athletes	src-lambda/stravabot-slack.js	/^  const athletes = objects.Contents.map(async ({ Key }) => {$/;"	C
 author	package.json	/^  "author": "Tom Oakley <tom@tomoakley.me>",$/;"	s
 b	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f
 b	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
@@ -480,6 +483,7 @@ body	.cache/default-html.js	/^  body: PropTypes.string,$/;"	p	class:HTML.propTyp
 body	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.n
 body	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:v.AnonymousClass390d473f7b01
 body	src-lambda/morningbot.js	/^  const body = JSON.stringify({ text: slackMessage });$/;"	C
+body	src-lambda/stravabot-slack.js	/^  const body = JSON.stringify({$/;"	C
 bodyAttributes	.cache/commonjs/default-html.js	/^  bodyAttributes: _propTypes.default.object,$/;"	p	class:HTML.propTypes
 bodyAttributes	.cache/commonjs/develop-static-entry.js	/^  let bodyAttributes = {};$/;"	v
 bodyAttributes	.cache/commonjs/static-entry.js	/^  let bodyAttributes = {};$/;"	v
@@ -588,6 +592,7 @@ develop-html	.cache/babelState.json	/^    "develop-html": {$/;"	o	object:stages
 disableCorePrefetching	.cache/commonjs/loader.js	/^let disableCorePrefetching = false;$/;"	v
 disableCorePrefetching	.cache/loader.js	/^let disableCorePrefetching = false$/;"	v
 distanceInWords	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports
+distances	src-lambda/stravabot-slack.js	/^  const distances = await Promise.all(athleteDistances);$/;"	C
 disturbed	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:v.AnonymousClass390d473f7b01
 dotenv	package.json	/^    "dotenv": "^4.0.0",$/;"	s	object:dependencies
 e	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f9300
@@ -776,6 +781,7 @@ lessThanXSeconds	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}
 license	package.json	/^  "license": "MIT",$/;"	s
 linkPrefetchStrategy	.cache/commonjs/prefetch.js	/^const linkPrefetchStrategy = function linkPrefetchStrategy(url) {$/;"	f
 linkPrefetchStrategy	.cache/prefetch.js	/^const linkPrefetchStrategy = function(url) {$/;"	f
+list	src-lambda/utils/Aws.js	/^  async list(request) {$/;"	m	class:S3Client
 location	.cache/commonjs/ensure-resources.js	/^      location: Object.assign({}, location),$/;"	p	class:EnsureResources.constructor.state
 location	.cache/commonjs/ensure-resources.js	/^  location: _propTypes.default.object.isRequired,$/;"	p	class:EnsureResources.propTypes
 location	.cache/commonjs/navigation.js	/^  location: _propTypes.default.object.isRequired$/;"	p	class:RouteUpdates.propTypes
@@ -819,6 +825,7 @@ nt	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,funct
 o	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	c	class:AnonymousFunction390d473f9300
 o	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f7600
 o	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+objects	src-lambda/stravabot-slack.js	/^  const objects = await s3.list({$/;"	C
 onPostPrefetchPathname	.cache/commonjs/loader.js	/^const onPostPrefetchPathname = pathname => {$/;"	C
 onPostPrefetchPathname	.cache/loader.js	/^const onPostPrefetchPathname = pathname => {$/;"	C
 onPreRenderHTML	.cache/__tests__/static-entry.js	/^    onPreRenderHTML: ({ getHeadComponents, replaceHeadComponents }) => {$/;"	p	class:beforeEach.plugin
@@ -986,6 +993,7 @@ propTypes	src/templates/article.js	/^ArticleTemplate.propTypes = {$/;"	c	class:A
 propTypes	src/templates/book.js	/^BookTemplate.propTypes = {$/;"	c	class:BookTemplate
 propTypes	src/templates/project.js	/^ProjectTemplate.propTypes = {$/;"	c	class:ProjectTemplate
 publicLoader	.cache/commonjs/loader.js	/^const publicLoader = {$/;"	c
+put	src-lambda/utils/Aws.js	/^  async put(request) {$/;"	m	class:S3Client
 query	.cache/commonjs/gatsby-browser-entry.js	/^  query: _propTypes.default.string.isRequired,$/;"	p	class:StaticQuery.propTypes
 query	.cache/gatsby-browser-entry.js	/^  query: PropTypes.string.isRequired,$/;"	p	class:StaticQuery.propTypes
 queue	.cache/commonjs/loader.js	/^const queue = {$/;"	c
@@ -1063,6 +1071,8 @@ s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,functi
 s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	f	function:AnonymousFunction390d473f3b00
 s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:c
 s	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	v
+s3	src-lambda/stravabot-auth-callback.js	/^  const s3 = new S3Client();$/;"	C
+s3	src-lambda/stravabot-slack.js	/^  const s3 = new S3Client();$/;"	C
 sanitizeComponents	.cache/commonjs/static-entry.js	/^const sanitizeComponents = components => {$/;"	C
 sanitizeComponents	.cache/static-entry.js	/^const sanitizeComponents = components => {$/;"	C
 sansSerif	src/global-styles.js	/^    sansSerif: "'Lato', 'Helvetica Neue', Helvetica, sans-serif",$/;"	p	class:theme.fonts
@@ -1135,6 +1145,7 @@ status	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,f
 statusText	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:AnonymousFunction390d473f9300.o
 stream	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	m	class:AnonymousFunction390d473f7a00.l
 string	lambda/morningbot.js	/^!function(t,e){for(var r in e)t[r]=e[r]}(exports,function(t){var e={};function r(n){if(e[n])retu/;"	p	class:t.exports.__data__
+strings	src-lambda/stravabot-slack.js	/^  const strings = distances.map($/;"	C
 stripPrefix	.cache/__tests__/strip-prefix.js	/^const stripPrefix = require(`..\/strip-prefix`).default$/;"	C
 styled-components	package.json	/^    "styled-components": "^4.1.3",$/;"	s	object:dependencies
 styles	.cache/commonjs/static-entry.js	/^  const styles = scriptsAndStyles.filter(style => style.name && style.name.endsWith(`.css`));$/;"	C

@@ -1,43 +1,19 @@
-import AWS from "aws-sdk";
 import qs from "qs";
 import fetch from "node-fetch";
 import subWeeks from "date-fns/sub_weeks";
 
+import S3Client from "./utils/Aws";
+
 require("dotenv").config();
 
-const listObjects = (client, request) =>
-  new Promise((resolve, reject) => {
-    client.listObjectsV2(request, (error, data) => {
-      if (error) {
-        return reject(error);
-      }
-
-      return resolve(data);
-    });
-  });
-
-const getObject = (client, request) =>
-  new Promise((resolve, reject) => {
-    client.getObject(request, (error, data) => {
-      if (error) {
-        return reject(error);
-      }
-
-      return resolve(data.Body.toString());
-    });
-  });
-
 exports.handler = async (event, context, callback) => {
-  const s3Client = new AWS.S3({
-    accessKeyId: process.env.TM_AWS_ACCESS_KEY_ID,
-    secretAccessKey: process.env.TM_AWS_ACCESS_KEY_SECRET,
-  });
-  const objects = await listObjects(s3Client, {
+  const s3 = new S3Client();
+  const objects = await s3.list({
     Bucket: process.env.TM_AWS_S3_BUCKET_PATH,
   });
 
   const athletes = objects.Contents.map(async ({ Key }) => {
-    const object = await getObject(s3Client, {
+    const object = await s3.get({
       Bucket: process.env.TM_AWS_S3_BUCKET_PATH,
       Key,
     });
