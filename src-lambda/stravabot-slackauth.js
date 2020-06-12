@@ -6,6 +6,7 @@ require("dotenv").config();
 
 exports.handler = async (event, context, callback) => {
   if (event.httpMethod === "POST") {
+    console.log(Buffer.from(event.body, "base64").toJSON());
     try {
       await fetch(`https://${process.env.TM_SLACK_HOOK}`, {
         method: "POST",

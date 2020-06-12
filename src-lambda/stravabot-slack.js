@@ -106,10 +106,11 @@ exports.handler = async (event, context, callback) => {
   });
 
   const distances = await Promise.all(athleteDistances);
-  console.log(distances);
+  distances.sort((a, b) => b.totalDistance - a.totalDistance);
 
   const strings = distances.map(
-    ({ name, totalDistance }) => `${name}: ${totalDistance / 1000}km`
+    ({ name, totalDistance }, i) =>
+      `${i}/ ${name}: ${Number.parseFloat(totalDistance / 1000).toFixed(2)}km`
   );
 
   const body = JSON.stringify({

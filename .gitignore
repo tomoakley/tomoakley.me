@@ -4,7 +4,9 @@ node_modules
 .cache/
 # Build directory
 public/
+lambda
 .DS_Store
 .idea
 yarn-error.log
 .env
+tags
