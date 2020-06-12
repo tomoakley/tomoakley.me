@@ -2,7 +2,7 @@ import simpleOauth from "simple-oauth2";
 
 const stravaApi = "https://www.strava.com/api/v3";
 /* process.env.URL from netlify BUILD environment variables */
-const siteUrl = process.env.URL || "http://localhost:9000";
+export const siteUrl = process.env.URL || "http://localhost:9000";
 
 require("dotenv").config();
 
