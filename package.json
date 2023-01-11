@@ -15,7 +15,7 @@
     "gatsby-plugin-styled-components": "^3.0.4",
     "gatsby-plugin-typography": "^2.5.1",
     "gatsby-source-contentful": "^2.0.29",
-    "gatsby-transformer-remark": "^2.2.5",
+    "gatsby-transformer-remark": "^5.25.1",
     "gatsby-transformer-sharp": "^2.1.9",
     "install": "^0.12.2",
     "lodash": "^4.17.11",
